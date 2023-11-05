@@ -1,0 +1,25 @@
+header {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding-block: 10px;
+    font-size: 15px;
+    margin: 0 3vw 30px;
+    justify-content: space-between;
+  }
+
+  .site-logo > img {
+    width: 30rem;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  nav > a{
+    display: inline-block;
+    margin: 1em;
+    font-size: 1.2rem;
+    transition: all 0.45s;
+    
+  }
+
+  

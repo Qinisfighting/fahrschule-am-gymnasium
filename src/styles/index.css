@@ -1,0 +1,41 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  --blau: #005EA8;
+  --rot: #FE0201;
+  --textColor: #504c4a;
+  --mainFont: "Roboto", sans-serif;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+html {
+  font-family: var(--mainFont);
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  margin: 0 0 80px;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  min-height: 100vh;
+  
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: unset;
+  color: unset;
+}

@@ -1,7 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import './index.css'
+import './styles/index.css'
+import './styles/fahrschule.css'
+import './styles/header.css'
+import './styles/footer.css'
+import './styles/informationen.css'
+import './styles/über.css'
+import './styles/leistungen.css'
+import './styles/kontakt.css'
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
