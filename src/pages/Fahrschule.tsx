@@ -1,7 +1,16 @@
+import cover from '../assets/cover.jpg';
+
+
 export default function Fahrschule() {
     return (
-        <div>
-            <h1>Fahrschule</h1>
+        <div className="home--container">
+            
+            <div className="home--container--top">
+                <p>04361/49108</p>
+                <h1><span className="willkommen--span">Willkommen bei der</span> <br/><span className="name--span">Fahrschule Am Gymnasium</span></h1>
+                <img src={cover} alt="cover" />
+            </div>
+            
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
                 voluptatibus, quas, quibusdam, voluptatum quia quod dolorum

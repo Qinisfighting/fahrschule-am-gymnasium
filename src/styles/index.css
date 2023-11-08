@@ -16,6 +16,7 @@
 
 html {
   font-family: var(--mainFont);
+  color: var(--textColor);
   position: relative;
   margin: 0;
   padding: 0;

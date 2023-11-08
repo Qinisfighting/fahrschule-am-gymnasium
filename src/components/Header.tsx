@@ -1,30 +1,29 @@
 
 //import { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../../src/assets/Logo.png";
+import Logo from "../../src/assets/Logo.svg";
 
 interface ActiveStyles {
-    borderBottom: string;
     borderRadius: string | number;
     boxShadow: string;
+    backgroundColor: string;
+    color: string;
   }
 
   interface PendingStyles {
-    borderTop: string;
-    borderBottom: string;
-    width: string;
+    color: string;
   }
 
 export default function Header() {
     const activeStyles: ActiveStyles = {
-        borderBottom: "1px solid var(--rot)",
-        borderRadius: 5,
-        boxShadow: "1px 1px 2px gray"
+        
+        borderRadius: 2,
+        boxShadow: "1px 1px 2px gray",
+        backgroundColor: "var(--rot)",
+        color:"white"
       };
       const pendingStyles: PendingStyles = {
-        borderTop: "",
-        borderBottom: "",
-        width: ""
+        color: "var(--textColor)"
       };
 
     return (

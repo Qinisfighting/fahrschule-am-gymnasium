@@ -16,10 +16,17 @@ header {
 
   nav > a{
     display: inline-block;
-    margin: 1em;
-    font-size: 1.2rem;
-    transition: all 0.45s;
-    
+    padding: 12px 0;
+    margin: .3em;
+    font-size: 1em;
+    font-weight: 600;
+    width: 140px;
+    height: 40px;
   }
 
   
+  nav > a:hover{
+    border-left: 2px solid var(--rot);
+    border-right: 2px solid var(--rot);
+    border-radius: 50%;
+  }

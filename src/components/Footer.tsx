@@ -1,5 +1,5 @@
 export default function Footer() {
     return (
-        <footer>QIN勤©2023 up&qu</footer>
+        <footer>Erstellt von <a  href="https://www.yanqin.de" target="_blank" >Qin</a></footer>
     )
 }
