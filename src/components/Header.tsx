@@ -1,7 +1,8 @@
 
-//import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../../src/assets/Logo.svg";
+import car from "../../public/car.svg";
 
 interface ActiveStyles {
     borderRadius: string | number;
@@ -15,6 +16,10 @@ interface ActiveStyles {
   }
 
 export default function Header() {
+    const [isMenu, setIsMenu] = useState<boolean>(false);
+    const menuRef = useRef<HTMLDivElement>(null);
+
+
     const activeStyles: ActiveStyles = {
         
         borderRadius: 2,
@@ -26,14 +31,41 @@ export default function Header() {
         color: "var(--textColor)"
       };
 
+      useEffect(() => {
+        const handler = (e: MouseEvent) => {
+          if (
+            menuRef.current != null &&
+            !menuRef.current.contains(e.target as Node)
+          ) {
+            setIsMenu(false);
+            //  console.log(menuRef.current);
+          }
+        };
+    
+        document.addEventListener("mousedown", handler);
+    
+        return;
+        () => {
+          document.removeEventListener("mousedown", handler);
+        };
+      });
+
     return (
     <header>
       <Link to="/" className="site-logo">
         <img src={Logo} alt="Logo" />
       </Link>
-      <nav>
-        
-            <NavLink to="/" end 
+      <div ref={menuRef}>
+        <img
+          src={car}
+          alt="menu"
+          className="menu"
+          onClick={() => setIsMenu(true)}
+        />
+      </div>
+      {isMenu ? (
+         <div className="menuNav" ref={menuRef} >
+              <NavLink to="/" end 
            style={({
             isActive,
             isPending
@@ -41,7 +73,7 @@ export default function Header() {
             isActive: boolean;
             isPending: boolean;
           }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
-              FAHRSCHULE
+              <div onClick={() => setIsMenu(false)}>FAHRSCHULE</div>
             </NavLink>
          
             <NavLink to="über" 
@@ -52,7 +84,8 @@ export default function Header() {
                 isActive: boolean;
                 isPending: boolean;
               }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
-              ÜBER UNS
+            <div onClick={() => setIsMenu(false)}>ÜBER UNS</div>
+              
             </NavLink>
         
             <NavLink to="leistungen" 
@@ -63,7 +96,8 @@ export default function Header() {
                 isActive: boolean;
                 isPending: boolean;
               }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
-              LEISTUNGEN
+              <div onClick={() => setIsMenu(false)}>LEISTUNGEN</div>
+              
             </NavLink>
           
             <NavLink to="informationen" 
@@ -74,7 +108,8 @@ export default function Header() {
                 isActive: boolean;
                 isPending: boolean;
               }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
-              INFORMATIONEN
+              <div onClick={() => setIsMenu(false)}>INFORMATIONEN</div>
+              
             </NavLink>
          
             <NavLink to="kontakt" 
@@ -85,10 +120,77 @@ export default function Header() {
                 isActive: boolean;
                 isPending: boolean;
               }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
-              KONTAKT
+              <div onClick={() => setIsMenu(false)}>KONTAKT</div>
+              
             </NavLink>
          
-      </nav>
+
+         </div>
+
+      ) : (
+        <nav>       
+        <NavLink to="/" end 
+       style={({
+        isActive,
+        isPending
+      }: {
+        isActive: boolean;
+        isPending: boolean;
+      }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
+          FAHRSCHULE
+        </NavLink>
+     
+        <NavLink to="über" 
+         style={({
+            isActive,
+            isPending
+          }: {
+            isActive: boolean;
+            isPending: boolean;
+          }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
+          ÜBER UNS
+        </NavLink>
+    
+        <NavLink to="leistungen" 
+         style={({
+            isActive,
+            isPending
+          }: {
+            isActive: boolean;
+            isPending: boolean;
+          }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
+          LEISTUNGEN
+        </NavLink>
+      
+        <NavLink to="informationen" 
+         style={({
+            isActive,
+            isPending
+          }: {
+            isActive: boolean;
+            isPending: boolean;
+          }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
+          INFORMATIONEN
+        </NavLink>
+     
+        <NavLink to="kontakt" 
+         style={({
+            isActive,
+            isPending
+          }: {
+            isActive: boolean;
+            isPending: boolean;
+          }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
+          KONTAKT
+        </NavLink>
+     
+  </nav>
+      )
+        
+    
+    
+    }
+      
     </header>
     )
 

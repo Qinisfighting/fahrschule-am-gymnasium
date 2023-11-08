@@ -1,8 +1,8 @@
 .home--container{
-    background-color: var(--blau);
+    background: var(--blau);
     color: white;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     padding: 0 50px 100px;
     margin-bottom: 100px;
     
@@ -56,6 +56,12 @@ transition: 1s ease;
     
 }
 
+.home--container--top--left > p > img {
+    width: 35px;
+    height: 35px;
+    margin: 10px 10px 0px 0px;
+
+}
 .home--container--top--left > h1{
     grid-area: 2 / 1 / 3 / 3; 
     line-height: 2em;
@@ -127,6 +133,9 @@ transition: 1s ease;
     
 }
 
+.home--container--bottom > hr{      
+    border: 1px dashed white;
+}
 
 .home--container--bottom--box{
     display: flex;
@@ -149,6 +158,79 @@ transition: 1s ease;
     }
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1600px) {
+
+    .home--container--top--left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home--container--top--left > p {
+
+        font-size: 1.6em;
+        letter-spacing: .1em;
+        font-weight: 600;
+        line-height: 1em;
+        align-self: center;
+        justify-self: last baseline;
+
+    }
+    .home--container--bottom{      
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .home--container--bottom > hr{   
+        display: none;
+    }
+
+    .willkommen--span {   
+        font-size: 1.8rem;
+      
+    }
+    .name--span {
+        font-size: 2.5rem;      
+    } 
+    .home-link{
+        height: 42px;
+        width: 120px;
+        border-radius: 30px;
+        font-size: 1em;  
+    }
+}
+
+@media screen and (max-width: 822px) {
+
+    .home--container--top {
+        display: flex;
+        flex-direction: column;
+        gap: 50px 0;
+        
+    }
+    .home--container--top > img{       
+        width: 74vw;
+     }
+
+     .home--container--bottom{ 
+        margin: 0 auto;     
+        width: 75vw;
+    }
+
+    .home--container--bottom--box >img {
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+    }
+    .home--container--bottom--box{
+        padding: 10px 0 30px;
+    }
+    
     
 }
+
+
+   

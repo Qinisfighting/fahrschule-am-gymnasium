@@ -4,9 +4,7 @@ footer {
 	bottom: 35px;
 	height: 100px;
 	width: 100%;
-	position: absolute;	
-	
-	
+	position: absolute;		
 }
 
 .footer--container--top{
@@ -23,10 +21,15 @@ footer {
 }
 
 
+.footer--container--top > a:hover {
+color: var(--blau);
+
+}
+
 footer >  a > h4 {
 	background: var(--blau);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eaafc8, var(--blau) 100%);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eaafc8, var(--blau) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #454c5e67, var(--blau) 100%);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #454c5e67, var(--blau) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
 	width: 160px;
 	height: 25px;
@@ -37,6 +40,15 @@ footer >  a > h4 {
 
 footer > a > h4:hover{
 	background: var(--blau);  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, var(--blau), #eaafc8 100%);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, var(--blau), #eaafc8 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	background: -webkit-linear-gradient(to right, var(--blau), #454c5e67 100%);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, var(--blau), #454c5e67 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+}
+
+@media screen and (max-width: 500px) {
+   .footer--container--top{
+	  font-size: small;
+	  width: 100%;
+    
+   }
+
 }

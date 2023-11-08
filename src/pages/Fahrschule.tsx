@@ -11,7 +11,7 @@ export default function Fahrschule() {
             
             <div className="home--container--top">
               <div className="home--container--top--left">
-                <p><img src={call} alt="telephone" style={{width:35, height:35, margin:"10px 10px 0px 0px" }}></img>04361/49108</p>
+                <p><img src={call} alt="telephone"></img>04361/49108</p>
                 <h1><span className="willkommen--span">Willkommen bei der</span> <br/><span className="name--span">Fahrschule Am Gymnasium</span></h1>
                 <div className="home-link"><Link  to="/über">ÜBER UNS</Link></div>
               </div>              
@@ -26,7 +26,7 @@ export default function Fahrschule() {
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod The point of using lorem ipsum.Lorem ipsum dolor sit amet consectetur</p>
                    </div>
                 </div>
-                <hr style={{border:"1px dashed"}}/>
+                <hr/>
                 <div className="home--container--bottom--box">
                 <img src={euro} alt="euro" />
                    <div>
