@@ -11,6 +11,8 @@ import Über from "./pages/Über";
 import Leistungen from "./pages/Leistungen";
 import Informationen from "./pages/Informationen";
 import Kontakt from "./pages/Kontakt";
+import Impressum from "./pages/Impressum";
+import Datenschutz from "./pages/Datenschutz";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +26,8 @@ const router = createBrowserRouter(
       />
       <Route path="informationen" element={<Informationen />} />
       <Route path="kontakt" element={<Kontakt />} />
+      <Route path="impressum" element={<Impressum />} />
+      <Route path="datenschutz" element={<Datenschutz />} />
     </Route>
   )
 );
