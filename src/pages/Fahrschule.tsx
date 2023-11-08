@@ -1,4 +1,8 @@
+import { Link } from "react-router-dom";
 import cover from '../assets/cover.jpg';
+import call from '../assets/call.png';
+import Steering from '../assets/steering.png';
+import euro from '../assets/euro.png';
 
 
 export default function Fahrschule() {
@@ -6,20 +10,31 @@ export default function Fahrschule() {
         <div className="home--container">
             
             <div className="home--container--top">
-                <p>04361/49108</p>
+              <div className="home--container--top--left">
+                <p><img src={call} alt="telephone" style={{width:35, height:35, margin:"10px 10px 0px 0px" }}></img>04361/49108</p>
                 <h1><span className="willkommen--span">Willkommen bei der</span> <br/><span className="name--span">Fahrschule Am Gymnasium</span></h1>
+                <div className="home-link"><Link  to="/über">ÜBER UNS</Link></div>
+              </div>              
                 <img src={cover} alt="cover" />
             </div>
             
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                voluptatibus, quas, quibusdam, voluptatum quia quod dolorum
-                necessitatibus voluptates quos doloremque doloribus. Quasi
-                voluptates, voluptas doloribus natus quia quae quas. Quisquam
-                voluptatibus, quas, quibusdam, voluptatum quia quod dolorum
-                necessitatibus voluptates quos doloremque doloribus. Quasi
-                voluptates, voluptas doloribus natus quia quae quas.
-            </p>
+            <div className="home--container--bottom">
+                <div className="home--container--bottom--box">
+                    <img src={Steering} alt="steering" />
+                   <div>
+                       <h3>Proffessionale Leistungen</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod The point of using lorem ipsum.Lorem ipsum dolor sit amet consectetur</p>
+                   </div>
+                </div>
+                <hr style={{border:"1px dashed"}}/>
+                <div className="home--container--bottom--box">
+                <img src={euro} alt="euro" />
+                   <div>
+                      <h3>Günstige Preise</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod The point of using lorem ipsum.Lorem ipsum dolor sit amet consectetur</p>
+                   </div>
+                </div>
+            </div>
         </div>
     )
 }   
