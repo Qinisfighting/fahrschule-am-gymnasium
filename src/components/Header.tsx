@@ -22,7 +22,7 @@ export default function Header() {
 
     const activeStyles: ActiveStyles = {
         
-        borderRadius: 2,
+        borderRadius: 0,
         boxShadow: "1px 1px 2px gray",
         backgroundColor: "var(--rot)",
         color:"white"
