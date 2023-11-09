@@ -79,12 +79,16 @@ header {
         padding-bottom: 100px;
       }
     
-      
       .menu:hover{
         -webkit-transform: rotateY(-360deg);
         -ms-transform: rotateY(-360deg);
         transform: rotateY(-360deg);
         transition: 3s ease; 
+      }
+
+      @keyframes turn {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(180deg);}
       }
       .menuNav {
         background: rgba(255, 255, 255, 0.952);

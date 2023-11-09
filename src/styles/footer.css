@@ -44,6 +44,19 @@ footer > a > h4:hover{
 	background: linear-gradient(to right, var(--blau), #454c5e67 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
 }
 
+
+.go-top {
+    width: 30px;
+    position: absolute;
+    right: 14%;
+    bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .go-top:hover {
+    transform: translateY(-3px);
+  }
+
 @media screen and (max-width: 500px) {
    .footer--container--top{
 	  font-size: small;
