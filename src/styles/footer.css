@@ -46,10 +46,10 @@ footer > a > h4:hover{
 
 
 .go-top {
-    width: 30px;
-    position: absolute;
-    right: 14%;
-    bottom: 20px;
+    width: 37px;
+    position: fixed;
+    right: 7vw;
+    bottom: 50px;
     cursor: pointer;
   }
   

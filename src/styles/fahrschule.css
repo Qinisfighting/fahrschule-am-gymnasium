@@ -24,7 +24,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    border: 2px solid var(--rot);
+    border: 2px solid var(--blau2);
     box-shadow: 0px 0px 20px 0px rgba(11, 4, 104, 0.9);
     -webkit-box-shadow:0px 0px 20px 0px rgba(11, 4, 104, 0.9);
     -moz-box-shadow: 0px 0px 20px 0px rgba(11, 4, 104, 0.9);
@@ -109,6 +109,7 @@ transition: 1s ease;
     font-size: 1.3em;
     padding: 13px;
     margin-top: 10px;
+    transition: 1s ease;
     
      
     
