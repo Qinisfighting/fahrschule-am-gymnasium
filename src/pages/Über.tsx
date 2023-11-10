@@ -11,6 +11,7 @@ import smile from "../assets/smile.png";
 import location from "../assets/location.png";
 import email from "../assets/email.png";
 
+
 export default function Über() {
     const [counter1, setCounter1] = useState(0);
     const [counter2, setCounter2] = useState(0);
@@ -50,7 +51,8 @@ export default function Über() {
             <a href={`mailto:${lehrer.email}`} target="_blank">
               <img src={email} alt="email" className="email" />
             </a>
-              <p>{lehrer.phone}</p>   
+              
+             {/**<p className="cell">{lehrer.phone}</p>   */}  
             </div>
               
         </div>
@@ -62,6 +64,7 @@ export default function Über() {
                
                
                <div className="über--top--right">
+                 <div className="über--top--rows">
                  <div className="über--top--row">
                     <img src={year} alt="year"/>
                     <h2><span className="über--top--right--span">{counter1}+</span> JAHRE BERUFSERFAHRUNG</h2>
@@ -73,6 +76,7 @@ export default function Über() {
                  <div className="über--top--row">
                     <img src={smile} alt="smile"/>
                     <h2><span className="über--top--right--span">{counter3}%</span> BESTANDENSQUOTE</h2>
+                </div>
                 </div>  
                    <div className="über-link"><Link  to="/leistungen">UNSERE LEISTUNGEN</Link></div>
                </div>
@@ -88,8 +92,10 @@ export default function Über() {
                 </div>
                 <div className="über--mittle--right">
                     <h1>UNSERE FILIALEN</h1>
+                    <div className="filialen">
                     <div className="filiale">
                         <a href="https://www.google.com/maps/dir/54.2734754,10.8633786/54.2900595,10.8933194/@54.2773484,10.8555987,14z/data=!4m5!4m4!1m1!4e1!1m0!3e0?entry=ttu" target="_blank"><img src={location} alt="navi" className="navi"/></a>  
+                        
                         <div>
                             <h2>Filiale Oldenburg</h2>    
                             <h3>Göhler Straße 32</h3>
@@ -102,6 +108,7 @@ export default function Über() {
                             <h2>Filiale Lensahn</h2>      
                             <h3>Eutiner Straße 11</h3>
                             <h3>23738 Lensahn</h3>   
+                        </div>
                         </div> 
                     </div>        
                 </div>    

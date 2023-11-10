@@ -36,6 +36,7 @@ footer >  a > h4 {
 	padding-top: 4px;
 	margin: 20px auto;	
 	border-radius: 5px;
+	
 }
 
 footer > a > h4:hover{
@@ -56,6 +57,15 @@ footer > a > h4:hover{
   .go-top:hover {
     transform: translateY(-3px);
   }
+
+/**
+.cell{
+	
+	background-color: white;
+	color:#E2133D;
+	font-size: 1.5rem;
+}
+*/
 
 @media screen and (max-width: 500px) {
    .footer--container--top{
