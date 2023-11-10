@@ -41,3 +41,7 @@ a {
   text-decoration: unset;
   color: unset;
 }
+
+hr{      
+  border: 1px dashed rgba(255, 255, 255, 0.644);
+}

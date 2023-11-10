@@ -134,9 +134,6 @@ transition: 1s ease;
     
 }
 
-.home--container--bottom > hr{      
-    border: 1px dashed white;
-}
 
 .home--container--bottom--box{
     display: flex;

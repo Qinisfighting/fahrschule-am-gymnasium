@@ -2,12 +2,13 @@
 
     display: flex;
     flex-direction: column;
-    gap: 50px 0;
+    gap: 50px;
     align-items: center;
     justify-content: center;
     padding: 0 50px 100px;
     margin-bottom: 100px;
     height: 100%;
+    width: 100vw;
 
 }
 
@@ -18,11 +19,12 @@
     height: 600px;
     width: 100vw;
     padding: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: relative;
+    flex-wrap: wrap;
     
 }
 
@@ -81,8 +83,9 @@
     width: 250px;
     border-radius: 30px;
     font-size: 1.3em;
-    padding-top: 13px;
+    padding-top: 15px;
     margin-top: 15px;
+    font-size: large;
 
 }
 
@@ -110,4 +113,172 @@
     flex-direction: column;
     align-items: flex-start;
  
+}
+
+.über--mittle {
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    position: relative;
+
+}
+
+.über--mittle--right {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    padding:30px; 
+    height: 100%;
+    width: 30vw;
+    background-color: var(--rot);
+    color:white;
+   
+}
+
+.über--mittle--right > h1{
+    letter-spacing: .2em;
+}
+
+.filiale {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    
+}
+
+.navi{
+    max-width:100px;
+    width: 100%;
+    height: auto;
+}
+.navi:hover{
+        -webkit-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+        transition: 3s ease;    
+}
+
+.über--mittle--left {
+    width: 45vw;
+  
+}
+.schuleIMGs{
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    border: 7px solid var(--blau2);
+    
+}
+
+#schuleIMG1 {
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    animation: move1 2s ease-in-out infinite both;
+}
+
+#schuleIMG2 {
+    position: absolute;
+    bottom: 100px;
+    left: 620px;
+    animation: move2 2s ease-in-out infinite both;
+    z-index: 2;
+}
+
+#schuleIMG3 {
+    position: absolute;
+    bottom: 250px;
+    left: 300px;
+    animation: move3 2s ease-in-out infinite both;
+}
+@keyframes move1 {
+    0% {transform:  translate(0, 0)}
+    50% {transform: translate(-7px, -7px)}
+    
+}
+@keyframes move2 {
+    0% {transform:  translate(0, 0)}
+    50% {transform: translate(7px, 0)}
+    
+}
+
+@keyframes move3 {
+    0% {transform:  translate(0, 0)}
+    50% {transform: translate(0, 7px)}
+    
+}
+
+
+.über--bottom--lehrer {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: space-between;
+    gap: 50px;
+  
+
+}
+
+.über--bottom--lehrer--box {
+    width: 100%;
+    text-align: center;
+    display: flex;  
+    flex-direction: column;
+    justify-items: center;
+    position: relative;
+}
+
+
+figure {
+    width: 500px;
+    height:500px;   
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+.über--bottom--lehrer--box figure img {
+    width: 500px;
+    height:500px; 
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: .3s ease-in-out;
+   
+}
+
+.über--bottom--lehrer--box figure:hover img{
+    filter: brightness(100%);
+    width: 550px;
+}
+
+.profil-top-left {
+  position: absolute;
+  top: 8px;
+  left: 25px;
+  color: white;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.profil-bottom-left{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+}
+
+.email {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
 }
