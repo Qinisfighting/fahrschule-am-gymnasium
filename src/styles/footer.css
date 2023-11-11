@@ -52,6 +52,11 @@ footer > a > h4:hover{
     right: 7vw;
     bottom: 50px;
     cursor: pointer;
+	filter: drop-shadow(2px 2px 3px #222);
+    -webkit-filter: drop-shadow(2px 2px 3px #222);
+    -ms-filter: drop-shadow(2px 2px 3px #222);
+    -moz-filter: drop-shadow(2px 2px 3px #222);
+    -o-filter: drop-shadow(2px 2px 3px #222);  
   }
   
   .go-top:hover {

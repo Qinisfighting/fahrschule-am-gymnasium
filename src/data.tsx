@@ -33,49 +33,31 @@ const personalData: PersonalData[] = [
    
 ];
 
-const leistungenData: { name: string, kenngrößen: string[] }[] = [
+const leistungenData: { name: string, klasse: string }[] = [
     
     {
-        name: "Fahrerlaubnisklasse A",
-        kenngrößen: [
-            "Krafträder (auch mit Beiwagen) mit einem Hubraum von mehr als 50cm3",
-            "Einer bauartbedingten Höchstgeschwindkeit von mehr als 45km/h",
-            "Motorleistung mehr als 35kW bzw. 48PS",
-            "Leistungsgewicht mehr als 0,2kW/kg",
-        ]   
+        name: "PKW",
+        klasse: "Fahrerlaubnisklasse B, BE, B96"
     },
     {
-        name: "Fahrerlaubnisklasse A1",
-        kenngrößen: [
-            "Krafträder mit einem Hubraum nicht mehr als 125cm3",
-            "Motorleistung nicht mehr als 11kW / 15PS",
-            "Leistungsgewicht nicht mehr als 0,1kW/kg",
-        ]   
+        name: "LKW",
+        klasse: "Fahrerlaubnisklasse C1, C1E, C, CE"
     },
     {
-        name: "Fahrerlaubnisklasse A2",
-        kenngrößen: [
-            "Krafträder mit einem Hubraum von mehr als 50cm3",
-            "Einer bauartbedingten Höchstgeschwindigkeit von mehr als 45km/h",
-            "Motorleistung nicht mehr als 35kW bzw. 48PS",
-            "Leistungsgewicht nicht mehr als 0,2kW/kg",
-        ]   
+        name: "PKW",
+        klasse: "Fahrerlaubnisklasse B, BE, B96"
     },
     {
-        name: "Fahrerlaubnisklasse B",
-        kenngrößen: [
-            "Kraftfahrzeuge bis einer zulässigen Gesamtmasse von max. 3500 kg",
-            "Beförderung von max. 8 Personen zuzüglich Fahrer",
-        ]   
+        name: "ANHÄNGER",
+        klasse: "Fahrerlaubnisklasse BE, B96"
     },
     {
-        name: "Schlüsselzahl B196",
-        kenngrößen: [
-            "Krafträder mit einem Hubraum nicht mehr als 125cm3",
-            "Motorleistung nicht mehr als 11kW / 15PS",
-            "Leistungsgewicht nicht mehr als 0,1kW/kg",
-            "Achtung: B196 ist nur in Deutschland gültig!",
-        ]   
+        name: "TRECKER",
+        klasse: "Fahrerlaubnisklasse T"
+    },
+    {
+        name: "MOTORRÄDER",
+        klasse: "Fahrerlaubnisklasse AM, A1, A2, A"
     },
 
 

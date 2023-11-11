@@ -19,7 +19,7 @@ export default function Über() {
 
     useEffect(() => {
 
-        const interval = setInterval(() => {
+        const interval1 = setInterval(() => {
           counter1 < 20 && setCounter1((counter) => counter + 1);  
         }, 10);
           
@@ -32,10 +32,10 @@ export default function Über() {
                 }, 10);
                
         return () => {
-          
+          clearInterval(interval1);
           clearInterval(interval2)
           clearInterval(interval3)
-          clearInterval(interval);
+          
         };
       });
     
