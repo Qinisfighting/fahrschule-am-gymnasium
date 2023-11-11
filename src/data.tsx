@@ -33,31 +33,32 @@ const personalData: PersonalData[] = [
    
 ];
 
-const leistungenData: { name: string, klasse: string }[] = [
+const leistungenData: { name: string, klasse: string, icon: string }[] = [
     
     {
         name: "PKW",
-        klasse: "Fahrerlaubnisklasse B, BE, B96"
+        klasse: "Fahrerlaubnisklasse: B, BE, B96",
+        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/PKW.png"
     },
     {
         name: "LKW",
-        klasse: "Fahrerlaubnisklasse C1, C1E, C, CE"
-    },
-    {
-        name: "PKW",
-        klasse: "Fahrerlaubnisklasse B, BE, B96"
+        klasse: "Fahrerlaubnisklasse: C1, C1E, C, CE",
+        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/LKW.png"
     },
     {
         name: "ANHÄNGER",
-        klasse: "Fahrerlaubnisklasse BE, B96"
+        klasse: "Fahrerlaubnisklasse: BE, B96",
+        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/amhänger.png"
     },
     {
         name: "TRECKER",
-        klasse: "Fahrerlaubnisklasse T"
+        klasse: "Fahrerlaubnisklasse: T",
+        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/trecker.png"
     },
     {
         name: "MOTORRÄDER",
-        klasse: "Fahrerlaubnisklasse AM, A1, A2, A"
+        klasse: "Fahrerlaubnisklasse: AM, A1, A2, A",
+        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/motorbike.png"
     },
 
 
