@@ -21,7 +21,7 @@
   }
 
   .each-slide > div:hover{
-    filter: opacity(80%);
+    transform: scale(1.05);
     transition: 1s ease;
   } 
   
@@ -38,6 +38,7 @@
 
   .each-slide span:hover{
     background: var(--rot);
+  
   }
 
   .klasse--title { 

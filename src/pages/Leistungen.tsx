@@ -66,7 +66,7 @@ export default function Leistungen() {
                     <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/17.jpg)`}}>
                         <span>
                         <a target="_blank" href="https://www.bf17.de/">
-                              Begleitetes Fahren ab 17 (BF17)
+                              Begleitetes Fahren ab 17
                         </a>
                         </span>
                     </div>
