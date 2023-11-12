@@ -43,6 +43,21 @@
     padding-left: 20px;
   }
 
+
+
+  .klasse--title > p {  
+    border: none;
+    padding: 5px 0;
+    color: var(--blau);
+    background-color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.klasse--title > p:hover{
+    color: var(--rot);
+    transition: 1s ease;
+}
+
   .klasse--grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -66,12 +81,21 @@
     align-items: center;
     justify-content:center;
     padding: 20px 25px 20px 10px;
-    height: 200px;
+    height: 250px;
     width: auto;
     box-shadow: 2px 2px 5px black;
     
-    
+  }
    
+  .leistungen--card:hover{
+    box-shadow: 2px 2px 20px black;
+    transition: 1s ease;
+  }
+  .leistungen--card h3 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+ 
   }
 
   .leistungen--card:nth-child(1){
@@ -103,7 +127,57 @@
 }
 
   .leistungen--card img{
-    width: 100px;
+    max-width:100px;
+    width: 100%;
     height: auto;
   }
 
+  @media screen and (max-width: 1000px){
+
+    .leistungen--container {
+        width: 90vw;
+    }
+    .klasse--grid {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .leistungen--card:nth-child(1){
+        grid-area: 1 / 1 / 2 / 4;
+        background-color: var(--rot);
+    }
+    
+    .leistungen--card:nth-child(2){
+        grid-area: 1 / 4 / 2 / 7; 
+        background-color: white;
+        color:black
+    }
+    
+    .leistungen--card:nth-child(3){
+        grid-area: 2 / 4 / 3 / 7;
+        background-color: var(--blau);
+    }
+    
+    
+    .leistungen--card:nth-child(4){
+        grid-area: 2 / 1 / 3 / 4; 
+        background-color: white;
+        color:black
+    }
+    
+    .leistungen--card:nth-child(5){
+        grid-area: 3 / 1 / 4 / 7; 
+        background-color: var(--rot);
+    }
+    
+  }
+
+  @media screen and (max-width: 500px) {
+    .klasse--grid {
+        display: block;
+    }
+    .klasse--title { 
+        font-size: small;
+      
+      }
+  }

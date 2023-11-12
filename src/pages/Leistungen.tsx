@@ -101,6 +101,7 @@ export default function Leistungen() {
             </Slide>
                <div className="klasse--title">
                    <h2>FAHRERLAUBNISKLASSEN</h2>
+                   <p><a href="https://www.adac.de/verkehr/rund-um-den-fuehrerschein/klassen/ueberblick/"  target="_blank">Mehr erfahren...</a> </p>         
                </div>
                <div className="klasse--grid">
                 
