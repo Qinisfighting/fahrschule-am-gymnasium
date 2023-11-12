@@ -3,7 +3,7 @@
 *:after {
   box-sizing: border-box;
   --blau: #005EA8;
-  --blau2: #023861;
+  --blau2: rgba(3, 42, 94, 0.884);
   --rot: #e40707;
   --textColor: #504c4a;
   --mainFont: "Roboto", sans-serif;

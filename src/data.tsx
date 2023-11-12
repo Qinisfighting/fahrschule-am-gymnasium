@@ -41,15 +41,15 @@ const leistungenData: { name: string, klasse: string, icon: string }[] = [
         icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/PKW.png"
     },
     {
-        name: "LKW",
-        klasse: "Fahrerlaubnisklasse: C1, C1E, C, CE",
-        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/LKW.png"
-    },
-    {
         name: "ANHÄNGER",
         klasse: "Fahrerlaubnisklasse: BE, B96",
         icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/amhänger.png"
     },
+    {
+        name: "LKW",
+        klasse: "Fahrerlaubnisklasse: C1, C1E, C, CE",
+        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/LKW.png"
+    },  
     {
         name: "TRECKER",
         klasse: "Fahrerlaubnisklasse: T",

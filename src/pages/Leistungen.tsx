@@ -21,13 +21,15 @@ const responsiveSettings = [
 ];
 
 
-function LeistungenCard(props: { name: string, klasse: string, icon: string }) {
+function LeistungenCard({ name, klasse, icon }: { name: string, klasse: string, icon: string }) {
     return (
         <div className="leistungen--card">
-            <figure><img src={props.icon} alt={props.name} /></figure>
+        
+            <figure><img src={icon} alt={name} /></figure>
             <div>
-                <h3>{props.name}</h3>
-                <p>{props.klasse}</p>
+                <h3>{name}</h3>
+                <p>{klasse}</p>
+       
             </div>
         </div>
     )
@@ -102,11 +104,10 @@ export default function Leistungen() {
                </div>
                <div className="klasse--grid">
                 
-                <div className="klasse--inhalt">
                     {leistungenData.map((leistung) => (
-                        <LeistungenCard name={leistung.name} klasse={leistung.klasse} icon={leistung.icon} />
+                        <LeistungenCard name={leistung.name} klasse={leistung.klasse} icon={leistung.icon}  />
                     ))}
-               </div>
+              
           </div>
             
            
