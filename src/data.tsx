@@ -43,7 +43,7 @@ const leistungenData: { name: string, klasse: string, icon: string }[] = [
     {
         name: "ANHÄNGER",
         klasse: "Fahrerlaubnisklasse: BE, B96",
-        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/amhänger.png"
+        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/anhänger.png"
     },
     {
         name: "LKW",
