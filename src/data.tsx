@@ -64,5 +64,5 @@ const leistungenData: { name: string, klasse: string, icon: string }[] = [
 
 ]
 
-export {personalData, leistungenData};
+export { personalData, leistungenData };
     
