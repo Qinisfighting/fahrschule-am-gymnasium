@@ -19,15 +19,20 @@
     background-size: cover;
     height: 350px;
   }
+
+  .each-slide > div:hover{
+    filter: opacity(80%);
+    transition: 1s ease;
+  } 
   
 .each-slide span {
-    padding: 20px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 22px;
     background: var(--blau);
     text-align: center;
     color: white;
     border-radius: 10px;
-    filter: opacity(80%);	
+    filter: opacity(90%);	
     
   }
 

@@ -43,7 +43,7 @@ export default function Leistungen() {
             <h1 className="leistungen--header">UNSERE LEISTUNGEN</h1>    
             <Slide indicators={true} slidesToScroll={1} slidesToShow={1} responsive={responsiveSettings}>
                 <div className="each-slide">
-                        <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/LKW.png)`}}>
+                        <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/theorie.jpg)`}}>
                             <span>
                                 <a target="_blank" href="https://www.adac.de/verkehr/rund-um-den-fuehrerschein/erwerb/ausbildung/#:~:text=Der%20Fahrsch%C3%BCler%20oder%20die%20Fahrsch%C3%BClerin,%C3%A0%2090%20Minuten%20f%C3%BCr%20Zusatzstoff.">
                                 Theorietische Unterricht
@@ -53,7 +53,7 @@ export default function Leistungen() {
                 </div>
                 
                 <div className="each-slide">
-                        <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/leistungen1.jpg)`}}>
+                        <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/fahren.jpg)`}}>
                             <span>
                                <a target="_blank" href="https://www.adac.de/verkehr/rund-um-den-fuehrerschein/erwerb/ausbildung/#:~:text=Der%20Fahrsch%C3%BCler%20oder%20die%20Fahrsch%C3%BClerin,%C3%A0%2090%20Minuten%20f%C3%BCr%20Zusatzstoff.">
                                 Praktische Unterricht
@@ -63,7 +63,7 @@ export default function Leistungen() {
                  
                 </div>
                 <div className="each-slide">
-                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/leistungen1.jpg)`}}>
+                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/17.jpg)`}}>
                         <span>
                         <a target="_blank" href="https://www.bf17.de/">
                               Begleitetes Fahren ab 17 (BF17)
@@ -72,7 +72,7 @@ export default function Leistungen() {
                     </div>
                 </div>
                 <div className="each-slide">
-                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/leistungen1.jpg)`}}>
+                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/umschreibung.png)`}}>
                         <span>
                         <a target="_blank" href="https://bmdv.bund.de/SharedDocs/DE/Artikel/StV/Strassenverkehr/gueltigkeit-auslaendischer-fahrerlaubnisse-in-deutschland.html">
                               Umschreibung Fahrerlaubnis
@@ -81,7 +81,7 @@ export default function Leistungen() {
                     </div>
                 </div>
                 <div className="each-slide">
-                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/leistungen1.jpg)`}}>
+                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/Auffrischungsfahrten.jpg)`}}>
                         <span>
                           <a target="_blank" href="https://www.bussgeldkatalog.org/auffrischungskurs-fahrschule/">
                              Auffrischungsfahrten
@@ -90,7 +90,7 @@ export default function Leistungen() {
                     </div>
                 </div>
                 <div className="each-slide">
-                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/leistungen1.jpg)`}}>
+                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/ASF.png)`}}>
                         <span>
                           <a target="_blank" href="https://www.adac.de/verkehr/rund-um-den-fuehrerschein/erwerb/aufbauseminar-fahranfaenger/">
                             ASF-Seminare
