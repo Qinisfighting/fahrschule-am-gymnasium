@@ -43,16 +43,20 @@
 .kontakt-form form{
     display: flex;
     flex-direction: column;
+    gap: 40px;
     width: 70%;
     margin: 0 auto;
-    gap:30px;
+    
+    
  
 }
 
 .kontakt-form {
+   
     background-color:rgba(219, 217, 217, 0.219);
     height: 100%;
     padding-top: 77px;
+ 
 }
 
 .form--input {
@@ -103,10 +107,8 @@
         flex-direction: column;
         height: 100vh;
         width: 100%;
-        margin: 200px auto 250px;
+        margin: 200px auto 300px;
       
-
-       
     }
    
     .kontakt-text{
@@ -117,6 +119,7 @@
 
     .kontakt-form {
         padding: 50px 0 150px;
+        
     }
     }
 
@@ -127,5 +130,10 @@
     }
     .form--submit{
         width: 100%;
+    }
+
+    .kontakt-form {
+        padding: 50px 0 150px;
+        height: 100%;
     }
 }
