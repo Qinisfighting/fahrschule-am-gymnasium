@@ -1,0 +1,131 @@
+.kontakt-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 77vh;
+    width: 100%;
+    margin: 150px auto;
+   
+
+
+}
+
+.kontakt-text{
+    background: var(--blau);
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 6.75rem 8vw;
+   
+}
+
+.kontakt-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--blau);
+    opacity: 0.22;
+    background-image: url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/schein.png);
+    background-size: cover;
+    background-position: 100%;
+}
+
+.kontakt-text-content {
+    position: relative;
+
+}
+
+.kontakt-form form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    gap:30px;
+ 
+}
+
+.kontakt-form {
+    background-color:rgba(219, 217, 217, 0.219);
+    height: 100%;
+    padding-top: 77px;
+}
+
+.form--input {
+    height: 50px;
+}
+
+
+.textarea{
+    height: 150px;
+}
+.form-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+   
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+
+
+.form--submit{
+    width: 25%;
+    height: 50px;
+    background-color: var(--rot);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.form--submit:hover{
+   transform: translateY(-3px);
+}
+
+@media screen and (max-width: 1000px) {
+
+    .kontakt-container {
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        margin: 200px auto 250px;
+      
+
+       
+    }
+   
+    .kontakt-text{
+        width: 100%;
+        height: 70%;
+       
+    }
+
+    .kontakt-form {
+        padding: 50px 0 150px;
+    }
+    }
+
+    @media screen and (max-width: 600px) {
+    .form-bottom{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .form--submit{
+        width: 100%;
+    }
+}

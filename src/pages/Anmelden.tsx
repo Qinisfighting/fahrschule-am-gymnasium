@@ -1,15 +1,13 @@
 import { useState, useEffect, ChangeEvent, FormEvent } from "react"
-import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
-
+import schein from "../assets/schein.png"
 
 
 interface FormData {
     name: string;
     email: string;
     content: string;
-    nummer: string;
-    isDatenschutz: boolean;
+    nummer: string
   }
 
 
@@ -19,8 +17,7 @@ export default function Kontakt() {
         name: "",
         email: "",
         content: "",
-        nummer: "",
-        isDatenschutz: false,
+        nummer: ""
       });
       const [loading, setLoading] = useState(false);
       useEffect(() => emailjs.init("lBynZS3CdHPm1Mbhm"), []);
@@ -28,13 +25,13 @@ export default function Kontakt() {
       function handleChange(
         e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
       ) {
-        const { name, value, type, checked } = e.target as HTMLInputElement;
+        const { name, value } = e.target;
         setFormData((prev) => ({
           ...prev,
-          [name]: type === "checkbox" ? checked : value
-        })); console.log(formData)
+          [name]: value
+        }));
       }
-     
+
       async function handleSubmit(e: FormEvent) {
         e.preventDefault();
     
@@ -42,8 +39,7 @@ export default function Kontakt() {
           name: "",
           email: "",
           content: "",
-          nummer: "",
-          isDatenschutz: true,
+          nummer: ""
         });
     
         const serviceId = "service_nvk45hx";
@@ -53,9 +49,7 @@ export default function Kontakt() {
           await emailjs.send(serviceId, templateId, {
             name: formData.name,
             email: formData.email,
-            content: formData.content,
-            nummer: formData.nummer,
-            isDatenschutz: formData.isDatenschutz,
+            content: formData.content
           });
           alert(
             "Danke für Ihre Nachricht. Ich melde mich umgehend."  
@@ -68,14 +62,12 @@ export default function Kontakt() {
       }
 
       return (
-        <div className="kontakt-container">
-          <div className="kontakt-text">
-           <div className="kontakt-text-content">
-              <h1>FAHRSCHULE AM GYMNASIUM</h1>
-           </div>    
+        <div className="contact-container">
+          <div className="top">
+            <h1>Schick mir eine Nachricht</h1>     
           </div>
     
-          <div className="kontakt-form">
+          <div className="form-container">
             <form className="form" onSubmit={handleSubmit}>
                 
               <input
@@ -110,29 +102,15 @@ export default function Kontakt() {
               />
               <textarea
                 placeholder="Nachricht"
-                className="textarea"
                 name="content"
                 value={formData.content}
                 onChange={handleChange}
                 onFocus={(e) => (e.target.value = "")}
                 required
               />
-              <div className="form-bottom">
-                  <div className="checkbox-container">
-                        <input
-                        type="checkbox"
-                        className="checkbox"
-                        checked={formData.isDatenschutz}
-                        onChange={handleChange}
-                        name="isDatenschutz"
-                        required
-                        />
-                        <label htmlFor="isDatenschutz">Ich habe die <Link to="/datenschutz">Datenschutzerklärung</Link> zur Kenntnis genommen und bin mit ihnen einverstanden. Erteilte Einwilligungen kann ich jederzeit widerrufen.</label>
-                  </div>
-                  <button className="form--submit">
-                    SENDEN
-                  </button>
-               </div>   
+              <button className="form--submit">
+                SENDEN
+              </button>
             </form>
           </div>
         </div>

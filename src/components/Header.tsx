@@ -111,6 +111,18 @@ export default function Header() {
               <div onClick={() => setIsMenu(false)}>INFORMATIONEN</div>
               
             </NavLink>
+
+            <NavLink to="anmelden" 
+             style={({
+                isActive,
+                isPending
+              }: {
+                isActive: boolean;
+                isPending: boolean;
+              }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
+              <div onClick={() => setIsMenu(false)}>ANMELDEN</div>
+              
+            </NavLink>
          
             <NavLink to="kontakt" 
              style={({
@@ -173,6 +185,18 @@ export default function Header() {
           INFORMATIONEN
         </NavLink>
      
+        <NavLink to="anmelden" 
+             style={({
+                isActive,
+                isPending
+              }: {
+                isActive: boolean;
+                isPending: boolean;
+              }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
+              <div onClick={() => setIsMenu(false)}>ANMELDEN</div>
+              
+       </NavLink> 
+       
         <NavLink to="kontakt" 
          style={({
             isActive,

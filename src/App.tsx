@@ -10,6 +10,7 @@ import Fahrschule from "./pages/Fahrschule";
 import Über from "./pages/Über";
 import Leistungen from "./pages/Leistungen";
 import Informationen from "./pages/Informationen";
+import Anmelden from "./pages/Anmelden";
 import Kontakt from "./pages/Kontakt";
 import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
         errorElement={<Error />}
       />
       <Route path="informationen" element={<Informationen />} />
+      <Route path="anmelden" element={<Anmelden />} />
       <Route path="kontakt" element={<Kontakt />} />
       <Route path="impressum" element={<Impressum />} />
       <Route path="datenschutz" element={<Datenschutz />} />
