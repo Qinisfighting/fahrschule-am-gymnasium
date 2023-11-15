@@ -11,7 +11,7 @@ export default function Fahrschule() {
             
             <div className="home--container--top">
               <div className="home--container--top--left">
-                <p><img src={call} alt="telephone"></img>04361/49108</p>
+                <p><img src={call} alt="telephone"></img>04361/494108</p>
                 <h1><span className="willkommen--span">Willkommen bei der</span> <br/><span className="name--span">Fahrschule Am Gymnasium</span></h1>
                 <div className="home-link"><Link  to="/über">ÜBER UNS</Link></div>
               </div>              

@@ -107,8 +107,8 @@ export default function Kontakt() {
                                       <h2>Andreas Walk</h2> 
                                       <hr />    
                                       <h3>Mobil: 0171/1261672</h3>
-                                      <h3>Tel.: 04361/454108</h3>
-                                      <h3>Fax: 04361/454108</h3>
+                                      <h3>Tel.: 04361/494108</h3>
+                                      <h3>Fax: 04361/494821</h3>
                                       <h3>Email: info@a-walk.de</h3>
                                   </div>
                               </div>
