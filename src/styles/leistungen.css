@@ -42,6 +42,8 @@
   }
 
   .klasse--title { 
+    display: flex;
+    justify-content: space-between;
     font-size: large;
     text-align: left;
     margin: 100px 0 20px;
@@ -52,16 +54,21 @@
 
 
   .klasse--title > p {  
-    border: none;
-    padding: 5px 0;
-    color: var(--blau);
-    background-color: white;
-    font-size: 1.3em;
-    font-weight: 600;
+    padding-top: 10px;
+    width:100px;
+    height: 40px;
+    background-color: var(--blau);
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    opacity: 80%;
+    margin-right: 10px;
 }
+
 .klasse--title > p:hover{
-    color: var(--rot);
-    transition: 1s ease;
+    background-color: var(--rot);
+    color: white;
+
 }
 
   .klasse--grid {
@@ -184,6 +191,7 @@
     }
     .klasse--title { 
         font-size: small;
+        flex-direction: column;
       
       }
   }
