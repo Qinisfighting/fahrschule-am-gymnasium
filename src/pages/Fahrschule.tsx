@@ -22,7 +22,7 @@ export default function Fahrschule() {
                 <div className="home--container--bottom--box">
                     <img src={Steering} alt="steering" />
                    <div>
-                       <h3>Proffessionale Leistungen</h3>
+                       <h3>Professionale Leistungen</h3>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod The point of using lorem ipsum.Lorem ipsum dolor sit amet consectetur</p>
                    </div>
                 </div>
@@ -30,7 +30,7 @@ export default function Fahrschule() {
                 <div className="home--container--bottom--box">
                 <img src={euro} alt="euro" />
                    <div>
-                      <h3>Günstige Preise</h3>
+                      <h3>Konkurrenzfähige Preise</h3>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod The point of using lorem ipsum.Lorem ipsum dolor sit amet consectetur</p>
                    </div>
                 </div>

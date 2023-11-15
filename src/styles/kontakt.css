@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     height: 77vh;
     width: 100%;
-    margin: 150px auto;
+    margin: 77px auto;
    
 
 
@@ -15,9 +15,9 @@
     color: white;
     position: relative;
     text-align: center;
-    width: 50%;
+    width: 60%;
     height: 100%;
-    padding: 6.75rem 8vw;
+    padding: 3.75rem 4em;
    
 }
 
@@ -40,6 +40,22 @@
 
 }
 
+
+
+.kontakt-text-content--box {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+}
+
+.k--filialen{
+    display: flex;
+}
+
+.k--filialen img{
+    width: 77px;
+}
 .kontakt-form form{
     display: flex;
     flex-direction: column;
@@ -53,9 +69,11 @@
 
 .kontakt-form {
    
-    background-color:rgba(219, 217, 217, 0.219);
+    background-color:rgba(0, 119, 255, 0.075);
     height: 100%;
     padding-top: 77px;
+ 
+ 
  
 }
 
@@ -74,6 +92,12 @@
     gap: 10px;
     width: 100%;
    
+}
+
+.form-bottom a {
+    color: var(--blau);
+    text-decoration: underline;
+
 }
 
 .checkbox-container {
@@ -101,39 +125,60 @@
    transform: translateY(-3px);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
 
     .kontakt-container {
         flex-direction: column;
-        height: 100vh;
+        height: 110%;
         width: 100%;
-        margin: 200px auto 300px;
-      
     }
    
     .kontakt-text{
         width: 100%;
-        height: 70%;
        
     }
 
     .kontakt-form {
-        padding: 50px 0 150px;
+        padding: 70px 0;
+        width: 100%;
         
     }
     }
 
     @media screen and (max-width: 600px) {
+    .kontakt-container {   
+        margin-top: 30px;
+    }
+
+    .kontakt-text-content > h1 {
+        font-size: 1.5rem;
+    
+    }
     .form-bottom{
         flex-direction: column;
         gap: 30px;
     }
     .form--submit{
+        margin: 10px 0;
         width: 100%;
     }
 
     .kontakt-form {
-        padding: 50px 0 150px;
+        padding: 70px 0;
         height: 100%;
     }
+
+    .k--filialen{
+        flex-direction: column;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .k--filialen div {
+        width: 100%;
+        margin: 10px auto;
+        padding: 0;
+    }
 }
+
+/* Path: src/styles/leistungen.css */

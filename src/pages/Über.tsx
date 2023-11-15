@@ -14,22 +14,22 @@ import email from "../assets/email.png";
 
 export default function Über() {
     const [counter1, setCounter1] = useState(0);
-    const [counter2, setCounter2] = useState(0);
-    const [counter3, setCounter3] = useState(0);
+    const [counter2, setCounter2] = useState(1980);
+    const [counter3, setCounter3] = useState(70);
 
     useEffect(() => {
 
         const interval1 = setInterval(() => {
           counter1 < 20 && setCounter1((counter) => counter + 1);  
-        }, 10);
+        }, 77);
           
         const interval2 = setInterval(() => {
-            counter2 < 100 && setCounter2((counter) => counter + 1);  
-            }, 10);
+            counter2 < 2000 && setCounter2((counter) => counter + 1);  
+            }, 77);
 
             const interval3 = setInterval(() => {
                 counter3 < 90 && setCounter3((counter) => counter + 1);  
-                }, 10);
+                }, 77);
                
         return () => {
           clearInterval(interval1);
@@ -70,13 +70,14 @@ export default function Über() {
                     <h2><span className="über--top--right--span">{counter1}+</span> JAHRE BERUFSERFAHRUNG</h2>
                  </div>
                  <div className="über--top--row">
-                    <img src={people} alt="people"/>
-                    <h2><span className="über--top--right--span">{counter2}+</span> ABSOLVIERTE PRO JAHR</h2>
-                 </div> 
-                 <div className="über--top--row">
                     <img src={smile} alt="smile"/>
                     <h2><span className="über--top--right--span">{counter3}%</span> BESTANDENSQUOTE</h2>
                 </div>
+                 <div className="über--top--row">
+                    <img src={people} alt="people"/>
+                    <h2><span className="über--top--right--span">{counter2}+</span> ABSOLVIERTE </h2>
+                 </div> 
+                 
                 </div>  
                    <div className="über-link"><Link  to="/leistungen">UNSERE LEISTUNGEN</Link></div>
                </div>

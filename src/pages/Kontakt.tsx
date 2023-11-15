@@ -1,6 +1,9 @@
 import { useState, useEffect, ChangeEvent, FormEvent } from "react"
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
+import location2 from "../assets/location2.png";
+import person from "../assets/person.png";
+import time from "../assets/time.png";
 
 
 
@@ -72,7 +75,56 @@ export default function Kontakt() {
           <div className="kontakt-text">
            <div className="kontakt-text-content">
               <h1>FAHRSCHULE AM GYMNASIUM</h1>
-           </div>    
+              <div className="kontakt-text-content--box"> 
+                    <div className="k--filialen">
+                              <div className="filiale">
+                                  <a href="https://www.google.com/maps/dir/54.2734754,10.8633786/54.2900595,10.8933194/@54.2773484,10.8555987,14z/data=!4m5!4m4!1m1!4e1!1m0!3e0?entry=ttu" target="_blank"><img src={location2} alt="navi" className="navi"/></a>  
+                                  
+                                  <div>
+                                      <h2>Filiale Oldenburg</h2>
+                                      <hr />     
+                                      <h3>Göhler Straße 32</h3>
+                                      <h3>23758 Oldenburg /H.</h3>
+                                      
+                                  </div>
+                              </div>
+                              <div className="filiale">
+                                  <a href="https://www.google.com/maps/dir/54.2734754,10.8633786/Eutiner+Str.+11,+23738+Lensahn/@54.246549,10.8162176,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x47b27f24f7c78c67:0xc481290815469c3e!2m2!1d10.8847198!2d54.2198644?entry=ttu" target="_blank"><img src={location2} alt="navi" className="navi"/></a> 
+                                  <div>
+                                      <h2>Filiale Lensahn</h2>
+                                      <hr />      
+                                      <h3>Eutiner Straße 11</h3>
+                                      <h3>23738 Lensahn</h3>   
+                                  </div>
+                              </div> 
+                    </div>
+                    <hr/>
+                    <div className="k--filialen">
+                              <div className="filiale">
+                                  <img src={person} alt="person" className="navi"/>
+                                  
+                                  <div>
+                                      <h2>Andreas Walk</h2> 
+                                      <hr />    
+                                      <h3>Mobil: 0171/1261672</h3>
+                                      <h3>Tel.: 04361/454108</h3>
+                                      <h3>Fax: 04361/454108</h3>
+                                      <h3>Email: info@a-walk.de</h3>
+                                  </div>
+                              </div>
+                              <div className="filiale">
+                                  <img src={time} alt="time" className="navi"/>
+                                  <div>
+                                      <h2>Auskunft und Anmeldung</h2> 
+                                      <hr />      
+                                      <h3>Di. + Do. 18:30 Uhr</h3>
+                                      <h3>Präsenz-Theorieunterricht:</h3> 
+                                      <h3>ab 19:00 Uhr</h3>    
+                                  </div>
+                              </div> 
+                    </div>
+                </div>                
+             </div>    
           </div>
     
           <div className="kontakt-form">
@@ -80,7 +132,7 @@ export default function Kontakt() {
                 
               <input
                 type="text"
-                placeholder="Name(erforderlich)"
+                placeholder="Name*"
                 className="form--input"
                 name="name"
                 value={formData.name}
@@ -90,7 +142,7 @@ export default function Kontakt() {
               />
               <input
                 type="email"
-                placeholder="Email(erforderlich)"
+                placeholder="Email*"
                 className="form--input"
                 name="email"
                 value={formData.email}
@@ -100,16 +152,16 @@ export default function Kontakt() {
               />
               <input
                 type="text"
-                placeholder="Rückrufnummer(erforderlich)"
+                placeholder="Rückrufnummer"
                 className="form--input"
                 name="nummer"
                 value={formData.nummer}
                 onChange={handleChange}
                 onFocus={(e) => (e.target.value = "")}
-                required
+              
               />
               <textarea
-                placeholder="Nachricht"
+                placeholder="Nachricht*"
                 className="textarea"
                 name="content"
                 value={formData.content}
@@ -127,7 +179,7 @@ export default function Kontakt() {
                         name="isDatenschutz"
                         required
                         />
-                        <label htmlFor="isDatenschutz">Ich habe die <Link to="/datenschutz">Datenschutzerklärung</Link> zur Kenntnis genommen und bin mit ihnen einverstanden. Erteilte Einwilligungen kann ich jederzeit widerrufen.</label>
+                        <label htmlFor="isDatenschutz">Ich habe die <Link to="/datenschutz">Datenschutzhinweise</Link> zur Kenntnis genommen und bin mit ihnen einverstanden. Erteilte Einwilligungen kann ich jederzeit widerrufen.</label>
                   </div>
                   <button className="form--submit">
                     SENDEN
