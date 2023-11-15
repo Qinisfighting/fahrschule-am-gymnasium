@@ -1,6 +1,6 @@
 import { useState, useEffect, ChangeEvent, FormEvent } from "react"
 import emailjs from "@emailjs/browser";
-import schein from "../assets/schein.png"
+
 
 
 interface FormData {

@@ -108,7 +108,7 @@ export default function Header() {
                 isActive: boolean;
                 isPending: boolean;
               }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
-              <div onClick={() => setIsMenu(false)}>INFORMATIONEN</div>
+              <div onClick={() => setIsMenu(false)}>INFOS</div>
               
             </NavLink>
 
@@ -182,7 +182,7 @@ export default function Header() {
             isActive: boolean;
             isPending: boolean;
           }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
-          INFORMATIONEN
+          INFOS
         </NavLink>
      
         <NavLink to="anmelden" 

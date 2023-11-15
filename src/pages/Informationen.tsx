@@ -1,16 +1,40 @@
+import tüv from '../assets/tüv.png';
+import oh from '../assets/oh.png';
+import bf17 from '../assets/bf17.svg';
+import ADAC from '../assets/ADAC.png';
+
+
 export default function Informationen() {
     return (
-        <div>
+        <div className='info-container'>
             <h1>Informationen</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-                voluptatibus, quas, quibusdam, voluptatum quia quod dolorum
-                necessitatibus voluptates quos doloremque doloribus. Quasi
-                voluptates, voluptas doloribus natus quia quae quas. Quisquam
-                voluptatibus, quas, quibusdam, voluptatum quia quod dolorum
-                necessitatibus voluptates quos doloremque doloribus. Quasi
-                voluptates, voluptas doloribus natus quia quae quas.
-            </p>
+            <div className='info--imgs'>
+                <a href='https://www.tuev-nord.de/de/privatkunden/verkehr/fuehrerschein/fahrschueler-app/' target='_black'>
+                    <fieldset>
+                        <legend>Führerschein App</legend>
+                        <img src={tüv} alt="tüv" />
+                        </fieldset>
+                </a>
+                <a href='https://www.kreis-oh.de/B%C3%BCrger-Kreis-Verwaltung/Auto-Verkehr/F%C3%BChrerscheinstelle/' target='_black'>
+                    <fieldset>
+                        <legend>Führerscheinstelle Ostholstein</legend>
+                        <img src={oh} alt="oh" />
+                        </fieldset>
+                </a>
+                <a href='https://www.bf17.de/' target='_black'>
+                    <fieldset>
+                        <legend>Begleitetes Fahren ab 17</legend>
+                        <img src={bf17} alt="bf17" />
+                        </fieldset>
+                </a>
+                <a href='https://www.adac.de/' target='_black'>
+                    <fieldset>
+                        <legend>Allgemeiner Deutscher Automobil-Club</legend>
+                        <img src={ADAC} alt="ADAC" />
+                        </fieldset>
+                </a>
+                
+            </div>
         </div>
     )
 }
