@@ -8,7 +8,9 @@ import './styles/footer.css'
 import './styles/informationen.css'
 import './styles/über.css'
 import './styles/leistungen.css'
+import './styles/anmelden.css'
 import './styles/kontakt.css'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

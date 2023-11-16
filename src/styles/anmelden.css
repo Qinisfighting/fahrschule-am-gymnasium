@@ -1,0 +1,13 @@
+
+.anmelden-container {
+    margin: 100px auto;
+}
+.anmelden-form form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    width: 80vw;
+    margin: 50px auto;
+}
