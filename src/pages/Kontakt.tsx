@@ -109,7 +109,7 @@ export default function Kontakt() {
                                       <h3>Mobil: 0171/1261672</h3>
                                       <h3>Tel.: 04361/494108</h3>
                                       <h3>Fax: 04361/494821</h3>
-                                      <h3>Email: info@a-walk.de</h3>
+                                      <h3>Email: <a href="mailto:info@a-walk.de" target="_blank" style={{textDecoration: "underline"}}>info@a-walk.de</a></h3>
                                   </div>
                               </div>
                               <div className="filiale">
