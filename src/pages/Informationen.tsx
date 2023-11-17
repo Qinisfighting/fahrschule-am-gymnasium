@@ -7,7 +7,7 @@ import ADAC from '../assets/ADAC.png';
 export default function Informationen() {
     return (
         <div className='info-container'>
-            <h1>Informationen</h1>
+            <h1>INFORMATIONEN</h1>
             <div className='info--imgs'>
                 <a href='https://www.tuev-nord.de/de/privatkunden/verkehr/fuehrerschein/fahrschueler-app/' target='_black'>
                     <fieldset>

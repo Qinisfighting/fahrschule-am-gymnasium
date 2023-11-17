@@ -193,7 +193,6 @@ export default function Kontakt() {
                 name="geburtsdatum"
                 value={formData.geburtsdatum}
                 onChange={handleChange}
-                onFocus={(e) => (e.target.value = "")}
                 required
               />
               <label htmlFor="geburtsort">Geburtsort*</label>

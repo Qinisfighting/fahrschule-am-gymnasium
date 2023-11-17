@@ -79,11 +79,15 @@
 
 .form--input {
     height: 50px;
+    font-size: medium;
+    padding: 5px 10px;
 }
 
 
 .textarea{
-    height: 150px;
+    font-size: large;
+    height: 200px;
+    padding: 10px;
 }
 .form-bottom{
     display: flex;
