@@ -32,10 +32,15 @@
 }
 
 @media screen and (max-width: 860px) {
+     
     .info--imgs{
         grid-template-columns: 1fr;
     }
     .info--imgs fieldset{
-        width: 90%;
+        width: 97%;
+        height: 100%;
+    }
+    .info--imgs img {
+        width: 87%;
     }
 }
