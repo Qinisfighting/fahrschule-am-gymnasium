@@ -271,8 +271,8 @@
 
 
 .über--bottom--lehrer--box figure {
-    width: 24em;
-    height:24em;  
+    width: 22em;
+    height:22em;  
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -281,8 +281,8 @@
 
 
 .über--bottom--lehrer--box figure img {
-    width: 24em;
-    height:24em; 
+    width: 22em;
+    height:22em; 
     object-fit: cover;
     filter: brightness(60%);
     transition: .3s ease-in-out;
@@ -291,7 +291,7 @@
 
 .über--bottom--lehrer--box figure:hover img{
     filter: brightness(100%);
-    width: 27em;
+    width: 25em;
 }
 
 .profil-top-left {
