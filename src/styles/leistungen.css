@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0 auto;
     height: 100%;
-    width: 80vw;
+    width: 100vw;
    
 }
 
@@ -46,9 +46,10 @@
     justify-content: space-between;
     font-size: large;
     text-align: left;
-    margin: 100px 0 20px;
+    margin: 100px auto 20px;
     border-left: 5px ridge white;
     padding-left: 20px;
+    width: 77vw;
   }
 
 
@@ -72,16 +73,17 @@
 }
 
   .klasse--grid {
+    margin: 0 auto 150px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     color: white;
-    margin-bottom: 150px;
     justify-content: center;
     align-items: center;
     padding: 0;
+    width: 77vw;
 
   }
 
@@ -145,14 +147,13 @@
     height: auto;
   }
 
-  @media screen and (max-width: 1000px){
+  @media screen and (max-width: 1025px){
 
-    .leistungen--container {
-        width: 90vw;
-    }
+   
     .klasse--grid {
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(3, 1fr);
+        width: 82vw;
     }
 
     .leistungen--card:nth-child(1){
@@ -185,13 +186,23 @@
     
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     .klasse--grid {
         display: block;
+        width: 93vw;
     }
     .klasse--title { 
-        font-size: small;
+      padding-left: 7px;
+        font-size: medium;
         flex-direction: column;
       
       }
+      .klasse--title h2{
+        font-size: 1.3em;
   }
+  .klasse--title p{
+    width: 80px;
+    height: 37px;
+    
+}
+}
