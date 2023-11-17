@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import cover from '../assets/cover.jpg';
 import call from '../assets/call.png';
-import Steering from '../assets/steering.png';
+import steering from '../assets/steering.png';
 import euro from '../assets/euro.png';
 
 
@@ -20,7 +20,7 @@ export default function Fahrschule() {
             
             <div className="home--container--bottom">
                 <div className="home--container--bottom--box">
-                    <img src={Steering} alt="steering" />
+                    <img src={steering} alt="steering" />
                    <div>
                        <h3>Professionale Leistungen</h3>
                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod The point of using lorem ipsum.Lorem ipsum dolor sit amet consectetur</p>

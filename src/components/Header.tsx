@@ -1,7 +1,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../../src/assets/Logo.svg";
+import logo from "../../src/assets/logo.svg";
 import car from "../../public/car.svg";
 
 interface ActiveStyles {
@@ -53,7 +53,7 @@ export default function Header() {
     return (
     <header>
       <Link to="/" className="site-logo">
-        <img src={Logo} alt="Logo" />
+        <img src={logo} alt="Logo" />
       </Link>
       <div ref={menuRef}>
         <img

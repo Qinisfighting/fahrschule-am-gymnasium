@@ -81,7 +81,7 @@ export default function Leistungen() {
                     </div>
                 </div>
                 <div className="each-slide">
-                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/Auffrischungsfahrten.jpg)`}}>
+                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/auffrischungsfahrten.jpg)`}}>
                         <span>
                           <a target="_blank" href="https://www.bussgeldkatalog.org/auffrischungskurs-fahrschule/">
                              Auffrischungsfahrten
@@ -90,7 +90,7 @@ export default function Leistungen() {
                     </div>
                 </div>
                 <div className="each-slide">
-                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/ASF.png)`}}>
+                    <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/asf.png)`}}>
                         <span>
                           <a target="_blank" href="https://www.adac.de/verkehr/rund-um-den-fuehrerschein/erwerb/aufbauseminar-fahranfaenger/">
                             ASF-Seminare
