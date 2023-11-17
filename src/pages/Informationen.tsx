@@ -1,13 +1,13 @@
 import tüv from '../assets/tüv.png';
 import oh from '../assets/oh.png';
 import bf17 from '../assets/bf17.svg';
-import ADAC from '../assets/ADAC.png';
+import adac from '../assets/ADAC.png';
 
 
 export default function Informationen() {
     return (
         <div className='info-container'>
-            <h1>INFORMATIONEN</h1>
+            <h1>INFORMATIONEN- LINKS</h1>
             <div className='info--imgs'>
                 <a href='https://www.tuev-nord.de/de/privatkunden/verkehr/fuehrerschein/fahrschueler-app/' target='_blank'>
                     <fieldset>
@@ -30,7 +30,7 @@ export default function Informationen() {
                 <a href='https://www.adac.de/' target='_blank'>
                     <fieldset>
                         <legend>Allgemeiner Deutscher Automobil-Club</legend>
-                        <img src={ADAC} alt="ADAC" />
+                        <img src={adac} alt="ADAC" />
                         </fieldset>
                 </a>
                 

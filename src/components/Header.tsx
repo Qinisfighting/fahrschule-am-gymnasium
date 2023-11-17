@@ -100,17 +100,7 @@ export default function Header() {
               
             </NavLink>
           
-            <NavLink to="informationen" 
-             style={({
-                isActive,
-                isPending
-              }: {
-                isActive: boolean;
-                isPending: boolean;
-              }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
-              <div onClick={() => setIsMenu(false)}>INFOS</div>
-              
-            </NavLink>
+           
 
             <NavLink to="anmelden" 
              style={({
@@ -135,7 +125,17 @@ export default function Header() {
               <div onClick={() => setIsMenu(false)}>KONTAKT</div>
               
             </NavLink>
-         
+             <NavLink to="informationen" 
+             style={({
+                isActive,
+                isPending
+              }: {
+                isActive: boolean;
+                isPending: boolean;
+              }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
+              <div onClick={() => setIsMenu(false)}>LINKS</div>
+              
+            </NavLink>
 
          </div>
 
@@ -174,16 +174,7 @@ export default function Header() {
           LEISTUNGEN
         </NavLink>
       
-        <NavLink to="informationen" 
-         style={({
-            isActive,
-            isPending
-          }: {
-            isActive: boolean;
-            isPending: boolean;
-          }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
-          INFOS
-        </NavLink>
+       
      
         <NavLink to="anmelden" 
              style={({
@@ -206,6 +197,16 @@ export default function Header() {
             isPending: boolean;
           }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
           KONTAKT
+        </NavLink>
+        <NavLink to="informationen" 
+         style={({
+            isActive,
+            isPending
+          }: {
+            isActive: boolean;
+            isPending: boolean;
+          }) => (isActive && !isPending ? activeStyles : pendingStyles)}>
+          LINKS
         </NavLink>
      
   </nav>
