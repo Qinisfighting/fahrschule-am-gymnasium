@@ -4,6 +4,8 @@ import emailjs from "@emailjs/browser";
 
 
 
+
+
 interface FormData {
     anrede: string;
     vorname: string;
@@ -44,15 +46,17 @@ export default function Kontakt() {
       useEffect(() => emailjs.init("lBynZS3CdHPm1Mbhm"), []);
       
       function handleChange(
-        e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+        e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
       ) {
-        const { name, value, type, checked } = e.target as HTMLInputElement;
+        const { name, value, type, checked } = e.target as HTMLInputElement
         setFormData((prev) => ({
           ...prev,
           [name]: type === "checkbox" ? checked : value
         }));
         console.log(formData)
       }
+
+     
 
       async function handleSubmit(e: FormEvent) {
         e.preventDefault();
