@@ -216,17 +216,62 @@ export default function Kontakt() {
 
               
               <label htmlFor="klasse">Führerschein Klasse*</label>
-               <input
-                type="text"
-                placeholder="Führerschein Klasse*"
-                className="form--input"
-                name="klasse"
+               <select
                 value={formData.klasse}
                 onChange={handleChange}
-                onFocus={(e) => (e.target.value = "")}
+                name="klasse"
                 required
-              />
-
+              >
+                <option value="AM">
+                  AM
+                </option>
+                <option value="A1">
+                  A1
+                </option>
+                <option value="A2">
+                  A2
+                </option>
+                <option value="A">
+                  A
+                </option>
+                <option value="B">
+                  B
+                </option>
+                <option value="C1">
+                  C1
+                </option>
+                <option value="C">
+                  C
+                </option>
+                <option value="D1">
+                  D1
+                </option>
+                <option value="D">
+                  D
+                </option>
+                <option value="BE">
+                  BE
+                </option>
+                <option value="C1E">
+                  C1E
+                </option>
+                <option value="CE">
+                  CE
+                </option>
+                <option value="D1E">
+                  D1E
+                </option>
+                <option value="DE">
+                  DE
+                </option>
+                <option value="L">
+                  L
+                </option>
+                <option value="T">
+                  T
+                </option>
+             
+              </select>
 
 
                <label htmlFor="email">Email*</label>

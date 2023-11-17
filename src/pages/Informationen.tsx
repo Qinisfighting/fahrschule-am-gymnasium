@@ -9,25 +9,25 @@ export default function Informationen() {
         <div className='info-container'>
             <h1>INFORMATIONEN</h1>
             <div className='info--imgs'>
-                <a href='https://www.tuev-nord.de/de/privatkunden/verkehr/fuehrerschein/fahrschueler-app/' target='_black'>
+                <a href='https://www.tuev-nord.de/de/privatkunden/verkehr/fuehrerschein/fahrschueler-app/' target='_blank'>
                     <fieldset>
                         <legend>Führerschein App</legend>
                         <img src={tüv} alt="tüv" />
                         </fieldset>
                 </a>
-                <a href='https://www.kreis-oh.de/B%C3%BCrger-Kreis-Verwaltung/Auto-Verkehr/F%C3%BChrerscheinstelle/' target='_black'>
+                <a href='https://www.kreis-oh.de/B%C3%BCrger-Kreis-Verwaltung/Auto-Verkehr/F%C3%BChrerscheinstelle/' target='_blank'>
                     <fieldset>
                         <legend>Führerscheinstelle Ostholstein</legend>
                         <img src={oh} alt="oh" />
                         </fieldset>
                 </a>
-                <a href='https://www.bf17.de/' target='_black'>
+                <a href='https://www.bf17.de/' target='_blank'>
                     <fieldset>
                         <legend>Begleitetes Fahren ab 17</legend>
                         <img src={bf17} alt="bf17" />
                         </fieldset>
                 </a>
-                <a href='https://www.adac.de/' target='_black'>
+                <a href='https://www.adac.de/' target='_blank'>
                     <fieldset>
                         <legend>Allgemeiner Deutscher Automobil-Club</legend>
                         <img src={ADAC} alt="ADAC" />

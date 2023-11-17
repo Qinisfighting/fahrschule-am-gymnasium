@@ -52,7 +52,7 @@ const leistungenData: { name: string, klasse: string, icon: string }[] = [
     },  
     {
         name: "TRECKER",
-        klasse: "Fahrerlaubnisklasse: T",
+        klasse: "Fahrerlaubnisklasse: T, L",
         icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/trecker.png"
     },
     {

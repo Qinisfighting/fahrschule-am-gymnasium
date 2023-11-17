@@ -14,17 +14,17 @@ import email from "../assets/email.png";
 
 export default function Über() {
     const [counter1, setCounter1] = useState(0);
-    const [counter2, setCounter2] = useState(1980);
-    const [counter3, setCounter3] = useState(70);
+    const [counter2, setCounter2] = useState(4966);
+    const [counter3, setCounter3] = useState(56);
 
     useEffect(() => {
 
         const interval1 = setInterval(() => {
-          counter1 < 20 && setCounter1((counter) => counter + 1);  
+          counter1 < 34 && setCounter1((counter) => counter + 1);  
         }, 77);
           
         const interval2 = setInterval(() => {
-            counter2 < 2000 && setCounter2((counter) => counter + 1);  
+            counter2 < 5000 && setCounter2((counter) => counter + 1);  
             }, 77);
 
             const interval3 = setInterval(() => {
@@ -71,7 +71,7 @@ export default function Über() {
                  </div>
                  <div className="über--top--row">
                     <img src={smile} alt="smile"/>
-                    <h2><span className="über--top--right--span">{counter3}%</span> BESTANDENSQUOTE</h2>
+                    <h2><span className="über--top--right--span">{counter3}%</span> BESTEHENSQUOTE</h2>
                 </div>
                  <div className="über--top--row">
                     <img src={people} alt="people"/>
