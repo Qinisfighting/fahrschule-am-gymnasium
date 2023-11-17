@@ -35,7 +35,8 @@ export default function Kontakt() {
         setFormData((prev) => ({
           ...prev,
           [name]: type === "checkbox" ? checked : value
-        })); console.log(formData)
+        })); 
+        console.log(formData)
       }
      
       async function handleSubmit(e: FormEvent) {
@@ -84,7 +85,7 @@ export default function Kontakt() {
                                       <h2>Filiale Oldenburg</h2>
                                       <hr />     
                                       <h3>Göhler Straße 32</h3>
-                                      <h3>23758 Oldenburg /H.</h3>
+                                      <h3>23758 Oldenburg i.H.</h3>
                                       
                                   </div>
                               </div>

@@ -100,7 +100,7 @@ export default function Über() {
                         <div>
                             <h2>Filiale Oldenburg</h2>    
                             <h3>Göhler Straße 32</h3>
-                            <h3>23758 Oldenburg /H.</h3>
+                            <h3>23758 Oldenburg i.H.</h3>
                         </div>
                     </div>
                     <div className="filiale">
