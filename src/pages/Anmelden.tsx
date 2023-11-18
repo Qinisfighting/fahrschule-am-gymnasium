@@ -99,7 +99,7 @@ export default function Kontakt() {
             isDatenschutz: formData.isDatenschutz
           });
           alert(
-            "Danke für Ihre Nachricht. Ich melde mich umgehend."  
+            "Danke für die Anmeldung. Wir melden uns umgehend."  
                );
         } catch (error) {
           console.log(error, `loading states: ${loading}`);
