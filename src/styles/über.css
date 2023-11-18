@@ -386,6 +386,15 @@
     .filiale {
         width: 100%;
     }
+    .über--top--row > img {
+        width: 50px;
+        
+    }
+  
+    .über--top--left{
+        width: 117%;
+        height: auto;
+    }
 };
    
 
