@@ -58,7 +58,7 @@
     padding-top: 10px;
     width:100px;
     height: 40px;
-    background-color: var(--blau);
+    background-color: var(--rot);
     color: white;
     text-align: center;
     border-radius: 50px;
@@ -67,7 +67,7 @@
 }
 
 .klasse--title > p:hover{
-    background-color: var(--rot);
+    background-color: var(--blau);
     color: white;
 
 }
@@ -146,6 +146,22 @@
     width: 100%;
     height: auto;
   }
+
+  .link-btn{
+    color: white;
+    background-color: var(--blau);
+    height: 50px;
+    width: 220px;
+    border-radius: 30px;
+    font-size: large;
+    padding-top: 12px;
+    margin: 40px 0 10px;
+ 
+  }
+
+.link-btn:hover{
+ background-color: var(--rot);
+}
 
   @media screen and (max-width: 1025px){
 

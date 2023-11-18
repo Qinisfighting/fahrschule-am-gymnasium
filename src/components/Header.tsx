@@ -20,8 +20,7 @@ export default function Header() {
     const menuRef = useRef<HTMLDivElement>(null);
 
 
-    const activeStyles: ActiveStyles = {
-        
+    const activeStyles: ActiveStyles = {    
         borderRadius: 0,
         boxShadow: "1px 1px 2px gray",
         backgroundColor: "var(--rot)",

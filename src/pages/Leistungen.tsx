@@ -1,6 +1,7 @@
 
 import { leistungenData } from "../data";
 import { Slide } from 'react-slideshow-image';
+import { Link } from "react-router-dom";
 import 'react-slideshow-image/dist/styles.css'
 
 const responsiveSettings = [
@@ -40,7 +41,8 @@ export default function Leistungen() {
     return (
         
         <div className="leistungen--container">
-            <h1 className="leistungen--header">UNSERE LEISTUNGEN</h1>    
+            <h1 className="leistungen--header">UNSERE LEISTUNGEN</h1>  
+            
             <Slide indicators={true} slidesToScroll={1} slidesToShow={1} responsive={responsiveSettings}>
                 <div className="each-slide">
                         <div style={{'backgroundImage': `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/theorie.jpg)`}}>
@@ -108,10 +110,10 @@ export default function Leistungen() {
                     {leistungenData.map((leistung) => (
                         <LeistungenCard name={leistung.name} klasse={leistung.klasse} icon={leistung.icon}  />
                     ))}
-              
-          </div>
+               <div className="link-btn"><Link  to="/anmelden">JETZT ANMELDEN ➢</Link></div>  
+             </div>
             
-           
+          
         </div>
     )
 }

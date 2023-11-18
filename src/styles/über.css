@@ -77,12 +77,11 @@
 
 .über-link{
     color: white;
-    background-color: rgba(255, 0, 0, 0.753);
+    background-color: var(--rot);
     transition: 1s ease;
     height: 50px;
     width: 250px;
     border-radius: 30px;
-    font-size: 1.3em;
     padding-top: 15px;
     margin: 40px 0 10px;
     font-size: large;

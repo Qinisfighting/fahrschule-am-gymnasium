@@ -79,7 +79,7 @@ export default function Über() {
                  </div> 
                  
                 </div>  
-                   <div className="über-link"><Link  to="/leistungen">UNSERE LEISTUNGEN</Link></div>
+                   <div className="über-link"><Link  to="/leistungen">UNSERE LEISTUNGEN </Link></div>
                </div>
                <img src={schild} className="über--top--img" alt="schild"/>
             </div>
