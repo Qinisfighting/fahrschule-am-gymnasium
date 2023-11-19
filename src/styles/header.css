@@ -115,7 +115,7 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        row-gap: 7px;
+        row-gap: 0;
         position: absolute;
         top: 0;
         left: 0;
@@ -129,7 +129,7 @@ header {
       }
       .menuNav > a {
         color: var(--textColor);
-        padding: 10px 25px;
+        padding: 17px 25px;
         width: 100%;
         text-align: left;
       }
@@ -149,6 +149,9 @@ header {
         padding: 0;
         margin: 0;
         cursor: pointer;
+      }
+      .closeMenu:hover{
+        transform: translate(-2px);
       }
 
 
