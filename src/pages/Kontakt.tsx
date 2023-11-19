@@ -102,7 +102,7 @@ export default function Kontakt() {
                     <hr/>
                     <div className="k--filialen">
                               <div className="filiale">
-                                  <img src={person} alt="person" className="navi"/>
+                                  <img src={person} alt="person" className="other-icons"/>
                                   
                                   <div>
                                       <h2>Andreas Walk</h2> 
@@ -114,7 +114,7 @@ export default function Kontakt() {
                                   </div>
                               </div>
                               <div className="filiale">
-                                  <img src={time} alt="time" className="navi"/>
+                                  <img src={time} alt="time" className="other-icons"/>
                                   <div>
                                       <h2>Auskunft und Anmeldung</h2> 
                                       <hr />      

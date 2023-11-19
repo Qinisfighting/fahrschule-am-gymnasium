@@ -63,11 +63,14 @@
     gap: 40px;
     width: 70%;
     margin: 0 auto;
-    
-    
- 
+}
+.other-icons{
+    margin-right: 10px;
 }
 
+.other-icons:hover{
+    transform: translate(2px);
+}
 .kontakt-form {
    
     background-color:rgba(0, 119, 255, 0.075);
