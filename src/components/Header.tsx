@@ -54,7 +54,7 @@ export default function Header() {
       <Link to="/" className="site-logo">
         <img src={logo} alt="Logo" />
       </Link>
-      <div ref={menuRef}>
+      <div ref={menuRef} className="menuDiv">
         <img
           src={car}
           alt="menu"
