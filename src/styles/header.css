@@ -99,6 +99,7 @@ header {
         animation: none;
   
       }
+     
 
       @keyframes turn {
         0% {transform: rotate(0deg)}
@@ -110,16 +111,16 @@ header {
       }
       .menuNav {
         background: rgba(255, 255, 255, 0.952);
-        height:100vh;
+        height:70vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        row-gap: 20px;
+        row-gap: 7px;
         position: absolute;
         top: 0;
         left: 0;
-        width: 50vw;
-        z-index: 3;
+        width: 45vw;
+        z-index: 999;
         border: none;
         box-shadow: 1px 1px 5px black;
         font-size: large;
@@ -128,8 +129,9 @@ header {
       }
       .menuNav > a {
         color: var(--textColor);
-        padding: 10px;
+        padding: 10px 35px;
         width: 100%;
+        text-align: left;
       }
     
       @keyframes expand-fade-in {
@@ -141,7 +143,16 @@ header {
         }
       }
     
+        
+      .closeMenu{
+        padding-left: 50%;
+        margin: 0;
+        font-size: 2.5rem;
+        color: var(--blau);
+        cursor: pointer;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.603);
 
+      }
 
 
 }

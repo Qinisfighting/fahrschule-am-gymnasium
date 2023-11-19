@@ -64,6 +64,7 @@ export default function Header() {
       </div>
       {isMenu ? (
          <div className="menuNav" ref={menuRef} >
+              <p className="closeMenu" onClick={() => setIsMenu(false)}>⇦</p>
               <NavLink to="/" end 
            style={({
             isActive,
