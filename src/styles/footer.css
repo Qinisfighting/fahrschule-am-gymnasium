@@ -1,83 +1,93 @@
-footer {	
+footer {
 	padding-top: 100px;
 	margin-bottom: 80px;
 	bottom: 35px;
 	height: 100px;
 	width: 100%;
-	position: absolute;		
-}
-
-.footer--container--top{
+	position: absolute;
+  }
+  
+  .footer--container--top {
 	width: 50%;
-	margin:0 auto;
+	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	gap:20px;
-	align-items:last baseline;
-	border-bottom: 2px ridge white ;
+	gap: 20px;
+	align-items: last baseline;
+	border-bottom: 2px ridge white;
 	font-size: 1rem;
 	font-weight: 600;
-	color:rgb(114, 114, 114)
-}
-
-
-.footer--container--top > a:hover {
-color: var(--blau);
-
-}
-
-footer >  a > h4 {
-	background: var(--blau);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #454c5e67, var(--blau) 100%);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #454c5e67, var(--blau) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: rgb(114, 114, 114);
+  }
+  
+  .footer--container--top > a:hover {
+	color: var(--blau);
+  }
+  
+  footer > a > h4 {
+	background: var(--blau); /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+	  to right,
+	  #454c5e67,
+	  var(--blau) 100%
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+	  to right,
+	  #454c5e67,
+	  var(--blau) 100%
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
 	width: 160px;
 	height: 25px;
 	padding-top: 4px;
-	margin: 20px auto;	
+	margin: 20px auto;
 	border-radius: 5px;
-	
-}
-
-footer > a > h4:hover{
-	background: var(--blau);  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, var(--blau), #454c5e67 100%);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, var(--blau), #454c5e67 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
-}
-
-
-.go-top {
-    width: 30px;
-    position: fixed;
-    right: 7vw;
-    bottom: 50px;
-    cursor: pointer;
+  }
+  
+  footer > a > h4:hover {
+	background: var(--blau); /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+	  to right,
+	  var(--blau),
+	  #454c5e67 100%
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+	  to right,
+	  var(--blau),
+	  #454c5e67 100%
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .go-top {
+	width: 30px;
+	position: fixed;
+	right: 7vw;
+	bottom: 50px;
+	cursor: pointer;
 	filter: drop-shadow(2px 2px 3px #222);
-    -webkit-filter: drop-shadow(2px 2px 3px #222);
-    -ms-filter: drop-shadow(2px 2px 3px #222);
-    -moz-filter: drop-shadow(2px 2px 3px #222);
-    -o-filter: drop-shadow(2px 2px 3px #222);  
-	
+	-webkit-filter: drop-shadow(2px 2px 3px #222);
+	-ms-filter: drop-shadow(2px 2px 3px #222);
+	-moz-filter: drop-shadow(2px 2px 3px #222);
+	-o-filter: drop-shadow(2px 2px 3px #222);
   }
   
   .go-top:hover {
-    transform: translateY(-3px);
+	transform: translateY(-3px);
   }
-
-/**
-.cell{
-	
-	background-color: white;
-	color:#E2133D;
-	font-size: 1.5rem;
-}
-*/
-
-@media screen and (max-width: 500px) {
-   .footer--container--top{
+  
+  /**
+  .cell{
+	  
+	  background-color: white;
+	  color:#E2133D;
+	  font-size: 1.5rem;
+  }
+  */
+  
+  @media screen and (max-width: 500px) {
+	.footer--container--top {
 	  font-size: small;
 	  width: 100%;
-    
-   }
-
-}
+	}
+  }
+  

@@ -5,12 +5,9 @@
     height: 77vh;
     width: 100%;
     margin: 77px auto;
-   
-
-
-}
-
-.kontakt-text{
+  }
+  
+  .kontakt-text {
     background: var(--blau);
     color: white;
     position: relative;
@@ -18,10 +15,9 @@
     width: 60%;
     height: 100%;
     padding: 3.75rem 4em;
-   
-}
-
-.kontakt-text::before{
+  }
+  
+  .kontakt-text::before {
     content: "";
     position: absolute;
     top: 0;
@@ -33,90 +29,79 @@
     background-image: url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/schein.png);
     background-size: cover;
     background-position: 100%;
-}
-
-.kontakt-text-content {
+  }
+  
+  .kontakt-text-content {
     position: relative;
-
-}
-
-
-
-.kontakt-text-content--box {
+  }
+  
+  .kontakt-text-content--box {
     text-align: left;
     display: flex;
     flex-direction: column;
-    align-items:stretch;
-}
-
-.k--filialen{
+    align-items: stretch;
+  }
+  
+  .k--filialen {
     display: flex;
-}
-
-.k--filialen img{
+  }
+  
+  .k--filialen img {
     width: 77px;
-}
-
-.kontakt-form form{
+  }
+  
+  .kontakt-form form {
     display: flex;
     flex-direction: column;
     gap: 40px;
     width: 70%;
     margin: 0 auto;
-}
-.other-icons{
+  }
+  .other-icons {
     margin-right: 10px;
-}
-
-.other-icons:hover{
+  }
+  
+  .other-icons:hover {
     transform: translate(2px);
-}
-.kontakt-form {
-   
-    background-color:rgba(0, 119, 255, 0.075);
+  }
+  .kontakt-form {
+    background-color: rgba(0, 119, 255, 0.075);
     height: 100%;
     padding-top: 77px;
- 
- 
- 
-}
-
-.form--input {
+  }
+  
+  .form--input {
     height: 50px;
     font-size: medium;
     padding: 5px 10px;
-}
-
-
-.textarea{
+  }
+  
+  .textarea {
     font-size: large;
     height: 200px;
     padding: 10px;
-}
-.form-bottom{
+  }
+  .form-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
     width: 100%;
-   
-}
-
-.form-bottom a {
+  }
+  
+  .form-bottom a {
     color: var(--blau);
     text-decoration: underline;
-
-}
-
-.checkbox-container {
+  }
+  
+  .checkbox-container {
     display: flex;
     align-items: center;
     gap: 10px;
     text-align: left;
-}
-
-
-.form--submit{
+  }
+  
+  .form--submit {
     width: 25%;
     height: 50px;
     background-color: var(--rot);
@@ -127,66 +112,63 @@
     font-size: 1.2rem;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
-}
-
-.form--submit:hover{
-   transform: translateY(-3px);
-}
-
-@media screen and (max-width: 1280px) {
-
+  }
+  
+  .form--submit:hover {
+    transform: translateY(-3px);
+  }
+  
+  @media screen and (max-width: 1280px) {
     .kontakt-container {
-        flex-direction: column;
-        height: 110%;
-        width: 100%;
+      flex-direction: column;
+      height: 110%;
+      width: 100%;
     }
-   
-    .kontakt-text{
-        width: 100%;
-       
+  
+    .kontakt-text {
+      width: 100%;
     }
-
+  
     .kontakt-form {
-        padding: 70px 0;
-        width: 100%;
-        
+      padding: 70px 0;
+      width: 100%;
     }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .kontakt-container {
+      margin-top: 30px;
     }
-
-    @media screen and (max-width: 600px) {
-    .kontakt-container {   
-        margin-top: 30px;
-    }
-
+  
     .kontakt-text-content > h1 {
-        font-size: 1.5rem;
-    
+      font-size: 1.5rem;
     }
-    .form-bottom{
-        flex-direction: column;
-        gap: 30px;
+    .form-bottom {
+      flex-direction: column;
+      gap: 30px;
     }
-    .form--submit{
-        margin: 10px 0;
-        width: 100%;
+    .form--submit {
+      margin: 10px 0;
+      width: 100%;
     }
-
+  
     .kontakt-form {
-        padding: 70px 0;
-        height: 100%;
+      padding: 70px 0;
+      height: 100%;
     }
-
-    .k--filialen{
-        flex-direction: column;
-        padding: 0;
-        margin: 0 auto;
+  
+    .k--filialen {
+      flex-direction: column;
+      padding: 0;
+      margin: 0 auto;
     }
-
+  
     .k--filialen div {
-        width: 100%;
-        margin: 10px auto;
-        padding: 0;
+      width: 100%;
+      margin: 10px auto;
+      padding: 0;
     }
-}
-
-/* Path: src/styles/leistungen.css */
+  }
+  
+  /* Path: src/styles/leistungen.css */
+  

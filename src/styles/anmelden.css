@@ -1,14 +1,13 @@
-
 .anmelden-container {
     margin: 77px auto;
     font-size: large;
-}
-
-.anmelden-container h1{
+  }
+  
+  .anmelden-container h1 {
     font-size: 1.7em;
     padding: 0 20px;
-}
-.anmelden-form form{
+  }
+  .anmelden-form form {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -16,53 +15,46 @@
     gap: 20px;
     width: 60vw;
     margin: 50px auto;
-    background-color:rgba(0, 119, 255, 0.075);
+    background-color: rgba(0, 119, 255, 0.075);
     height: 100%;
     padding: 77px;
+  }
   
-}
-
-.anmelden-form select {
+  .anmelden-form select {
     height: 50px;
     font-size: medium;
     padding: 5px 10px;
-}
-
-.anmelden-form input{
+  }
+  
+  .anmelden-form input {
     font-size: medium;
     padding: 5px 10px;
-
-}
-
-.anmelden-form textarea {
+  }
+  
+  .anmelden-form textarea {
     font-size: large;
     height: 200px;
     padding: 10px;
-}
-
-
-
-@media screen and (max-width: 1280px) {
+  }
+  
+  @media screen and (max-width: 1280px) {
     .anmelden-form form {
-        width: 80vw;
+      width: 80vw;
     }
-
-}
-
-@media screen and (max-width: 700px) {
-
+  }
+  
+  @media screen and (max-width: 700px) {
     .anmelden-container {
-        margin: 37px auto;
-        font-size: large;
+      margin: 37px auto;
+      font-size: large;
     }
     .anmelden-form form {
-        width: 90vw;
-        padding: 37px;
+      width: 90vw;
+      padding: 37px;
     }
-
-
-    .anmelden-container h1{
-        font-size: 1.3em;
- 
+  
+    .anmelden-container h1 {
+      font-size: 1.3em;
     }
-}
+  }
+  

@@ -2,7 +2,7 @@
 *:before,
 *:after {
   box-sizing: border-box;
-  --blau: #005EA8;
+  --blau: #005ea8;
   --blau2: rgba(3, 42, 94, 0.884);
   --rot: #e40707;
   --textColor: #504c4a;
@@ -24,13 +24,11 @@ html {
 }
 
 body {
-
   margin: 0 0 80px;
   padding: 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
   min-height: 100vh;
-  
 }
 
 body::-webkit-scrollbar {
@@ -42,6 +40,6 @@ a {
   color: unset;
 }
 
-hr{      
+hr {
   border: 1px dashed rgba(255, 255, 255, 0.644);
 }
