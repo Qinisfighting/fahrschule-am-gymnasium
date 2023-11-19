@@ -21,15 +21,15 @@ export default function Über() {
 
         const interval1 = setInterval(() => {
           counter1 < 34 && setCounter1((counter) => counter + 1);  
-        }, 77);
+        }, 50);
           
         const interval2 = setInterval(() => {
             counter2 < 5000 && setCounter2((counter) => counter + 1);  
-            }, 77);
+            }, 50);
 
             const interval3 = setInterval(() => {
                 counter3 < 90 && setCounter3((counter) => counter + 1);  
-                }, 77);
+                }, 50);
                
         return () => {
           clearInterval(interval1);
