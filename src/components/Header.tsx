@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../src/assets/logo.svg";
 import car from "../../public/car.svg";
+import back from "../../src/assets/back.png"
 
 interface ActiveStyles {
     borderRadius: string | number;
@@ -64,7 +65,7 @@ export default function Header() {
       </div>
       {isMenu ? (
          <div className="menuNav" ref={menuRef} >
-              <p className="closeMenu" onClick={() => setIsMenu(false)}>⇦</p>
+              <div><img className="closeMenu" onClick={() => setIsMenu(false)} src={back} alt="back"/></div> 
               <NavLink to="/" end 
            style={({
             isActive,

@@ -111,7 +111,7 @@ header {
       }
       .menuNav {
         background: rgba(255, 255, 255, 0.952);
-        height:70vh;
+        height:100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -119,7 +119,7 @@ header {
         position: absolute;
         top: 0;
         left: 0;
-        width: 45vw;
+        width: 47vw;
         z-index: 999;
         border: none;
         box-shadow: 1px 1px 5px black;
@@ -129,7 +129,7 @@ header {
       }
       .menuNav > a {
         color: var(--textColor);
-        padding: 10px 35px;
+        padding: 10px 25px;
         width: 100%;
         text-align: left;
       }
@@ -145,13 +145,10 @@ header {
     
         
       .closeMenu{
-        padding-left: 50%;
+        width: 40px;
+        padding: 0;
         margin: 0;
-        font-size: 2.5rem;
-        color: var(--blau);
         cursor: pointer;
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.603);
-
       }
 
 
