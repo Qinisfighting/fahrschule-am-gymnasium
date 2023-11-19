@@ -95,7 +95,7 @@ export default function Über() {
                     <h1>UNSERE FILIALEN</h1>
                     <div className="filialen">
                     <div className="filiale">
-                        <a href="https://www.google.com/maps/dir/54.2734754,10.8633786/54.2900595,10.8933194/@54.2773484,10.8555987,14z/data=!4m5!4m4!1m1!4e1!1m0!3e0?entry=ttu" target="_blank"><img src={location} alt="navi" className="navi" style={{width:77}}/></a>  
+                        <a href="https://www.google.com/maps/dir//54.2900595,10.8933194/@54.2899994,10.8109576,12z?entry=ttu" target="_blank"><img src={location} alt="navi" className="navi" style={{width:77}}/></a>  
                         
                         <div>
                             <h2>Filiale Oldenburg</h2>    
@@ -104,7 +104,7 @@ export default function Über() {
                         </div>
                     </div>
                     <div className="filiale">
-                        <a href="https://www.google.com/maps/dir/54.2734754,10.8633786/Eutiner+Str.+11,+23738+Lensahn/@54.246549,10.8162176,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x47b27f24f7c78c67:0xc481290815469c3e!2m2!1d10.8847198!2d54.2198644?entry=ttu" target="_blank"><img src={location} alt="navi" className="navi" style={{width:77}}/></a> 
+                        <a href="https://www.google.com/maps/dir//Eutiner+Str.+11,+23738+Lensahn/@54.2198363,10.8023197,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x47b27f24f7c78c67:0xc481290815469c3e!2m2!1d10.8847198!2d54.2198644?entry=ttu" target="_blank"><img src={location} alt="navi" className="navi" style={{width:77}}/></a> 
                         <div>
                             <h2>Filiale Lensahn</h2>      
                             <h3>Eutiner Straße 11</h3>
