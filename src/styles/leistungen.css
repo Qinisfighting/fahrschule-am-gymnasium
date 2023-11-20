@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: center;
     background-size: cover;
-    height: 350px;
+    height: 460px;
   }
 
   .each-slide > div:hover{
@@ -203,6 +203,10 @@
   }
 
   @media screen and (max-width: 600px) {
+
+    .each-slide > div {
+      height: 370px;
+    }
     .leistungen--header {
       padding: 27px 0;
       font-size: 1.7rem;
