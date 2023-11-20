@@ -63,7 +63,7 @@ export default function Header() {
         />
        
       </div>
-      <p style={{color: "var(--blau2)", padding: 0, position: "absolute", right: "53px", top: "70px", fontWeight: 600, fontSize: ".9rem" }}>MENU</p>
+      <p style={{color: "var(--blau2)", padding: 0, position: "absolute", right: "53.2px", top: "70px", fontWeight: 600, fontSize: ".9rem" }}>MENU</p>
       {isMenu ? (
         <div className="menuNav" ref={menuRef}>
           <div>
