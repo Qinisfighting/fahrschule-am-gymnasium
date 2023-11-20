@@ -203,6 +203,12 @@
   }
 
   @media screen and (max-width: 600px) {
+    .leistungen--header {
+      padding: 27px 0;
+      font-size: 1.7rem;
+   
+  }
+    
     .klasse--grid {
         display: block;
         width: 93vw;

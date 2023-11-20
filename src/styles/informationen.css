@@ -32,12 +32,25 @@
   }
   
   @media screen and (max-width: 860px) {
+    .info-container{
+      margin:47px auto;
+    }
+    .info--imgs {
+      margin: 37px auto 70px;
+    }
+    .info-container h1{
+      margin:0 auto;
+      font-size: 1.7em;
+
+    }
+    
     .info--imgs {
       grid-template-columns: 1fr;
     }
     .info--imgs fieldset {
       width: 97%;
       height: 100%;
+      margin: 27px 0;
     }
     .info--imgs img {
       width: 87%;
