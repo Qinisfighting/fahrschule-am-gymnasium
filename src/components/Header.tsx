@@ -60,10 +60,9 @@ export default function Header() {
           alt="menu"
           className="menu"
           onClick={() => setIsMenu(true)}
-        />
-       
+        />   
       </div>
-      <p style={{color: "var(--blau2)", padding: 0, position: "absolute", right: "53.2px", top: "70px", fontWeight: 600, fontSize: ".9rem" }}>MENU</p>
+      <p className="menu-p">MENU</p>
       {isMenu ? (
         <div className="menuNav" ref={menuRef}>
           <div>

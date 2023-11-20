@@ -36,7 +36,9 @@ nav > a:hover {
 .menu {
   display: none;
 }
-
+.menu-p {
+  display: none;
+}
 @media screen and (max-width: 1600px) {
   header {
     height: 180px;
@@ -85,7 +87,18 @@ nav > a:hover {
     top: 30px;
     right: 50px;
   }
+   
+  .menu-p {
+    display: inline;
+    position: absolute;
+    right: 53px;
+    top: 70px;
+    color: var(--blau2);
+    padding: 0;
+    font-size: .9rem;
+    font-weight: 600;
 
+  }
   .menuDiv:hover {
     animation: none;
   }
