@@ -62,7 +62,7 @@ export default function Header() {
           onClick={() => setIsMenu(true)}
         />   
       </div>
-      <p className="menu-p">MENU</p>
+      <p className="menu-p">MENÜ</p>
       {isMenu ? (
         <div className="menuNav" ref={menuRef}>
           <div>
