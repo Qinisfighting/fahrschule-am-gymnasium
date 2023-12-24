@@ -8,6 +8,9 @@
     text-justify: inter-word;
 }
 
+.datenschutz h1{
+    border-bottom: .5px solid rgba(105, 105, 105, 0.603);
+}
 .datenschutz a{
     color: var(--blau);
     text-decoration: underline;   
