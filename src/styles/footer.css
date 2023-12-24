@@ -91,3 +91,9 @@ footer {
 	}
   }
   
+  @media screen and (max-width: 300px) {
+	.footer--container {
+	  width: 100%;	
+	}
+  }
+  

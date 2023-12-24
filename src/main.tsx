@@ -10,6 +10,8 @@ import './styles/über.css'
 import './styles/leistungen.css'
 import './styles/anmelden.css'
 import './styles/kontakt.css'
+import './styles/datenschutz.css'
+import './styles/impressum.css'
 
 
 

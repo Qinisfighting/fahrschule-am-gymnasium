@@ -134,8 +134,7 @@ nav > a:hover {
     z-index: 999;
     border: none;
     box-shadow: 1px 1px 5px black;
-    font-size: large;
-    font-weight: 600;
+    font-size: 1.2em;
     animation: expand-fade-in 0.7s ease-in;
   }
   .menuNav > a {
