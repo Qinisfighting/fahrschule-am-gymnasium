@@ -3,21 +3,24 @@ export default function Impressum() {
         <div className="impressum">
             <h1>Impressum</h1>
             <hr />
-            <h2>Angaben gemäß § 5 TMG</h2>
+            <p>Fahrschule am Gymnasium</p>
             <address>
+              Inhaber: <br />
               Andreas Walk <br />
               Göhler Straße 32 <br />
               23758 Oldenburg/H <br />
             </address>
+            <h2>Verantwortliche i.S.v. § 6 Abs. 2 MDStV:</h2>
+            <p>Andreas Walk</p>
             <h2>Kontakt</h2>
             <address>
               Telefon: 04361 / 494 108 <br />
               E-Mail: info@a-walk.de
             </address>
-            <h2>Aufsichtsbehörde</h2>
+            <h2>Überwachungsbehörde:</h2>
             <p>
               <a href="https://www.kreis-oh.de/Bürger-Kreis-Verwaltung/Auto-Verkehr/Führerscheinstelle/">Führerscheinstelle Kreis Ostholstein</a><br />
-              Fachdienst Straßenverkehr <br />
+              Landesbetrieb für Straßenbau und Straßenverkehr <br />
               Bürgermeister-Steenbock-Str. 20 <br />
               23701 Eutin
             </p>
