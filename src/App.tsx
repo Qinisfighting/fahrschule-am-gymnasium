@@ -8,10 +8,15 @@ import Layout from "./components/Layout";
 import Error from "./components/Error";
 import Fahrschule from "./pages/Fahrschule";
 import Über from "./pages/Über";
-import Leistungen from "./pages/Leistungen";
 import Informationen from "./pages/Informationen";
+import Allgemeines from "./pages/Infos/Allgemeines";
+import Theorie from "./pages/Infos/Theorie";
+import Ab17 from "./pages/Infos/Ab17";
+import Preise from "./pages/Infos/Preise";
+import Fragen from "./pages/Infos/Fragen";
 import Anmelden from "./pages/Anmelden";
 import Kontakt from "./pages/Kontakt";
+import Links from "./pages/Links";
 import Impressum from "./pages/Impressum";
 import Datenschutz from "./pages/Datenschutz";
 
@@ -21,13 +26,18 @@ const router = createBrowserRouter(
       <Route index element={<Fahrschule />} />
       <Route path="über" element={<Über />} />
       <Route
-        path="leistungen"
-        element={<Leistungen />}
+        path="informationen"
+        element={<Informationen />}
         errorElement={<Error />}
-      />
-      <Route path="informationen" element={<Informationen />} />
+      />    
+      <Route path="informationen/allgemeines" element={<Allgemeines />} />
+      <Route path="informationen/theorie" element={<Theorie />} />
+      <Route path="informationen/ab17" element={<Ab17 />} />
+      <Route path="informationen/preise" element={<Preise />} />
+      <Route path="informationen/fragen" element={<Fragen />} />
       <Route path="anmelden" element={<Anmelden />} />
       <Route path="kontakt" element={<Kontakt />} />
+      <Route path="links" element={<Links />} />
       <Route path="impressum" element={<Impressum />} />
       <Route path="datenschutz" element={<Datenschutz />} />
     </Route>

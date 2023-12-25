@@ -1,44 +1,158 @@
-import tüv from '../assets/tüv.png';
-import oh from '../assets/oh.png';
-import bf17 from '../assets/bf17.svg';
-import adac from '../assets/ADAC.png';
 
+import { klassenData } from "../data";
+import { Slide } from 'react-slideshow-image';
+import { Link } from "react-router-dom";
+import 'react-slideshow-image/dist/styles.css'
 
-export default function Informationen() {
+const responsiveSettings = [
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }
+  ];
+  
+  function KlasseCard({
+    name,
+    klasse,
+    icon
+  }: {
+    name: string;
+    klasse: string;
+    icon: string;
+  }) {
     return (
-      <div className="info-container">
-        <h1>INFORMATIONEN- LINKS</h1>
-        <div className="info--imgs">
-          <a
-            href="https://www.tuev-nord.de/de/privatkunden/verkehr/fuehrerschein/fahrschueler-app/"
-            target="_blank"
-          >
-            <fieldset>
-              <legend>Führerschein App</legend>
-              <img src={tüv} alt="tüv" />
-            </fieldset>
-          </a>
-          <a
-            href="https://www.kreis-oh.de/B%C3%BCrger-Kreis-Verwaltung/Auto-Verkehr/F%C3%BChrerscheinstelle/"
-            target="_blank"
-          >
-            <fieldset>
-              <legend>Führerscheinstelle Ostholstein</legend>
-              <img src={oh} alt="oh" />
-            </fieldset>
-          </a>
-          <a href="https://www.bf17.de/" target="_blank">
-            <fieldset>
-              <legend>Begleitetes Fahren ab 17</legend>
-              <img src={bf17} alt="bf17" />
-            </fieldset>
-          </a>
-          <a href="https://www.adac.de/" target="_blank">
-            <fieldset>
-              <legend>Allgemeiner Deutscher Automobil-Club</legend>
-              <img src={adac} alt="ADAC" />
-            </fieldset>
-          </a>
+      <div className="klasse--card">
+        <figure>
+          <img src={icon} alt={name} />
+        </figure>
+        <div>
+          <h3>{name}</h3>
+          <p>{klasse}</p>
+        </div>
+      </div>
+    );
+  }
+  
+  export default function Informationen() {
+    return (
+      <div className="info--container">
+        <h1 className="info--header">INFORMATIONEN</h1>
+  
+        <Slide
+          indicators={true}
+          slidesToScroll={1}
+          slidesToShow={1}
+          responsive={responsiveSettings}
+        >
+          <div className="each-slide">
+            <div
+              style={{
+                backgroundImage: `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/fahren.jpg)`
+              }}
+            >
+              <span>
+                <Link
+                  to="allgemeines"
+                >
+                  Allgemeines
+                </Link>
+              </span>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div
+              style={{
+                backgroundImage: `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/theorie.jpg)`
+              }}
+            >
+              <span>
+              <Link
+                  to="theorie"
+                >
+                  Theorietische Unterricht
+              </Link> 
+              </span>
+            </div>
+          </div>  
+          <div className="each-slide">
+            <div
+              style={{
+                backgroundImage: `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/17.jpg)`
+              }}
+            >
+              <span>
+              <Link
+                  to="ab17"
+                >
+                  Begleitetes Fahren ab 17
+              </Link> 
+              </span>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div
+              style={{
+                backgroundImage: `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/schwein.jpg)`
+              }}
+            >
+              <span>
+              <Link
+                  to="preise"
+                >
+                  Preise & Abrechnung
+              </Link> 
+              </span>
+            </div>
+          </div>
+          <div className="each-slide">
+            <div
+              style={{
+                backgroundImage: `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/fragen.jpg)`
+              }}
+            >
+              <span>
+              <Link
+                  to="fragen"
+                >
+                  Fragen über
+              </Link> 
+              </span>
+            </div>
+          </div>
+        
+        </Slide>
+        <div className="klasse--title">
+          <h2>FAHRERLAUBNISKLASSEN</h2>
+          <p>
+            <a
+              href="https://www.adac.de/verkehr/rund-um-den-fuehrerschein/klassen/ueberblick/"
+              target="_blank"
+            >
+              MEHR
+            </a>{" "}
+          </p>
+        </div>
+        <div className="klasse--grid">
+          {klassenData.map((klasse) => (
+            <KlasseCard
+              name={klasse.name}
+              klasse={klasse.klasse}
+              icon={klasse.icon}
+            />
+          ))}
+          <div className="link-btn">
+            <Link to="/anmelden">JETZT ANMELDEN ➢</Link>
+          </div>
         </div>
       </div>
     );

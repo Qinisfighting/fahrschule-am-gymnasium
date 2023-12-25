@@ -33,7 +33,7 @@ const personalData: PersonalData[] = [
    
 ];
 
-const leistungenData: { name: string, klasse: string, icon: string }[] = [
+const klassenData: { name: string, klasse: string, icon: string }[] = [
     
     {
         name: "PKW",
@@ -64,5 +64,5 @@ const leistungenData: { name: string, klasse: string, icon: string }[] = [
 
 ]
 
-export { personalData, leistungenData };
+export { personalData, klassenData };
     

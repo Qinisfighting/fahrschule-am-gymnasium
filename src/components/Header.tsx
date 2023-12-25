@@ -101,7 +101,7 @@ export default function Header() {
           </NavLink>
 
           <NavLink
-            to="leistungen"
+            to="informationen"
             style={({
               isActive,
               isPending
@@ -110,7 +110,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            <div onClick={() => setIsMenu(false)}>LEISTUNGEN</div>
+            <div onClick={() => setIsMenu(false)}>INFOS</div>
           </NavLink>
 
           <NavLink
@@ -139,7 +139,7 @@ export default function Header() {
             <div onClick={() => setIsMenu(false)}>KONTAKT</div>
           </NavLink>
           <NavLink
-            to="informationen"
+            to="links"
             style={({
               isActive,
               isPending
@@ -181,7 +181,7 @@ export default function Header() {
           </NavLink>
 
           <NavLink
-            to="leistungen"
+            to="informationen"
             style={({
               isActive,
               isPending
@@ -190,7 +190,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            LEISTUNGEN
+            INFOS
           </NavLink>
 
           <NavLink
@@ -219,7 +219,7 @@ export default function Header() {
             KONTAKT
           </NavLink>
           <NavLink
-            to="informationen"
+            to="links"
             style={({
               isActive,
               isPending
