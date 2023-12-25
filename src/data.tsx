@@ -43,7 +43,7 @@ const leistungenData: { name: string, klasse: string, icon: string }[] = [
     {
         name: "BUS",
         klasse: "Fahrerlaubnisklasse: D1, D1E, D, DE",
-        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/anhänger.png"
+        icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/bus.png"
     },
     {
         name: "LKW",
