@@ -102,7 +102,7 @@ const responsiveSettings = [
           <div className="each-slide">
             <div
               style={{
-                backgroundImage: `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/schwein.png)`
+                backgroundImage: `url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/schwein.jpg)`
               }}
             >
               <span>
