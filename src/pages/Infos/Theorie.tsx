@@ -1,6 +1,9 @@
 export default function Theorie() {
     return (
+      <>
+        <img className="info-img" src="https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/theorie.jpg" alt="Theorieprüfung" />
         <div className="textContainer">
+          <div className="theorieprüfung">   
             <h1>Theorieprüfung</h1>
             <ul>
               <li>Die Theorieprüfung besteht aus 30 Fragen, wovon 20 richtig beantwortet werden müssen.</li>
@@ -14,8 +17,17 @@ export default function Theorie() {
               <li>Die Theorieprüfung ist 12 Monate gültig.</li>
               <li>Wenn die Theorieprüfung nicht innerhalb von 12 Monaten nach der Anmeldung zur Prüfung bestanden wird, verfällt die Theorieprüfung und muss wiederholt werden.</li>
             </ul>
-            
-            <h1>Theorieunterricht</h1>
+        </div> 
+          <div className="theorieunterricht">    
+              <div className="theorieunterricht--left">
+                <h1>Theorieunterricht</h1>
+              </div>
+              <div className="theorieunterricht--right">
+                  <p>Oldenburg: Di. & Do. 19:00 - 20:30</p>
+                  <p>Lensahn: Mo. & Mi. 19:00 - 20:30</p>
+              </div>      
+          </div>
+          <div className="theorieunterricht--bottom">
             <h3>Thema 1: Persönliche Voraussetzungen</h3>
             <h3>Thema 2: Risikofaktor Mensch</h3>
             <h3>Thema 3: Rechtliche Rahmenbedingungen</h3>
@@ -30,6 +42,8 @@ export default function Theorie() {
             <h3>Thema 12: Lebenslanges Lernen</h3>
             <h3>Thema 13: Technische Bedingungen, Personen- und Güterbeförderung Umweltschutz</h3>
             <h3>Thema 14: Fahren mit Solokraftfahrzeugen und Zügen</h3>
+          </div>  
         </div>
+        </>  
     )
 }

@@ -235,16 +235,29 @@ background-color: var(--rot);
 
 /* sub -pages (Infos) */
 
+.info-img{
+  
+  width: 100vw;
+  height:40vh;
+  object-fit: cover;
+  margin-top: 20px;
+  filter: saturate(37%);
+}
+
 .textContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   text-align: left;
   width: 60vw;
   margin: 100px auto 200px; 
   padding: 0;
 }
 
-.textContainer h1{
+
+.theorieprüfung h1{
   border-bottom: .7px solid gray;
-  padding: 30px 0;
+  padding: 0 0 20px;
 }
 
 .textContainer h3{
@@ -253,6 +266,20 @@ background-color: var(--rot);
 .textContainer ul li{
   padding: 10px 0;
   font-size: 1.2em;
+  font-weight: 600;
+}
+
+.theorieunterricht{
+  border-bottom: .7px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.theorieunterricht--right{
+  color: var(--rot);
+  font-size: 1.1em;
   font-weight: 600;
 }
 
