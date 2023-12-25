@@ -109,8 +109,9 @@ export default function Kontakt() {
                 <img src={person} alt="person" className="other-icons" />
 
                 <div>
-                  <h2>Andreas Walk</h2>
+                  <h2>Kontakt</h2>
                   <hr />
+                  <h3>Andreas Walk</h3>
                   <h3>Mobil: 0171/1261672</h3>
                   <h3>Tel.: 04361/494108</h3>
                   <h3>Fax: 04361/494821</h3>
@@ -131,9 +132,12 @@ export default function Kontakt() {
                 <div>
                   <h2>Auskunft und Anmeldung</h2>
                   <hr />
-                  <h3>Di. + Do. 18:30 Uhr</h3>
+                  <h3>Öffnungszeiten:</h3>
+                  <p>Oldenburg: Di. & Do. 18:00 - 20:30</p>
+                  <p>Lensahn: Mo. & Mi. 18:00 - 19:00</p>
                   <h3>Präsenz-Theorieunterricht:</h3>
-                  <h3>ab 19:00 Uhr</h3>
+                  <p>Oldenburg: Di. & Do. 19:00 - 20:30</p>
+                  <p>Lensahn: Mo. & Mi. 19:00 - 20:30</p>
                 </div>
               </div>
             </div>

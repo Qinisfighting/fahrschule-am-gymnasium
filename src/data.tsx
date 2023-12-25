@@ -37,12 +37,12 @@ const leistungenData: { name: string, klasse: string, icon: string }[] = [
     
     {
         name: "PKW",
-        klasse: "Fahrerlaubnisklasse: B, BE, B96",
+        klasse: "Fahrerlaubnisklasse: B, BE, B96, B197",
         icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/PKW.png"
     },
     {
-        name: "ANHÄNGER",
-        klasse: "Fahrerlaubnisklasse: BE, B96",
+        name: "BUS",
+        klasse: "Fahrerlaubnisklasse: D1, D1E, D, DE",
         icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/anhänger.png"
     },
     {
@@ -51,12 +51,12 @@ const leistungenData: { name: string, klasse: string, icon: string }[] = [
         icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/LKW.png"
     },  
     {
-        name: "TRECKER",
+        name: "TRAKTOR",
         klasse: "Fahrerlaubnisklasse: T, L",
         icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/trecker.png"
     },
     {
-        name: "MOTORRÄDER",
+        name: "KRAFTRAD",
         klasse: "Fahrerlaubnisklasse: AM, A1, A2, A",
         icon: "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/motorbike.png"
     },
