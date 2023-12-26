@@ -10,6 +10,7 @@ import Fahrschule from "./pages/Fahrschule";
 import Über from "./pages/Über";
 import Informationen from "./pages/Informationen";
 import Allgemeines from "./pages/Infos/Allgemeines";
+import Fahrerlaubnisklassen from "./pages/Infos/Fahrerlaubnisklassen";
 import Theorie from "./pages/Infos/Theorie";
 import Ab17 from "./pages/Infos/Ab17";
 import Preise from "./pages/Infos/Preise";
@@ -32,6 +33,7 @@ const router = createBrowserRouter(
       />    
       <Route path="informationen/allgemeines" element={<Allgemeines />} />
       <Route path="informationen/theorie" element={<Theorie />} />
+      <Route path="informationen/fahrerlaubnisklassen" element={<Fahrerlaubnisklassen />} />
       <Route path="informationen/ab17" element={<Ab17 />} />
       <Route path="informationen/preise" element={<Preise />} />
       <Route path="informationen/fragen" element={<Fragen />} />

@@ -18,6 +18,7 @@ interface PendingStyles {
 
 export default function Header() {
   const [isMenu, setIsMenu] = useState<boolean>(false);
+  const [isDropdown, setIsDropdown] = useState<boolean>(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   const activeStyles: ActiveStyles = {
@@ -49,6 +50,13 @@ export default function Header() {
     };
   });
 
+  function handleMenu() { 
+    setIsMenu(false);
+    setIsDropdown(false);
+
+  }
+
+   
   return (
     <header>
       <Link to="/" className="site-logo">
@@ -84,7 +92,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            <div onClick={() => setIsMenu(false)}>FAHRSCHULE</div>
+            <div onClick={handleMenu}>FAHRSCHULE</div>
           </NavLink>
 
           <NavLink
@@ -97,9 +105,9 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            <div onClick={() => setIsMenu(false)}>ÜBER UNS</div>
+            <div onClick={handleMenu}>ÜBER UNS</div>
           </NavLink>
-
+          
           <NavLink
             to="informationen"
             style={({
@@ -110,7 +118,63 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            <div onClick={() => setIsMenu(false)}>INFOS</div>
+            <details open={isDropdown} onClick={() => setIsDropdown(!isDropdown)}>
+                <summary>
+                  INFOS
+                </summary>
+                <div className="infos--dropdown">
+                <p>
+                    <Link
+                      to="informationen/allgemeines"
+                      onClick={handleMenu}
+                    >
+                      Allgemeines
+                    </Link>
+                </p>
+                <p>
+                    <Link
+                      to="informationen/fahrerlaubnisklassen"
+                      onClick={handleMenu}
+                    >
+                      Fahrerlaubnisklassen
+                    </Link>
+                </p>
+                <p>
+                    <Link
+                    to="informationen/theorie"
+                    onClick={handleMenu}
+                  >
+                    Theorieunterricht
+                    </Link>
+                </p>
+                <p>
+                    <Link
+                      to="informationen/ab17"
+                      onClick={handleMenu}
+                    >
+                    Fahren ab 17
+                    </Link> 
+                </p>
+                <p>
+                    <Link
+                      to="informationen/preise"
+                      onClick={handleMenu}
+                    >
+                      Preise & Abrechnung
+                  </Link> 
+                </p>
+                <p>
+                    <Link
+                      to="informationen/fragen"
+                      onClick={handleMenu}
+                    >
+                      Fragen über
+                   </Link> 
+                </p>  
+                </div>
+                        
+              </details>
+           
           </NavLink>
 
           <NavLink
@@ -123,7 +187,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            <div onClick={() => setIsMenu(false)}>ANMELDEN</div>
+            <div onClick={handleMenu}>ANMELDEN</div>
           </NavLink>
 
           <NavLink
@@ -136,7 +200,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            <div onClick={() => setIsMenu(false)}>KONTAKT</div>
+            <div onClick={handleMenu}>KONTAKT</div>
           </NavLink>
           <NavLink
             to="links"
@@ -148,7 +212,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            <div onClick={() => setIsMenu(false)}>LINKS</div>
+            <div onClick={handleMenu}>LINKS</div>
           </NavLink>
         </div>
       ) : (
@@ -164,7 +228,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            FAHRSCHULE
+            <div onClick={()=>setIsDropdown(false)}>FAHRSCHULE</div>
           </NavLink>
 
           <NavLink
@@ -177,9 +241,8 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            ÜBER UNS
+            <div onClick={()=>setIsDropdown(false)}>ÜBER UNS</div>
           </NavLink>
-
           <NavLink
             to="informationen"
             style={({
@@ -190,7 +253,56 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            INFOS
+            <details open={isDropdown} onClick={() => setIsDropdown(!isDropdown)}>
+                <summary>
+                  INFOS
+                </summary>
+                <div className="infos--dropdown">
+                <p>
+                    <Link
+                      to="informationen/allgemeines"
+                    >
+                      Allgemeines
+                    </Link>
+                </p>
+                <p>
+                    <Link
+                      to="informationen/fahrerlaubnisklassen"
+                    >
+                      Fahrerlaubnisklassen
+                    </Link>
+                </p>
+                <p>
+                    <Link
+                    to="informationen/theorie"
+                  >
+                    Theorieunterricht
+                    </Link>
+                </p>
+                <p>
+                    <Link
+                      to="informationen/ab17"
+                    >
+                    Fahren ab 17
+                    </Link> 
+                </p>
+                <p>
+                    <Link
+                      to="informationen/preise"
+                    >
+                      Preise & Abrechnung
+                  </Link> 
+                </p>
+                <p>
+                    <Link
+                      to="informationen/fragen"
+                    >
+                      Fragen über
+                   </Link> 
+                </p>  
+                </div>
+                        
+              </details>
           </NavLink>
 
           <NavLink
@@ -203,7 +315,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            <div onClick={() => setIsMenu(false)}>ANMELDEN</div>
+            <div onClick={()=>setIsDropdown(false)}>ANMELDEN</div>
           </NavLink>
 
           <NavLink
@@ -216,7 +328,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            KONTAKT
+            <div onClick={()=>setIsDropdown(false)}>KONTAKT</div>
           </NavLink>
           <NavLink
             to="links"
@@ -228,7 +340,7 @@ export default function Header() {
               isPending: boolean;
             }) => (isActive && !isPending ? activeStyles : pendingStyles)}
           >
-            LINKS
+            <div onClick={()=>setIsDropdown(false)}>LINKS</div>
           </NavLink>
         </nav>
       )}
