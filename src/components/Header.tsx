@@ -168,7 +168,7 @@ export default function Header() {
                       to="informationen/fragen"
                       onClick={handleMenu}
                     >
-                      Fragen über
+                      Fragen üben
                    </Link> 
                 </p>  
                 </div>

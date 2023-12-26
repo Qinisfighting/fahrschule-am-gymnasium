@@ -117,7 +117,7 @@ const responsiveSettings = [
               <Link
                   to="fragen"
                 >
-                  Fragen über
+                  Fragen üben
               </Link> 
               </span>
             </div>
