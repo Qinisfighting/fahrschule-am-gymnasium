@@ -120,6 +120,12 @@
     align-self: center;
     padding: 10px 30px 30px;
   }
+
+  .home--container--bottom--box--text{
+    display: block;
+    margin: 10px auto;
+  }
+ 
   
   .home--container--bottom--box > img {
     width: 80px;
@@ -189,21 +195,26 @@
       gap: 50px 0;
     }
     .home--container--top > img {
-      width: 74vw;
+      width: 77vw;
     }
   
     .home--container--bottom {
       margin: 0 auto;
-      width: 75vw;
+      width: 77vw;
     }
   
     .home--container--bottom--box > img {
       width: 70px;
       height: 70px;
-      margin: 10px;
+      margin: 15px 10px;
     }
     .home--container--bottom--box {
       padding: 10px 0 30px;
+    }
+
+    .home--container--bottom--box--text{
+
+      margin: 0 auto;
     }
   }
   

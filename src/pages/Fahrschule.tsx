@@ -28,24 +28,20 @@ export default function Fahrschule() {
         <div className="home--container--bottom">
           <div className="home--container--bottom--box">
             <img src={steering} alt="steering" />
-            <div>
+            <div className="home--container--bottom--box--text">
               <h3>Professionale Leistungen</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-                eiusmod The point of using lorem ipsum.Lorem ipsum dolor sit amet
-                consectetur
+              Mit Freude und Spaß bringen wir Dich zu Deinem lang ersehnten Ziel - Deinem Führerschein!
               </p>
             </div>
           </div>
           <hr />
           <div className="home--container--bottom--box">
             <img src={euro} alt="euro" />
-            <div>
+            <div className="home--container--bottom--box--text">
               <h3>Konkurrenzfähige Preise</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do
-                eiusmod The point of using lorem ipsum.Lorem ipsum dolor sit amet
-                consectetur
+              Wir versuchen nicht, der Billigste zu sein, aber wir versuchen, Ihre Zahlung lohnenswert zu gestalten!
               </p>
             </div>
           </div>
