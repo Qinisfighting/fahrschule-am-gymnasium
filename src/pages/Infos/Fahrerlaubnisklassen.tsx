@@ -33,6 +33,7 @@ function KlasseCard({
 export default function Fahrerlaubnisklassen() {
     return (
         <>
+        <img className="info-img" src="https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/klassen.png" alt="klassen" />
         <div className="klasse--title">
           <h2>FAHRERLAUBNISKLASSEN</h2>
           <p>
