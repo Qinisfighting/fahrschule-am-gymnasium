@@ -41,7 +41,7 @@ export default function Fahrerlaubnisklassen() {
               href="https://www.adac.de/verkehr/rund-um-den-fuehrerschein/klassen/ueberblick/"
               target="_blank"
             >
-              MEHR
+              MEHR...
             </a>{" "}
           </p>
         </div>
@@ -51,6 +51,7 @@ export default function Fahrerlaubnisklassen() {
               name={klasse.name}
               klasse={klasse.klasse}
               icon={klasse.icon}
+              key={klasse.name}
             />
           ))}
           <div className="link-btn">

@@ -260,19 +260,54 @@ background-color: var(--rot);
   padding: 0 0 20px;
 }
 
+.textContainer h2{
+  padding-left: 0;
+  margin: 0;
+}
 .textContainer h3{
   padding-left: 20px;
 }
 .textContainer ul li{
   padding: 10px 0;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 550;
 }
 
 .textContainer p{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 0;
   margin: 0;
+
+}
+
+.textContainer--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 0.7px solid gray;
+}
+
+.textContainer--top button{
+  font-size: 1.1rem;
+  background-color: var(--blau);
+  color: white;
+  width:fit-content;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.textContainer button:hover{
+  background-color: var(--rot);
+}
+
+.textContainer p span{
+  font-size: 1.3rem;
+  color: var(--rot);
+  text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.404);
+  font-weight: 600;
+ 
 
 }
 
@@ -287,13 +322,23 @@ background-color: var(--rot);
 .theorieunterricht--right{
   color: var(--rot);
   font-size: 1.1em;
-  font-weight: 600;
+  font-weight: 550;
+  padding-bottom: 20px;
 }
+
 
 @media screen and (max-width: 1025px){
   .textContainer{
     margin: 30px auto 150px; 
     width: 90vw;
+  }
+
+  .textContainer--top {
+    padding-bottom: 20px;
+  }
+
+  .textContainer h1{
+    font-size: 1.8rem;
   }
 }
 

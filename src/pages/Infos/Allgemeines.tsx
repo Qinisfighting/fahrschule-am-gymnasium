@@ -3,7 +3,9 @@ export default function Allgemeines() {
         <>
           <img className="info-img" src="https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/fahren.jpg" alt="fahren" />
           <div className="textContainer">
-            <h1>Allgemeines</h1>
+          <div className="textContainer--top">
+             <h1>Allgemeines</h1>
+          </div>
             <p>
               In Deutschland muss man vieles mit einem Formular beantragen. So auch den Erwerb einer Fahrerlaubnis. Dafür gibt es einen Antrag. Diesen Antrag füllen wir für dich aus, den du dann unterschreiben musst.
             </p>
@@ -58,7 +60,29 @@ export default function Allgemeines() {
             <p>
             Wie viele Übungsfahrten man braucht hängt von jedem individuell ab.
             </p>
-
+            <h2>Wie viele Sonderfahrten gibt es?</h2>
+            <p>
+            Die Sonderfahrten allerdings sind gesetzlich vorgeschrieben und müssen gefahren werden. Gerade bei uns auf dem Land ist es empfehlenswert in der Ausbildung öfter mal die Landstraße zu befahren, da dort immer wieder schwere Unfälle passieren. Ihr müsst folgende Fahrten fahren:
+            </p>
+            <ul>
+                <li>5 x 45 min Überlandfahrten</li>
+                <li>4 x 45 min Autobahnfahrten</li>
+                <li>3 x 45 min Beleuchtungsfahrten</li>
+            </ul>
+            <p>
+            Die Sonderfahrten sollten auch dazu genutzt werden, um weiter zu fahren, als der Prüfungsort. Wir nutzen diese, um auch mal in die Städte zu fahren, wie z.B.: Kiel, Hamburg und Lübeck. Auch nach Berlin, Hannover und Bremen ist möglich. Hier müssten mindestens 2 Schüler fahren.
+            </p>
+            <h2>Wann kann ich zur Prüfung?</h2>
+            <p>
+            Lasst Euch nicht von Anderen beeinflussen, wie z.B.: „ Ich bin durchgefallen, weil ich einmal nicht geblinkt habe “ oder „Ist er vielleicht doch bei Rot durchgefahren“? Besser ist es, keinem zu sagen, dass ihr Prüfung macht, damit der äußere Druck nicht noch zum inneren dazukommt.
+            </p>
+            <h2>Ausbildungsvertrag</h2>
+            <p>
+            Ohne Ausbildungsvertrag dürfen wir euch nicht ausbilden. In diesem stehen auch die Kosten für den Grundbetrag, Fahrstunden, Vorstellung zur Prüfung usw. Solltet Ihr noch keine 18 Jahre alt sein müssen eure Eltern eine Einverständniserklärung unterschreiben.
+            </p>
+            <p>
+            Dann viel Spaß bei der Ausbildung mit uns. Unser Motto : <span>Keep cool and get lässig! :-)</span>
+            </p>
           </div>
         </>
     )

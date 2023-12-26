@@ -18,7 +18,7 @@ nav > a {
   display: inline-block;
   padding: 12px 0;
   margin: 0.3em;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 600;
   width: 120px;
   height: 40px;
@@ -63,6 +63,7 @@ details {
   margin: 10px auto;
   color:white;
   padding: 20px;
+  font-size: 1.1rem;
 }
 .infos--dropdown p:hover {
   background-color: rgba(255, 255, 255, 0.13);
