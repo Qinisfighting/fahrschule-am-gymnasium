@@ -196,8 +196,8 @@
     }
   
     .home--container--bottom {
-      flex-direction: column;
       margin: 0 auto;
+      flex-direction: column;
       width: 77vw;
       gap: 20px;
       padding: 20px;
@@ -206,7 +206,7 @@
     .home--container--bottom--box > img {
       width: 70px;
       height: 70px;
-      margin: 15px 10px;
+      margin: 15px 10px 15px 0;
     }
     .home--container--bottom--box {
       padding: 10px 0 30px;
