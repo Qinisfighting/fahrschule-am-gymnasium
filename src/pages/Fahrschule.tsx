@@ -41,7 +41,7 @@ export default function Fahrschule() {
             <div className="home--container--bottom--box--text">
               <h3>Konkurrenzfähige Preise</h3>
               <p>
-              Wir versuchen nicht, der Billigste zu sein, aber wir versuchen, Ihre Zahlung lohnenswert zu gestalten!
+              Billig muss nicht gut sein – Qualität hat ihren Preis. Wir bieten Dir eine professionale Ausbildung zu einem fairen Preis.
               </p>
             </div>
           </div>

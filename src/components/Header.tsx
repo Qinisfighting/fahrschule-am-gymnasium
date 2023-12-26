@@ -297,7 +297,7 @@ export default function Header() {
                     <Link
                       to="informationen/fragen"
                     >
-                      Fragen über
+                      Fragen üben
                    </Link> 
                 </p>  
                 </div>

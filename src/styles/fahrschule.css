@@ -119,6 +119,7 @@
     display: flex;
     align-self: center;
     padding: 10px 30px 30px;
+    width: 50%;
   }
 
   .home--container--bottom--box--text{
@@ -164,11 +165,7 @@
       margin: 17px 10px 0px 0px;
     }
   
-    .home--container--bottom {
-      flex-direction: column;
-      gap: 20px;
-      padding: 20px;
-    }
+   
   
     .home--container--bottom > hr {
       display: none;
@@ -199,8 +196,11 @@
     }
   
     .home--container--bottom {
+      flex-direction: column;
       margin: 0 auto;
       width: 77vw;
+      gap: 20px;
+      padding: 20px;
     }
   
     .home--container--bottom--box > img {
@@ -210,10 +210,10 @@
     }
     .home--container--bottom--box {
       padding: 10px 0 30px;
+      width: 100%;
     }
 
     .home--container--bottom--box--text{
-
       margin: 0 auto;
     }
   }
