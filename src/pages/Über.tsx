@@ -48,7 +48,7 @@ export default function Über() {
               <h2>{lehrer.name}</h2>
               <h3>{lehrer.title}</h3>
               <p>{lehrer.description}</p>
-              <p className="cell">📞{lehrer.phone}</p>
+              <p className="cell">📞 {lehrer.phone}</p>
               <a href={`mailto:${lehrer.email}`} target="_blank">
                 <img src={email} alt="email" className="email" />
               </a>
