@@ -121,8 +121,8 @@ export default function Über() {
   
                 <div>
                   <h2>Filiale Oldenburg</h2>
-                  <h3>Göhler Straße 32</h3>
-                  <h3>23758 Oldenburg i.H.</h3>
+                  <p>Göhler Straße 32</p>
+                  <p>23758 Oldenburg i.H.</p>
                 </div>
               </div>
               <div className="filiale">
@@ -134,13 +134,12 @@ export default function Über() {
                     src={location}
                     alt="navi"
                     className="navi"
-                    style={{ width: 77 }}
                   />
                 </a>
                 <div>
                   <h2>Filiale Lensahn</h2>
-                  <h3>Eutiner Straße 11</h3>
-                  <h3>23738 Lensahn</h3>
+                  <p>Eutiner Straße 11</p>
+                  <p>23738 Lensahn</p>
                 </div>
               </div>
             </div>

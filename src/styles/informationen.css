@@ -342,3 +342,12 @@ background-color: var(--rot);
   }
 }
 
+@media screen and (max-width: 400px) {
+  
+  .textContainer--top > button {
+    margin-top: 20px;
+  }
+
+ 
+
+}
