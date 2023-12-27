@@ -74,18 +74,19 @@ export default function Kontakt() {
           <div className="kontakt-text-content--box">
             <div className="k--filialen">
               <div className="filiale">
+              
                 <a
                   href="https://www.google.com/maps/dir//54.2900595,10.8933194/@54.2899994,10.8109576,12z?entry=ttu"
                   target="_blank"
                 >
                   <img src={location2} alt="navi" className="navi" />
                 </a>
-
+              
                 <div>
                   <h2>Filiale Oldenburg</h2>
                   <hr />
-                  <h3>Göhler Straße 32</h3>
-                  <h3>23758 Oldenburg i.H.</h3>
+                  <p>Göhler Straße 32</p>
+                  <p>23758 Oldenburg i.H.</p>
                 </div>
               </div>
               <div className="filiale">
@@ -98,8 +99,8 @@ export default function Kontakt() {
                 <div>
                   <h2>Filiale Lensahn</h2>
                   <hr />
-                  <h3>Eutiner Straße 11</h3>
-                  <h3>23738 Lensahn</h3>
+                  <p>Eutiner Straße 11</p>
+                  <p>23738 Lensahn</p>
                 </div>
               </div>
             </div>
@@ -112,10 +113,10 @@ export default function Kontakt() {
                   <h2>Kontakt</h2>
                   <hr />
                   <h3>Andreas Walk</h3>
-                  <h3>Mobil: 0171/1261672</h3>
-                  <h3>Tel.: 04361/494108</h3>
-                  <h3>Fax: 04361/494821</h3>
-                  <h3>
+                  <p>Mobil: 0171/1261672</p>
+                  <p>Tel.: 04361/494108</p>
+                  <p>Fax: 04361/494821</p>
+                  <p>
                     Email:{" "}
                     <a
                       href="mailto:info@a-walk.de"
@@ -124,7 +125,7 @@ export default function Kontakt() {
                     >
                       info@a-walk.de
                     </a>
-                  </h3>
+                  </p>
                 </div>
               </div>
               <div className="filiale">

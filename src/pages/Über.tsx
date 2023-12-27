@@ -38,7 +38,7 @@ export default function Über() {
     });
   
     const lehrerKarte = personalData.map((lehrer) => (
-      <div className="über--bottom--lehrer--box">
+      <div className="über--bottom--lehrer--box" key={lehrer.name}>
         <figure>
           <img src={lehrer.profil} alt="lehrer" className="lehrer-profil" />
         </figure>
@@ -115,7 +115,7 @@ export default function Über() {
                     src={location}
                     alt="navi"
                     className="navi"
-                    style={{ width: 77 }}
+                   
                   />
                 </a>
   
