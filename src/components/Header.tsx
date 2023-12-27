@@ -20,6 +20,7 @@ export default function Header() {
   const [isMenu, setIsMenu] = useState<boolean>(false);
   const [isDropdown, setIsDropdown] = useState<boolean>(false);
   const menuRef = useRef<HTMLDivElement>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const activeStyles: ActiveStyles = {
     borderRadius: 0,
@@ -31,8 +32,10 @@ export default function Header() {
     color: "var(--textColor)"
   };
 
+// when mouse click outside of menu(dropdown), close menu(dropdown).
+
   useEffect(() => {
-    const handler = (e: MouseEvent) => {
+    const menuHandler = (e: MouseEvent) => {
       if (
         menuRef.current != null &&
         !menuRef.current.contains(e.target as Node)
@@ -42,13 +45,27 @@ export default function Header() {
       }
     };
 
-    document.addEventListener("mousedown", handler);
+    const dropdownHhandler = (e: MouseEvent) => {
+      if (
+        dropdownRef.current != null &&
+        !dropdownRef.current.contains(e.target as Node)
+      ) {
+        setIsDropdown(false);
+        //  console.log(menuRef.current);
+      }
+    };
+
+    document.addEventListener("mousedown", menuHandler);
+    document.addEventListener("mousedown", dropdownHhandler);
 
     return;
     () => {
-      document.removeEventListener("mousedown", handler);
+      document.removeEventListener("mousedown", menuHandler);
+      document.removeEventListener("mousedown", dropdownHhandler);
     };
   });
+
+
 
   function handleMenu() { 
     setIsMenu(false);
@@ -122,7 +139,7 @@ export default function Header() {
                 <summary>
                   INFOS
                 </summary>
-                <div className="infos--dropdown">
+                <div className="infos--dropdown" ref={dropdownRef}>
                 <p>
                     <Link
                       to="informationen/allgemeines"
@@ -257,7 +274,7 @@ export default function Header() {
                 <summary>
                   INFOS
                 </summary>
-                <div className="infos--dropdown">
+                <div className="infos--dropdown" ref={dropdownRef}>
                 <p>
                     <Link
                       to="informationen/allgemeines"
