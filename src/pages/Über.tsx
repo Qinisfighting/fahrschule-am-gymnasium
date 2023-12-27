@@ -39,22 +39,45 @@ export default function Über() {
   
     const lehrerKarte = personalData.map((lehrer) => (
       <div className="über--bottom--lehrer--box" key={lehrer.name}>
+        <div className="flip-card">
+          <div className="flip-card-inner">
+            <div className="flip-card-front">
+              <img src={lehrer.profil} alt="lehrer" className="lehrer-profil" />
+            </div>
+            <div className="flip-card-back">
+              <h2>{lehrer.name}</h2>
+              <h3>{lehrer.title}</h3>
+              <p>{lehrer.description}</p>
+              <p className="cell">📞{lehrer.phone}</p>
+              <a href={`mailto:${lehrer.email}`} target="_blank">
+                <img src={email} alt="email" className="email" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    ));
+    
+
+{/**
+
         <figure>
           <img src={lehrer.profil} alt="lehrer" className="lehrer-profil" />
         </figure>
         <div className="profil-top-left">
           <h3>{lehrer.name}</h3>
           <p>{lehrer.title}</p>
+          <p>{lehrer.description}</p>
         </div>
         <div className="profil-bottom-left">
           <a href={`mailto:${lehrer.email}`} target="_blank">
             <img src={email} alt="email" className="email" />
           </a>
   
-          {/**<p className="cell">{lehrer.phone}</p>   */}
+          <p className="cell">{lehrer.phone}</p>   
         </div>
-      </div>
-    ));
+        */}
+  
   
     return (
       <div className="container--über">

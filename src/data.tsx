@@ -4,6 +4,7 @@ interface PersonalData {
     name: string;
     profil:string;
     title: string;
+    description: string;
     email: string;
     phone: string;
 }[]
@@ -12,21 +13,24 @@ const personalData: PersonalData[] = [
     {
         name: "Andreas Walk",
         profil:"https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/andy.jpg",
-        title: "Fahrlehrer",
+        title: "Fahrlehrer aller Klassen",
+        description: "Fahrlehrer seit 1989, ausgebildete Fahrschüler mehr als 2000.",
         email: "info@a-walk.de",
         phone: "0171/1261672",
     },
     {
         name: "Tim Behnke",
-        title: "Fahrlehrer",
+        title: "Fahrlehrer aller Klassen",
+        description: "Fahrlehrer seit 2000, ausgebildete Fahrschüler mehr als 1500.",
         profil:"https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/tim.jpg",
         email: "info@a-walk.de",
-        phone: "0171/1261672",
+        phone: "0172/4558297",
     },
     {
-        name: "Lehrer 3",
+        name: "Philipp Roth",
         profil:"https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/lehrer.jpg",
         title: "Fahrlehrer",
+        description: "Ausbilder Berufskraftfahrer",
         email: "info@a-walk.de",
         phone: "0171/1261672",
     }
