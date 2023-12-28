@@ -1,4 +1,4 @@
-  interface PersonalData {
+  export interface PersonalData {
     name: string;
     profil: string;
     title: string;
@@ -8,23 +8,23 @@
   }
   [];
   
-  interface KlasseData {
+  export interface KlasseData {
     name: string;
     description: { typ: string, description: string }[];
     voraussetzungen?: string;
     befristung?: string;
     vorbesitz?: string;
     erwerb?: string;
-    mindestalter: string[];
+    mindestalter: string;
     einschluss: string;
   }
 
-  type Klasse = {
+  export type Klasse = {
     name: string,
     klasse: string,
     icon: string,
     details: KlasseData[]
-  }
+  }[]
   
   const personalData: PersonalData[] = [
     {
@@ -58,7 +58,7 @@
     }
   ];
   
-  const klassenData: Klasse[] = [
+  const klassenData: Klasse = [
     {
       name: "PKW",
       klasse: "Fahrerlaubnisklasse: B, BE, B96, B197",
@@ -80,7 +80,7 @@
             }
           ],
           erwerb: "B",
-          mindestalter: ["18 Jahre", "17 Jahre bei begleitetem Fahren"],
+          mindestalter: "18 Jahre / 17 Jahre bei begleitetem Fahren",
           einschluss: "AM, L"
         },
         {
@@ -97,7 +97,7 @@
             }
           ],
           erwerb: "B",
-          mindestalter: ["18 Jahre", "17 Jahre bei begleitetem Fahren"],
+          mindestalter: "18 Jahre / 17 Jahre bei begleitetem Fahren",
           einschluss: "keine"
         },
         {
@@ -115,7 +115,7 @@
             }
           ],
           erwerb: "B",
-          mindestalter: ["18 Jahre"],
+          mindestalter: "18 Jahre",
           einschluss: "keine"
         }
       ]
@@ -138,7 +138,7 @@
           voraussetzungen: "ärztliches Gutachten",
           befristung: "5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahres ist ein erneutes ärztliche Gutachten erforderlich.",
           vorbesitz: "B",
-          mindestalter: ["21 Jahre", "18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)"],
+          mindestalter: "21 Jahre / 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)",
           einschluss: "keine"
         },
         {
@@ -157,7 +157,7 @@
           voraussetzungen: "ärztliches Gutachten",
           befristung: "5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahres ist ein erneutes ärztliche Gutachten erforderlich.",
           vorbesitz: "D1",
-          mindestalter: ["21 Jahre", "18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)"],
+          mindestalter: "21 Jahre / 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)",
           einschluss: "BE, und C1E bei Vorbesitz von C1"
         },
         {
@@ -177,7 +177,7 @@
           voraussetzungen: "ärztliches Gutachten",
           befristung: "5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahres ist ein erneutes ärztliche Gutachten erforderlich.",
           vorbesitz: "B",
-          mindestalter: ["24 Jahre", "23/21/20/18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 3)"],
+          mindestalter: "24 Jahre / 23, 21, 20, 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 3)",
           einschluss: "D1"
         },
         {
@@ -192,7 +192,7 @@
             voraussetzungen: "ärztliches Gutachten",
             befristung: "5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahres ist ein erneutes ärztliche Gutachten erforderlich.",
             vorbesitz: "D",
-            mindestalter: ["24 Jahre", "23/21/20/18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 3)"],
+            mindestalter: "24 Jahre / 23, 21, 20, 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 3)",
             einschluss: "BE, D1E sowie C1E sofern C1 bereits im Vorbesitz"
           }
       ]
@@ -218,7 +218,7 @@
             }
           ],
           vorbesitz: "B",
-          mindestalter: ["18 Jahre"],
+          mindestalter: "18 Jahre",
           einschluss: "keine"
         },
         {
@@ -232,7 +232,7 @@
             ],
             befristung: "bis zur Vollendung des 50. Lebensjahres, danach alle 5 Jahre erneute ärztliche Untersuchung. ",
             vorbesitz: "C1",
-            mindestalter: ["18 Jahre"],
+            mindestalter: "18 Jahre",
             einschluss: "BE sowie D1E, sofern D1 vorhanden"
           },
           {
@@ -251,7 +251,7 @@
             ],
             befristung: "auf 5 Jahre, danach alle 5 Jahre neue ärztliche Untersuchung. ",
             vorbesitz: "B",
-            mindestalter: ["21 Jahre", "18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)"],
+            mindestalter: "21 Jahre / 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)",
             einschluss: "C1"
           },
           {
@@ -264,7 +264,7 @@
               }
             ],
             vorbesitz: "C1",
-            mindestalter: ["21 Jahre", "18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)"],
+            mindestalter: "21 Jahre / 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)",
             einschluss: "BE, C1E, T sowie D1E (bei Vorbesitz D1) und DE (bei Vorbesitz D)"
           },
       ]
@@ -290,8 +290,26 @@
             }
           ],
           erwerb: "direkt",
-          mindestalter: ["16 Jahre"],
+          mindestalter: "16 Jahre",
           einschluss: "keine"
+        },
+        {
+          name: "T",
+          description: [
+            {
+              typ: "Zugmaschinen und selbstfahrende Arbeitsmaschinen",
+              description:
+                ", die nach ihrer Bauart für land- oder forstwirtschaftliche Zwecke bestimmt sind. "
+            },
+            {
+              typ: "Bauartbestimmte Höchstgeschwindigkeit",
+              description:
+                ", die nach ihrer Bauart für land- oder forstwirtschaftliche Zwecke bestimmt sind. - Ab 18 Jahren bis 60 km/h für Zugmaschinen sowie bis 40 km/h für selbstfahrende Arbeitsmaschinen oder selbstfahrende Futtermischwagen (jeweils auch mit Anhängern. "
+            }
+          ],
+          erwerb: "direkt",
+          mindestalter: "16 Jahre",
+          einschluss: "L"
         }
       ]
     },
@@ -313,7 +331,7 @@
           ],
           erwerb: "direkt",
           befristung: "Befristung auf 5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahr ist ein erneutes ärztliches Gutachten erforderlich. ",
-          mindestalter: ["15 Jahre"],
+          mindestalter: "15 Jahre",
           einschluss: "keine"
         },
         {
@@ -332,7 +350,7 @@
               }
             ],
             erwerb: "direkt",
-            mindestalter: ["15 Jahre"],
+            mindestalter: "15 Jahre",
             einschluss: "keine"
           },
           {
@@ -351,7 +369,7 @@
               }
             ],
             erwerb: "direkt",
-            mindestalter: ["16 Jahre"],
+            mindestalter: "16 Jahre",
             einschluss: "AM"
           },
           {
@@ -370,7 +388,7 @@
               }
             ],
             erwerb: "direkt",
-            mindestalter: ["18 Jahre"],
+            mindestalter: "18 Jahre",
             einschluss: "AM, A1"
           },
           {
@@ -389,7 +407,7 @@
               }
             ],
             erwerb: "direkt",
-            mindestalter: ["24 Jahre für Krafträder bei Direkteinstieg", "20 Jahre für Krafträder bei zweijährigem Vorbesitz der Klasse A2", "21 Jahre für dreirädrige Kfz mit mehr als 15 kW", "20 Jahre für Krafträder bei zweijährigem Vorbesitz der Klasse A2, nur praktische Prüfung erforderlich"],
+            mindestalter: "24 Jahre für Krafträder bei Direkteinstie. 20 Jahre für Krafträder bei zweijährigem Vorbesitz der Klasse A2. 21 Jahre für dreirädrige Kfz mit mehr als 15 kW. 20 Jahre für Krafträder bei zweijährigem Vorbesitz der Klasse A2, nur praktische Prüfung erforderlich",
             einschluss: "AM, A1, A2"
           },
       ],

@@ -326,6 +326,27 @@ background-color: var(--rot);
   padding-bottom: 20px;
 }
 
+.klasse--card--dropdown {
+ 
+  padding: 10px 20px;
+  height: fit-content;
+  width: auto;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px auto;
+  text-align: left;
+  background-color: white;
+  color: black;
+  z-index: 999;
+  position: absolute;
+}
+
+.klasse--card--dropdown h4 {
+  font-size: 1.2em;
+  border-bottom: 1px solid gray;
+  color: black;
+}
+
+
 
 @media screen and (max-width: 1025px){
   .textContainer{
