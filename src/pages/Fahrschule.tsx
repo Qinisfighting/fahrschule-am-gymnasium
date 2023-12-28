@@ -31,7 +31,7 @@ export default function Fahrschule() {
             <div className="home--container--bottom--box--text">
               <h3>Professionale Leistungen</h3>
               <p>
-              Mit Freude und Spaß bringen wir Dich zu Deinem lang ersehnten Ziel - Deinem Führerschein!
+              Keep cool and get lässig! Mit Freude und Spaß bringen wir Dich zu Deinem lang ersehnten Ziel - Deinem Führerschein!
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function Fahrschule() {
             <div className="home--container--bottom--box--text">
               <h3>Konkurrenzfähige Preise</h3>
               <p>
-              Billig muss nicht gut sein – Qualität hat ihren Preis. Wir bieten Dir eine professionale Ausbildung zu einem fairen Preis.
+              Billig muss nicht immer gut sein – Qualität hat ihren Preis. Wir bieten Dir eine professionale Ausbildung zu einem fairen Preis.
               </p>
             </div>
           </div>
