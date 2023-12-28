@@ -147,6 +147,8 @@
 .über--mittle--right > h1{
     letter-spacing: .2em;
     padding-left: 10px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.644);
+    padding-bottom: 5px;
 }
 
 
@@ -253,7 +255,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: space-between;
-    gap: 100px;
+    gap: 10vw;
   
 }
 
@@ -266,8 +268,8 @@
 
 .flip-card {
     background-color: transparent;
-    width: 350px;
-    height: 350px;
+    width: 420px;
+    height: 420px;
     perspective: 1000px;
   }
   
@@ -301,16 +303,16 @@
 .flip-card-back {
     background-color: var(--blau3);
     color: white;
-    padding: 20px;
+    padding: 40px 50px;
     margin: 0 auto;
-    line-height: 1.7em;
+    line-height: 2em;
     transform: rotateY(180deg);
   }
 
 
 .lehrer-profil{
-    width: 350px;
-    height: 350px;
+    width: 420px;
+    height: 420px;
     object-fit: cover;
 }
 
@@ -402,16 +404,31 @@
         width: 117%;
         height: auto;
     }
-};
-   
-@media screen and (max-width: 400px) {
-  
-    
+
     .navi{
         width: 70px;
         margin: 0;
         padding: 0;
         
     }
-  
-  }
+
+    .flip-card {   
+        width: 320px;
+        height: 320px; 
+      }
+    .lehrer-profil{
+        width: 320px;
+        height: 320px;
+    }
+
+    .flip-card-back {   
+        padding: 15px;
+        line-height: 1.5em;
+      }
+
+      .email {
+        margin: 5px;
+
+};
+   
+}
