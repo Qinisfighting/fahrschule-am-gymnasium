@@ -95,7 +95,7 @@
   text-align: left;
   align-items: center;
   justify-content:center;
-  padding: 20px 25px 20px 10px;
+  padding: 20px auto;
   height: 250px;
   width: auto;
   box-shadow: 2px 2px 5px black;
@@ -213,6 +213,7 @@ background-color: var(--rot);
  
 }
   
+
   .klasse--grid {
       display: block;
       width: 93vw;
@@ -329,7 +330,7 @@ background-color: var(--rot);
 .klasse--card--dropdown {
  
   padding: 10px 20px;
-  height: fit-content;
+  height: 50vh;
   width: auto;
   box-shadow: 2px 2px 5px black;
   margin: 10px auto;
@@ -338,7 +339,11 @@ background-color: var(--rot);
   color: black;
   z-index: 999;
   position: absolute;
+  overflow:scroll;
+
 }
+
+
 
 .klasse--card--dropdown h4 {
   font-size: 1.2em;
@@ -361,14 +366,22 @@ background-color: var(--rot);
   .textContainer h1{
     font-size: 1.8rem;
   }
+
+  .klasse--card--dropdown {
+ 
+    padding: 10px 20px;
+    height: 70vh;
+    
+    
+  
+  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 410px) {
   
   .textContainer--top > button {
     margin-top: 20px;
   }
 
- 
 
 }

@@ -19,7 +19,7 @@ function KlasseCard({
         <figure>
           <img src={icon} alt={name} />
         </figure>
-        <div>
+        <div className="klasse--card--cover">
           <h3>{name}</h3>
           <details>
             <summary>{klasse}</summary>
