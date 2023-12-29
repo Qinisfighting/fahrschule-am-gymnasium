@@ -382,6 +382,16 @@ background-color: var(--rot);
   .textContainer--top > button {
     margin-top: 20px;
   }
+    
+}
 
-
+@media screen and (max-width: 300px) {
+  
+  .klasse--title { 
+ 
+    margin-left: 15px;
+    font-size: small;
+    margin-top: 40px;
+    }
+    
 }

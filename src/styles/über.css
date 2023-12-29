@@ -247,7 +247,13 @@
     50% {transform: translate(0, 7px)}
     
 }
-
+.über--bottom--header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 .über--bottom--lehrer {
     width: 100%;
@@ -430,4 +436,16 @@
 
 };
    
+}
+
+@media screen and (max-width: 320px) {
+
+    .flip-card {   
+        width: 270px;
+        height: 270px; 
+      }
+    .lehrer-profil{
+        width: 270px;
+        height: 270px;
+    }
 }
