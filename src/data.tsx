@@ -271,7 +271,7 @@
     },
     {
       name: "TRAKTOR",
-      klasse: "Fahrerlaubnisklasse: T, L",
+      klasse: "Fahrerlaubnisklasse: L, T",
       icon:
         "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/trecker.png",
       details: [
@@ -315,7 +315,7 @@
     },
     {
       name: "KRAFTRAD",
-      klasse: "Fahrerlaubnisklasse: AM, A1, A2, A, MOFA",
+      klasse: "Fahrerlaubnisklasse: MOFA, AM, A1, A2, A",
       icon:
         "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/motorbike.png",
       details: [

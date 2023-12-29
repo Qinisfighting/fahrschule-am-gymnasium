@@ -202,22 +202,26 @@ export default function Kontakt() {
             name="klasse"
             required
           >
+            <option value="A">A</option>
             <option value="AM">AM</option>
             <option value="A1">A1</option>
             <option value="A2">A2</option>
-            <option value="A">A</option>
+            <option value="MOFA">MOFA</option>
             <option value="B">B</option>
-            <option value="C1">C1</option>
-            <option value="C">C</option>
-            <option value="D1">D1</option>
-            <option value="D">D</option>
             <option value="BE">BE</option>
+            <option value="B96">B96</option>
+            <option value="B197">B197</option>
+            <option value="C">C</option>
+            <option value="C1">C1</option>
             <option value="C1E">C1E</option>
             <option value="CE">CE</option>
+            <option value="D">D</option>
+            <option value="D1">D1</option>
             <option value="D1E">D1E</option>
             <option value="DE">DE</option>
             <option value="L">L</option>
             <option value="T">T</option>
+            
           </select>
 
           <label htmlFor="email">Email*</label>
