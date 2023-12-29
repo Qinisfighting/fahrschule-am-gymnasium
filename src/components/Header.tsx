@@ -51,7 +51,6 @@ export default function Header() {
         !dropdownRef.current.contains(e.target as Node)
       ) {
         setIsDropdown(false);
-        //  console.log(menuRef.current);
       }
     };
 

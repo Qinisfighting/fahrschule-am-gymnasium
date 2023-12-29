@@ -89,11 +89,11 @@
             {
               typ: "Fahrzeugkombinationen",
               description:
-                ", die aus einem Zugfahrzeug der Klasse B und einem Anhänger über 750 kg zGM bestehen, sofern die zGM der Kombination 3500 kg überschreitet, aber 4250 kg nicht übersteigt. "
+                "die aus einem Zugfahrzeug der Klasse B und einem Anhänger über 750 kg zGM bestehen, sofern die zGM der Kombination 3500 kg überschreitet, aber 4250 kg nicht übersteigt. "
             },
             {
               typ: "Spezielle Schulung",
-              description: "in der Fahrschule erforderlich."
+              description: "in der Fahrschule erforderlich"
             }
           ],
           erwerb: "B",
@@ -106,12 +106,12 @@
             {
               typ: "Fahrzeugkombinationen",
               description:
-                ", die aus einem Zugfahrzeug der Klasse B und einem Anhänger bzw. Sattelanhänger bestehen, sofern die zGM des Anhängers bzw. Sattelanhängers 3500 kg nicht Übersteigt. "
+                "die aus einem Zugfahrzeug der Klasse B und einem Anhänger bzw. Sattelanhänger bestehen, sofern die zGM des Anhängers bzw. Sattelanhängers 3500 kg nicht Übersteigt. "
             },
             {
               typ: "Anhänger",
               description:
-                "bis 750 kg zGM bzw. Anhänger über 750 kg zGM, sofern die zGM der Kombination 3500 kg nicht übersteigt."
+                "bis 750 kg zGM bzw. Anhänger über 750 kg zGM, sofern die zGM der Kombination 3500 kg nicht übersteigt. "
             }
           ],
           erwerb: "B",
@@ -136,7 +136,7 @@
             }
           ],
           voraussetzungen: "ärztliches Gutachten",
-          befristung: "5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahres ist ein erneutes ärztliche Gutachten erforderlich.",
+          befristung: "5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahres ist ein erneutes ärztliche Gutachten erforderlich. ",
           vorbesitz: "B",
           mindestalter: "21 Jahre / 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)",
           einschluss: "keine"
@@ -155,7 +155,7 @@
             }
           ],
           voraussetzungen: "ärztliches Gutachten",
-          befristung: "5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahres ist ein erneutes ärztliche Gutachten erforderlich.",
+          befristung: "5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahres ist ein erneutes ärztliche Gutachten erforderlich. ",
           vorbesitz: "D1",
           mindestalter: "21 Jahre / 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)",
           einschluss: "BE, und C1E bei Vorbesitz von C1"
@@ -193,7 +193,7 @@
             befristung: "5 Jahre, danach alle 5 Jahre erneute ärztliche Untersuchung. Ab dem 50. Lebensjahres ist ein erneutes ärztliche Gutachten erforderlich.",
             vorbesitz: "D",
             mindestalter: "24 Jahre / 23, 21, 20, 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 3)",
-            einschluss: "BE, D1E sowie C1E sofern C1 bereits im Vorbesitz"
+            einschluss: "BE, D1E sowie C1E sofern C1 bereits im Vorbesitz. "
           }
       ]
     },
@@ -265,7 +265,7 @@
             ],
             vorbesitz: "C1",
             mindestalter: "21 Jahre / 18 Jahre (unter bestimmten Voraussetzungen, siehe Anmerkung 1)",
-            einschluss: "BE, C1E, T sowie D1E (bei Vorbesitz D1) und DE (bei Vorbesitz D)"
+            einschluss: "BE, C1E, T sowie D1E (bei Vorbesitz D1) und DE (bei Vorbesitz D)."
           },
       ]
     },
@@ -281,12 +281,12 @@
             {
               typ: "Zugmaschinen",
               description:
-                ", die nach ihrer Bauart für land- oder forstwirtschaftliche Zwecke bestimmt sind, mit einer bbH bis zu 40 km/h und Kombinationen aus diesen Fahrzeugen und Anhängern  bis 25 km/h. "
+                "die nach ihrer Bauart für land- oder forstwirtschaftliche Zwecke bestimmt sind, mit einer bbH bis zu 40 km/h und Kombinationen aus diesen Fahrzeugen und Anhängern  bis 25 km/h. "
             },
             {
-              typ: "Selbstfahrende Arbeitsmaschinen oder selbstfahrende Futtermischwagen, Stapler und andere Flurförderfahrzeuge",
+              typ: "Selbstfahrende Arbeitsmaschinen oder selbstfahrende Futtermischwagen, Stapler und andere Flurförderfahrzeuge. ",
               description:
-                " jeweils bis 25 km/h bbH und Kombinationen aus diesen Fahrzeugen und Anhängern."
+                "jeweils bis 25 km/h bbH und Kombinationen aus diesen Fahrzeugen und Anhängern."
             }
           ],
           erwerb: "direkt",
@@ -299,12 +299,12 @@
             {
               typ: "Zugmaschinen und selbstfahrende Arbeitsmaschinen",
               description:
-                ", die nach ihrer Bauart für land- oder forstwirtschaftliche Zwecke bestimmt sind. "
+                "die nach ihrer Bauart für land- oder forstwirtschaftliche Zwecke bestimmt sind. "
             },
             {
               typ: "Bauartbestimmte Höchstgeschwindigkeit",
               description:
-                ", die nach ihrer Bauart für land- oder forstwirtschaftliche Zwecke bestimmt sind. - Ab 18 Jahren bis 60 km/h für Zugmaschinen sowie bis 40 km/h für selbstfahrende Arbeitsmaschinen oder selbstfahrende Futtermischwagen (jeweils auch mit Anhängern. "
+                "die nach ihrer Bauart für land- oder forstwirtschaftliche Zwecke bestimmt sind. Ab 18 Jahren bis 60 km/h für Zugmaschinen sowie bis 40 km/h für selbstfahrende Arbeitsmaschinen oder selbstfahrende Futtermischwagen (jeweils auch mit Anhängern). "
             }
           ],
           erwerb: "direkt",
@@ -325,7 +325,7 @@
             {
               typ: "Mofa 25 und Segway",
               description:
-                " Mofafahrer (Fahrräder mit Hilfsmotor bis 25 km/h bbH) und Segway-Fahrer (zweirädrige Elektroroller) benötigen eine Prüfbescheinigung. Jede Fahrerlaubnis ersetzt die Prüfbescheinigung"
+                "Mofafahrer (Fahrräder mit Hilfsmotor bis 25 km/h bbH) und Segway-Fahrer (zweirädrige Elektroroller) benötigen eine Prüfbescheinigung. Jede Fahrerlaubnis ersetzt die Prüfbescheinigung. "
                 
             }
           ],
@@ -340,13 +340,13 @@
               {
                 typ: "Zweirädrige Kleinkrafträder (auch mit Beiwagen) und Fahrräder mit Hilfsmotor",
                 description:
-                  " Max. 50 ccm Hubraum (Verbrennungsmotor) bzw. Max. 4kW Nenndauerleistung (Elektromotor)"
+                  "Max. 50 ccm Hubraum (Verbrennungsmotor) bzw. Max. 4kW Nenndauerleistung (Elektromotor)"
                   
               },
               {
                 typ: "Dreirädrige Kleinkrafträder bzw. vierrädrige Leichtkraftfahrzeuge",
                 description:
-                  " bis 45 km/h bbH. Bei Fremdzündungsmotoren (z.B. Ottomotor) max. 50 ccm Hubraum; bei anderen Verbrennungsmotoren (z.B. Dieselmotoren) max. 4 kW Nutzleistung; bei Elekromotoren max. 4 kW Nenndauerleistung. Vierrädige Leichtkraftfahrzeuge nur bis 350 kg Leermasse (bei Elektrofahrzeugen ohne die Masse der Batterien) "
+                  "bis 45 km/h bbH. Bei Fremdzündungsmotoren (z.B. Ottomotor) max. 50 ccm Hubraum; bei anderen Verbrennungsmotoren (z.B. Dieselmotoren) max. 4 kW Nutzleistung; bei Elekromotoren max. 4 kW Nenndauerleistung. Vierrädige Leichtkraftfahrzeuge nur bis 350 kg Leermasse (bei Elektrofahrzeugen ohne die Masse der Batterien). "
               }
             ],
             erwerb: "direkt",
@@ -359,13 +359,13 @@
               {
                 typ: "Krafträder",
                 description:
-                  " (auch mit Beiwagen) mit bis zu 125 ccm Hubraum und max. 11 kW Motorleistung, bei denen das Verhältnis der Leistung zum Gewicht 0,1 kW/kg nicht übersteigt. "
+                  "(auch mit Beiwagen) mit bis zu 125 ccm Hubraum und max. 11 kW Motorleistung, bei denen das Verhältnis der Leistung zum Gewicht 0,1 kW/kg nicht übersteigt. "
                   
               },
               {
                 typ: "Dreirädrige Kraftfahrzeuge",
                 description:
-                  " mit symmetrisch angeordneten Rädern und einem Hubraum von mehr als 50 ccm bei Verbrennungsmotoren oder mehr als 45 km/h bbH und mit einer max. Motorleistung bis zu 15 kW."
+                  "mit symmetrisch angeordneten Rädern und einem Hubraum von mehr als 50 ccm bei Verbrennungsmotoren oder mehr als 45 km/h bbH und mit einer max. Motorleistung bis zu 15 kW. "
               }
             ],
             erwerb: "direkt",
@@ -378,13 +378,13 @@
               {
                 typ: "Krafträder",
                 description:
-                  " (auch mit Beiwagen) mit einer Motorleistung von nicht mehr als 35 kW, bei denen das Verhältnis der Leistung zum Gewicht 0,2 kW/kg nicht übersteigt. "
+                  "(auch mit Beiwagen) mit einer Motorleistung von nicht mehr als 35 kW, bei denen das Verhältnis der Leistung zum Gewicht 0,2 kW/kg nicht übersteigt. "
                   
               },
               {
-                typ: "(auch mit Beiwagen) mit einer Motorleistung von nicht mehr als 35 kW, bei denen das Verhältnis der Leistung zum Gewicht 0,2 kW/kg nicht übersteigt",
+                typ: " ",
                 description:
-                  " "
+                  "Bei zweijährigem Vorbesitz der Klasse A1 ist zum Erwerb nur eine praktische Prüfung erforderlich. "
               }
             ],
             erwerb: "direkt",
@@ -397,17 +397,17 @@
               {
                 typ: "Krafträder",
                 description:
-                  " Krafträder (auch mit Beiwagen) mit einem Hubraum von mehr als 50 ccm oder mit einer bbH von mehr als 45 km/h. "
+                  "Krafträder (auch mit Beiwagen) mit einem Hubraum von mehr als 50 ccm oder mit einer bbH von mehr als 45 km/h. "
                   
               },
               {
                 typ: "Dreirädrige Kraftfahrzeuge",
                 description:
-                  " mit symmetrisch angeordneten Rädern und einem Hubraum von mehr als 50 ccm bei Verbrennungsmotoren oder einer bbH von mehr als 45 km/h und mit einer Motorleistung über 15 kW. "
+                  "mit symmetrisch angeordneten Rädern und einem Hubraum von mehr als 50 ccm bei Verbrennungsmotoren oder einer bbH von mehr als 45 km/h und mit einer Motorleistung über 15 kW. "
               }
             ],
             erwerb: "direkt",
-            mindestalter: "24 Jahre für Krafträder bei Direkteinstie. 20 Jahre für Krafträder bei zweijährigem Vorbesitz der Klasse A2. 21 Jahre für dreirädrige Kfz mit mehr als 15 kW. 20 Jahre für Krafträder bei zweijährigem Vorbesitz der Klasse A2, nur praktische Prüfung erforderlich",
+            mindestalter: "24 Jahre für Krafträder bei Direkteinstie; 20 Jahre für Krafträder bei zweijährigem Vorbesitz der Klasse A2; 21 Jahre für dreirädrige Kfz mit mehr als 15 kW; 20 Jahre für Krafträder bei zweijährigem Vorbesitz der Klasse A2, nur praktische Prüfung erforderlich. ",
             einschluss: "AM, A1, A2"
           },
       ],

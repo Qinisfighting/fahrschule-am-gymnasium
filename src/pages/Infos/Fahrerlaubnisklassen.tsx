@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid'
 import { klassenData } from "../../data";
 import { KlasseData} from  "../../data"
 import { Link } from "react-router-dom";
@@ -14,53 +15,57 @@ function KlasseCard({
     icon: string;
     details: KlasseData[];
   }) {
+
+
     return (
       <div className="klasse--card">
         <figure>
           <img src={icon} alt={name} />
         </figure>
-        <div className="klasse--card--cover">
+        <div className="klasse--card--cover" >
           <h3>{name}</h3>
-          <details>
+          <details>   
             <summary>{klasse}</summary>
             <div className="klasse--card--dropdown">
                 {details.map((detail) => (
-                  <>
-                    <h4 key={detail.name}>{detail.name}</h4>
-                    <p key={detail.name}>
+                  <div key={nanoid()}>
+                    <h4 key={nanoid()}>{detail.name}</h4>
+                    
                       {detail.description.map((item) => (
-                        <>
-                          <strong>{item.typ}</strong> <p>{item.description}</p>
-                        </>
+                         <div key={nanoid()}>
+                           <p><strong>{item.typ}</strong></p> 
+                           <p>{item.description}</p>
+                         </div>  
+                        
                       ))}
-                    </p>
-                    <p key={detail.name}>
+                  
+                    <p key={nanoid()}>
                       <strong>Mindestalter:</strong> {detail.mindestalter}
                     </p>
                     {detail.voraussetzungen ? (
-                      <p key={detail.name}>
+                      <p key={nanoid()}>
                         <strong>Voraussetzungen:</strong> {detail.voraussetzungen}
                       </p>
                     ) : null}
                     {detail.vorbesitz ? (
-                      <p key={detail.name}>
+                      <p key={nanoid()}>
                         <strong>Vorbesitz:</strong> {detail.vorbesitz}
                       </p>
                     ) : null}
                     {detail.befristung ? (
-                      <p key={detail.name}>
+                      <p key={nanoid()}>
                         <strong>Befristung:</strong> {detail.befristung}
                       </p>
                     ) : null}
                     {detail.erwerb ? (
-                      <p key={detail.name}>
+                      <p key={nanoid()}>
                         <strong>Erwerb:</strong> {detail.erwerb}
                       </p>
                     ) : null}
-                    <p key={detail.name}>
+                    <p key={nanoid()}>
                       <strong>Einschluss:</strong> {detail.einschluss}
                     </p>
-                  </>
+                  </div>
                 ))}
               </div>;
           </details>

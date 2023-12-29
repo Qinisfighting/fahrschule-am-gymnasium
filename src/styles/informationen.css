@@ -340,7 +340,7 @@ background-color: var(--rot);
   z-index: 999;
   position: absolute;
   overflow:scroll;
-
+  overflow-x: hidden;
 }
 
 
