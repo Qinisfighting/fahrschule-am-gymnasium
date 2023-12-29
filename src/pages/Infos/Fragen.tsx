@@ -4,7 +4,7 @@ export default function Fragen() {
         <img className="info-img" src="https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/fragen.jpg" alt="fragen" />
         <div className="textContainer">
             <div className="textContainer--top">
-            <h1>Fragen</h1>
+            <h1>Fragen üben</h1>
             </div>    
             <p>Seit dem 01.April 2014 wurden in der theoretischen Prüfung kleine Filmsequenzen eingespielt, die ihr 5 mal anschauen könnt, und dann müßt ihr die Fragen beantworten.</p>
             <p>Seit dem 01.07.2011 wurden die Fotos in den Fragen durch digitalisierte Bilder ersetzt. Auswendiglernen ist also bei diesen Fragen vorbei.</p> 
