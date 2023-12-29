@@ -23,6 +23,7 @@ html {
   margin: 0;
   padding: 0;
   
+  
 }
 
 body {
@@ -51,7 +52,6 @@ hr {
    
   h1 {
          font-size: 1.7rem;
-         word-break: break-all;
          margin-bottom: 0;
        }
   h2 { 
