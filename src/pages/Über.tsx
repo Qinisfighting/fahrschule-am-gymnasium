@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { personalData } from "../data";
 import eingang from "../assets/eingang.png";
+import turnArrow from "../assets/turnArrow.png";
 import empfang from "../assets/empfang.jpg";
 import schild from "../assets/schild.png";
 import klassenzimmer from "../assets/klassenzimmer.png";
@@ -170,7 +171,8 @@ export default function Über() {
         </div>
   
         <div className="über--bottom">
-          <h1>UNSER TEAM</h1>
+          <h1>UNSER TEAM </h1>
+          <img src={turnArrow} style={{width: 50, padding: 0, marginBottom:25}}/>
           <div className="über--bottom--lehrer">{lehrerKarte}</div>
         </div>
       </div>
