@@ -172,8 +172,8 @@ export default function Über() {
   
         <div className="über--bottom">
           <div className="über--bottom--header">
-            <div> <h1>UNSER TEAM </h1></div> 
-            <div><img src={turnArrow} style={{width: 50}}/></div> 
+            <div><h1>UNSER TEAM</h1></div> 
+            <div><img className="turnArrow" src={turnArrow}/></div> 
           </div>  
           <div className="über--bottom--lehrer">{lehrerKarte}</div>
        </div> 

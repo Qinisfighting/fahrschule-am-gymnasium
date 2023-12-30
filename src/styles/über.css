@@ -271,6 +271,15 @@
     text-align: center;
 }
 
+.turnArrow {
+    width: 50px;
+}
+
+.turnArrow:hover {
+    transform: rotate3D(0,1,0,180deg);;
+    transition: 1s ease-in-out;
+    
+}
 .flip-card {
     background-color: transparent;
     width: 420px;
