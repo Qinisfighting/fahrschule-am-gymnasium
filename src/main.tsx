@@ -12,6 +12,7 @@ import './styles/links.css'
 import './styles/kontakt.css'
 import './styles/datenschutz.css'
 import './styles/impressum.css'
+import 'react-slideshow-image/dist/styles.css'
 
 
 

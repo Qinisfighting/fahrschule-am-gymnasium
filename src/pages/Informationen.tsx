@@ -1,7 +1,7 @@
 
 import { Slide } from 'react-slideshow-image';
 import { Link } from "react-router-dom";
-import 'react-slideshow-image/dist/styles.css'
+
 
 const responsiveSettings = [
     {
@@ -72,11 +72,7 @@ const responsiveSettings = [
               <Link
                   to="theorie"
                 >
-<<<<<<< HEAD
-                  Theorieunterricht
-=======
                    Theorieunterricht
->>>>>>> f9d4078a76bd3114e837a77b7e4686f131f19604
               </Link> 
               </span>
             </div>
