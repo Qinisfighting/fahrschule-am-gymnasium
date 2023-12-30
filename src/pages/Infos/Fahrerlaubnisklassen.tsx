@@ -29,8 +29,7 @@ function KlasseCard({
             <div className="klasse--card--dropdown">
                 {details.map((detail) => (
                   <div key={nanoid()}>
-                    <h4 key={nanoid()}>{detail.name}</h4>
-                    
+                    <h4>{detail.name}</h4>       
                       {detail.description.map((item) => (
                          <div key={nanoid()}>
                            <p><strong>{item.typ}</strong></p> 
@@ -39,30 +38,30 @@ function KlasseCard({
                         
                       ))}
                   
-                    <p key={nanoid()}>
+                    <p>
                       <strong>Mindestalter:</strong> {detail.mindestalter}
                     </p>
                     {detail.voraussetzungen ? (
-                      <p key={nanoid()}>
+                      <p>
                         <strong>Voraussetzungen:</strong> {detail.voraussetzungen}
                       </p>
                     ) : null}
                     {detail.vorbesitz ? (
-                      <p key={nanoid()}>
+                      <p>
                         <strong>Vorbesitz:</strong> {detail.vorbesitz}
                       </p>
                     ) : null}
                     {detail.befristung ? (
-                      <p key={nanoid()}>
+                      <p>
                         <strong>Befristung:</strong> {detail.befristung}
                       </p>
                     ) : null}
                     {detail.erwerb ? (
-                      <p key={nanoid()}>
+                      <p>
                         <strong>Erwerb:</strong> {detail.erwerb}
                       </p>
                     ) : null}
-                    <p key={nanoid()}>
+                    <p>
                       <strong>Einschluss:</strong> {detail.einschluss}
                     </p>
                   </div>
