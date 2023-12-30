@@ -72,7 +72,7 @@ const responsiveSettings = [
               <Link
                   to="theorie"
                 >
-                  Theorietische Unterricht
+                   Theorieunterricht
               </Link> 
               </span>
             </div>
