@@ -19,9 +19,9 @@ function KlasseCard({
 
     return (
       <div className="klasse--card">
-        <figure>
+        
           <img src={icon} alt={name} />
-        </figure>
+        
         <div className="klasse--card--cover" >
           <h3>{name}</h3>
           <details>   
