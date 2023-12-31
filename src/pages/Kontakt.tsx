@@ -104,7 +104,6 @@ export default function Kontakt() {
                 </div>
               </div>
             </div>
-            <hr />
             <div className="k--filialen">
               <div className="filiale">
                 <img src={person} alt="person" className="other-icons" />
