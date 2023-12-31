@@ -14,14 +14,19 @@ header {
   margin-right: 20px;
 }
 
+nav {
+  border-radius: 10px;
+}
+
 nav > a {
   display: inline-block;
   padding: 12px 0;
   margin: 0.3em;
   font-size: 1rem;
   font-weight: 600;
-  width: 120px;
+  width: 130px;
   height: 40px;
+  
 }
 
 nav > a:hover {
