@@ -18,10 +18,8 @@ function KlasseCard({
 
 
     return (
-      <div className="klasse--card">
-        
+      <div className="klasse--card">   
           <img src={icon} alt={name} />
-        
         <div className="klasse--card--cover" >
           <h3>{name}</h3>
           <details>   
