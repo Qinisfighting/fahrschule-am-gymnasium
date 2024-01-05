@@ -149,7 +149,7 @@
     }
   
     .p {
-      font-size: 1.8em;
+      font-size: 1.7em;
       letter-spacing: 0.1em;
       line-height: 1em;
       align-self: center;
@@ -157,7 +157,9 @@
     }
   
     .p > img {
-      margin: 17px 10px 0px 0px;
+      width: 34px;
+      height: 34px;
+      margin: 18px 10px 0px 0px;
     }
   
    
