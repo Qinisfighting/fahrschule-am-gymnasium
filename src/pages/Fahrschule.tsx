@@ -12,7 +12,9 @@ export default function Fahrschule() {
           <div className="home--container--top--left">
             <div className="p">
               <img src={call} alt="telephone" />
-              <p>04361/494108</p>
+              <a href="tel:04361494108">
+                <p>04361/494108</p>
+              </a>
             </div>
             <h1>
               <span className="willkommen--span">Willkommen bei der</span> <br />

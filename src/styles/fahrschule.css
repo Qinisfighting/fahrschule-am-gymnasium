@@ -47,8 +47,7 @@
     display: flex;
     grid-area: 1 / 2 / 2 / 3;
     font-size: 2em;
-    letter-spacing: 0.2em;
-    font-weight: 600;
+    letter-spacing: 0.2em;  
     align-self: last baseline;
     justify-self: end;
   }
@@ -67,8 +66,8 @@
   }
   
   .willkommen--span {
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 2.2rem;
+    font-weight: 400;
     background: linear-gradient(to right, #cfe7fa 0%, #6393c1 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -151,7 +150,7 @@
     .p {
       font-size: 1.8em;
       letter-spacing: 0.1em;
-      font-weight: 600;
+    
       line-height: 1em;
       align-self: center;
       justify-self: last baseline;
