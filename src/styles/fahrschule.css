@@ -46,16 +46,17 @@
   .p {
     display: flex;
     grid-area: 1 / 2 / 2 / 3;
-    font-size: 2em;
+    font-size: 1.8em;
     letter-spacing: 0.2em;  
     align-self: last baseline;
     justify-self: end;
+    text-decoration: underline .5px;
   }
   
   .p > img {
-    width: 37px;
-    height: 37px;
-    margin: 24px 10px 0px 0px;
+    width: 36px;
+    height: 36px;
+    margin: 21px 10px 0px 0px;
   }
   .home--container--top--left > h1 {
     grid-area: 2 / 1 / 3 / 3;
@@ -150,7 +151,6 @@
     .p {
       font-size: 1.8em;
       letter-spacing: 0.1em;
-    
       line-height: 1em;
       align-self: center;
       justify-self: last baseline;
