@@ -1,182 +1,181 @@
 .kontakt-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  width: 100%;
+  margin: 77px auto;
+}
+
+.kontakt-text {
+  background: var(--blau);
+  color: white;
+  position: relative;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  padding: 2.7em 4em;
+}
+
+.kontakt-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--blau);
+  opacity: 0.22;
+  background-image: url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/schein.png);
+  background-size: cover;
+  background-position: 100%;
+}
+
+.kontakt-text-content {
+  position: relative;
+}
+
+.kontakt-text-content--box {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.k--filialen {
+  display: flex;
+}
+
+.k--filialen img {
+  width: 77px;
+}
+
+.kontakt-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 70%;
+  margin: 0 auto;
+}
+.other-icons {
+  margin-right: 10px;
+}
+
+.other-icons:hover {
+  transform: translate(2px);
+}
+.kontakt-form {
+  background-color: rgba(0, 119, 255, 0.075);
+  height: 100%;
+  padding-top: 77px;
+}
+
+.form--input {
+  height: 50px;
+  font-size: medium;
+  padding: 5px 10px;
+}
+
+.textarea {
+  font-size: large;
+  height: 200px;
+  padding: 10px;
+}
+.form-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.form-bottom a {
+  color: var(--blau);
+  text-decoration: underline;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
+
+.form--submit {
+  width: 25%;
+  height: 50px;
+  background-color: var(--rot);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.form--submit:hover {
+  transform: translateY(-3px);
+}
+
+@media screen and (max-width: 1280px) {
+  .kontakt-container {
+    flex-direction: column;
+    height: 110%;
     width: 100%;
-    margin: 77px auto;
   }
-  
+
   .kontakt-text {
-    background: var(--blau);
-    color: white;
-    position: relative;
-    text-align: center;
-    width: 60%;
-    height: 100%;
-    padding: 2.7em 4em;
-  }
-  
-  .kontakt-text::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
     width: 100%;
-    background-color: var(--blau);
-    opacity: 0.22;
-    background-image: url(https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/schein.png);
-    background-size: cover;
-    background-position: 100%;
   }
-  
-  .kontakt-text-content {
-    position: relative;
-  }
-  
-  .kontakt-text-content--box {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .k--filialen {
-    display: flex;
-  }
-  
-  .k--filialen img {
-    width: 77px;
-  }
-  
-  .kontakt-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 70%;
-    margin: 0 auto;
-  }
-  .other-icons {
-    margin-right: 10px;
-  }
-  
-  .other-icons:hover {
-    transform: translate(2px);
-  }
+
   .kontakt-form {
-    background-color: rgba(0, 119, 255, 0.075);
-    height: 100%;
-    padding-top: 77px;
-  }
-  
-  .form--input {
-    height: 50px;
-    font-size: medium;
-    padding: 5px 10px;
-  }
-  
-  .textarea {
-    font-size: large;
-    height: 200px;
-    padding: 10px;
-  }
-  .form-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+    padding: 70px 0;
     width: 100%;
   }
-  
-  .form-bottom a {
-    color: var(--blau);
-    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .kontakt-container {
+    margin-top: 20px;
   }
-  
-  .checkbox-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-align: left;
+
+ 
+  .form-bottom {
+    flex-direction: column;
+    gap: 30px;
   }
-  
   .form--submit {
-    width: 25%;
-    height: 50px;
-    background-color: var(--rot);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.1rem;
-    font-weight: 600;
-    transition: all 0.3s ease-in-out;
+    margin: 10px 0;
+    width: 100%;
   }
-  
-  .form--submit:hover {
-    transform: translateY(-3px);
-  }
-  
-  @media screen and (max-width: 1280px) {
-    .kontakt-container {
-      flex-direction: column;
-      height: 110%;
-      width: 100%;
-    }
-  
-    .kontakt-text {
-      width: 100%;
-    }
-  
-    .kontakt-form {
-      padding: 70px 0;
-      width: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .kontakt-container {
-      margin-top: 20px;
-    }
-  
-   
-    .form-bottom {
-      flex-direction: column;
-      gap: 30px;
-    }
-    .form--submit {
-      margin: 10px 0;
-      width: 100%;
-    }
-  
-    .kontakt-form {
-      padding: 70px 0;
-      height: 100%;
-    }
-  
-    .k--filialen {
-      flex-direction: column;
-   
-    }
-    .kontakt-text-content h1 {
-      margin: 0 auto 27px;
-    }
-    .k--filialen > div {
-      padding: 7px 0;
-      border-bottom: 1px dashed rgba(255, 255, 255, 0.644);;
-    }
 
-    .k--filialen img {
-      margin: 0;
-      padding: 0;
-      width: 57px;
-    }
-
-    hr {
-      display: none;
-    }
+  .kontakt-form {
+    padding: 70px 0;
+    height: 100%;
   }
-  
-  /* Path: src/styles/leistungen.css */
-  
+
+  .k--filialen {
+    flex-direction: column;
+ 
+  }
+  .kontakt-text-content h1 {
+    margin: 0 auto 27px;
+  }
+  .k--filialen > div {
+    padding: 7px 0;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.644);;
+  }
+
+  .k--filialen img {
+    margin: 0;
+    padding: 0;
+    width: 57px;
+  }
+
+  hr {
+    display: none;
+  }
+}
+
+/* Path: src/styles/leistungen.css */
