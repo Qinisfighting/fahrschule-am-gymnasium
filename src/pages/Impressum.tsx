@@ -20,9 +20,9 @@ export default function Impressum() {
             <h3>Überwachungsbehörde:</h3>
             <p>
               <a href="https://www.kreis-oh.de/Bürger-Kreis-Verwaltung/Auto-Verkehr/Führerscheinstelle/">Führerscheinstelle Kreis Ostholstein</a><br />
-              Landesbetrieb für Straßenbau und Straßenverkehr <br />
-              Bürgermeister-Steenbock-Str. 20 <br />
-              23701 Eutin
+              Bürgermeister-Steenbock-Straße 20, 23701 Eutin <br /><br />
+              <a href="https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LBVSH/lbvsh_node.html">Landesbetrieb für Straßenbau und Straßenverkehr </a><br />
+              Mercatorstraße 9, 24106 Kiel
             </p>
             <h3>EU-Streitschlichtung</h3>
             <p>

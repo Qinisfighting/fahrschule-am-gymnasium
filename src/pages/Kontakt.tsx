@@ -48,7 +48,7 @@ export default function Kontakt() {
     });
 
     const serviceId = "service_nvk45hx";
-    const templateId = "template_xdkkhvl";
+    const templateId = "template_578u5hq";
     try {
       setLoading(true);
       await emailjs.send(serviceId, templateId, {
@@ -73,15 +73,13 @@ export default function Kontakt() {
           <h1>FAHRSCHULE AM GYMNASIUM</h1>
           <div className="kontakt-text-content--box">
             <div className="k--filialen">
-              <div className="filiale">
-              
+              <div className="filiale">        
                 <a
                   href="https://www.google.com/maps/dir//54.2900595,10.8933194/@54.2899994,10.8109576,12z?entry=ttu"
                   target="_blank"
                 >
                   <img src={location2} alt="navi" className="navi" />
-                </a>
-              
+                </a>           
                 <div>
                   <h2>Filiale Oldenburg</h2>
                   <hr />
@@ -133,7 +131,7 @@ export default function Kontakt() {
                   <h2>Auskunft und Anmeldung</h2>
                   <hr />
                   <h3>Öffnungszeiten:</h3>
-                  <p>Oldenburg: Di. & Do. 18:00 - 20:30</p>
+                  <p>Oldenburg: Di. & Do. 18:00 - 19:00</p>
                   <p>Lensahn: Mo. & Mi. 18:00 - 19:00</p>
                   <h3>Präsenz-Theorieunterricht:</h3>
                   <p>Oldenburg: Di. & Do. 19:00 - 20:30</p>

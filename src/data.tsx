@@ -48,13 +48,13 @@
       phone: "0172/4558297"
     },
     {
-      name: "Philipp Roth",
+      name: "Jochen Bavon",
       profil:
         "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/lehrer.jpg",
       title: "Fahrlehrer",
-      description: "Ausbilder Berufskraftfahrer",
-      email: "info@a-walk.de",
-      phone: "0171/1261672"
+      description: "",
+      email: "",
+      phone: "04361/494108"
     }
   ];
   
@@ -325,8 +325,7 @@
             {
               typ: "Mofa 25 und Segway",
               description:
-                "Mofafahrer (Fahrräder mit Hilfsmotor bis 25 km/h bbH) und Segway-Fahrer (zweirädrige Elektroroller) benötigen eine Prüfbescheinigung. Jede Fahrerlaubnis ersetzt die Prüfbescheinigung. "
-                
+                "Mofafahrer (Fahrräder mit Hilfsmotor bis 25 km/h bbH) und Segway-Fahrer (zweirädrige Elektroroller) benötigen eine Prüfbescheinigung. Jede Fahrerlaubnis ersetzt die Prüfbescheinigung. "          
             }
           ],
           erwerb: "direkt",
@@ -340,8 +339,7 @@
               {
                 typ: "Zweirädrige Kleinkrafträder (auch mit Beiwagen) und Fahrräder mit Hilfsmotor",
                 description:
-                  "Max. 50 ccm Hubraum (Verbrennungsmotor) bzw. Max. 4kW Nenndauerleistung (Elektromotor)"
-                  
+                  "Max. 50 ccm Hubraum (Verbrennungsmotor) bzw. Max. 4kW Nenndauerleistung (Elektromotor)"         
               },
               {
                 typ: "Dreirädrige Kleinkrafträder bzw. vierrädrige Leichtkraftfahrzeuge",
@@ -359,8 +357,7 @@
               {
                 typ: "Krafträder",
                 description:
-                  "(auch mit Beiwagen) mit bis zu 125 ccm Hubraum und max. 11 kW Motorleistung, bei denen das Verhältnis der Leistung zum Gewicht 0,1 kW/kg nicht übersteigt. "
-                  
+                  "(auch mit Beiwagen) mit bis zu 125 ccm Hubraum und max. 11 kW Motorleistung, bei denen das Verhältnis der Leistung zum Gewicht 0,1 kW/kg nicht übersteigt. "              
               },
               {
                 typ: "Dreirädrige Kraftfahrzeuge",
@@ -378,8 +375,7 @@
               {
                 typ: "Krafträder",
                 description:
-                  "(auch mit Beiwagen) mit einer Motorleistung von nicht mehr als 35 kW, bei denen das Verhältnis der Leistung zum Gewicht 0,2 kW/kg nicht übersteigt. "
-                  
+                  "(auch mit Beiwagen) mit einer Motorleistung von nicht mehr als 35 kW, bei denen das Verhältnis der Leistung zum Gewicht 0,2 kW/kg nicht übersteigt. "            
               },
               {
                 typ: " ",
@@ -397,8 +393,7 @@
               {
                 typ: "Krafträder",
                 description:
-                  "Krafträder (auch mit Beiwagen) mit einem Hubraum von mehr als 50 ccm oder mit einer bbH von mehr als 45 km/h. "
-                  
+                  "Krafträder (auch mit Beiwagen) mit einem Hubraum von mehr als 50 ccm oder mit einer bbH von mehr als 45 km/h. "        
               },
               {
                 typ: "Dreirädrige Kraftfahrzeuge",

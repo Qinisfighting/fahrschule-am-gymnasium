@@ -3,24 +3,10 @@ export default function Theorie() {
       <>
         <img className="info-img" src="https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/theorie.jpg" alt="Theorieprüfung" />
         <div className="textContainer">
-          <div className="theorieprüfung">   
-            <h1>Theorieprüfung</h1>
-            <ul>
-              <li>Die Theorieprüfung besteht aus 30 Fragen, wovon 20 richtig beantwortet werden müssen.</li>
-              <li>Die Fragen sind in 2 Gruppen unterteilt:</li>
-                <p>Gruppe 1: Fragen zum Thema Grundwissen</p>
-                <p>Gruppe 2: Fragen zum Thema Verhalten im Straßenverkehr</p>  
-              <li>Die Fragen der Gruppe 1 werden in der Prüfung nicht vorgelesen, sondern müssen selbst gelesen werden. Die Fragen der Gruppe 2 werden vorgelesen.</li>
-              <li>Die Prüfung ist bestanden, wenn mindestens 20 Fragen richtig beantwortet wurden.</li>
-              <li>Die Prüfung kann beliebig oft wiederholt werden.</li>
-              <li>Die Theorieprüfung kann frühestens 3 Monate vor dem 17. Geburtstag abgelegt werden.</li>
-              <li>Die Theorieprüfung ist 12 Monate gültig.</li>
-              <li>Wenn die Theorieprüfung nicht innerhalb von 12 Monaten nach der Anmeldung zur Prüfung bestanden wird, verfällt die Theorieprüfung und muss wiederholt werden.</li>
-            </ul>
-        </div> 
+          
           <div className="theorieunterricht">    
               <div className="theorieunterricht--left">
-                <h1>Theorieunterricht</h1>
+                  <h1>Theorieunterricht</h1>
               </div>
               <div className="theorieunterricht--right">
                   <p>Oldenburg: Di. & Do. 19:00 - 20:30</p>
@@ -40,9 +26,26 @@ export default function Theorie() {
             <h3>Thema 10: Ruhender Verkehr</h3>
             <h3>Thema 11: Verhalten in besonderen Situationen, Folgen von Verstößen gegen Verkehrsvorschriften</h3>
             <h3>Thema 12: Lebenslanges Lernen</h3>
-            <h3>Thema 13: Technische Bedingungen, Personen- und Güterbeförderung Umweltschutz</h3>
-            <h3>Thema 14: Fahren mit Solokraftfahrzeugen und Zügen</h3>
-          </div>  
+            <h3>Thema 13 (B1): Technische Bedingungen, Personen- und Güterbeförderung Umweltschutz</h3>
+            <h3>Thema 14 (B2): Fahren mit Solokraftfahrzeugen und Zügen</h3>
+          </div>
+          <div className="theorieprüfung">   
+            <h1>Theorieprüfung</h1>
+            <ul>
+              <li>Die theoretische Führerscheinprüfung wird von Prüfstellen wie TÜV oder Dekra abgenommen.</li>
+              <li>Bei der Fahrerlaubnis der Klasse B werden 30 Fragen gestellt, und es sind zehn Fehlerpunkte gestattet. Man darf jedoch nur eine mit fünf Fehlerpunkten bewertete Frage falsch beantworten.</li>
+              <li>Theorieprüfung zwölf Monate gültig, Ausbildungsbescheinigung zwei Jahre gültig.</li>
+              <li>Sperrfrist bei Täuschungsversuch bis zu neun Monate möglich.</li>   
+              <li>Die theoretische Prüfung darf nicht früher als drei Monate vor Erreichen des gesetzlichen Mindestalters absolviert werden, beim Autoführerschein B17 beispielsweise mit 16 ¾ Jahren, beim Mofa mit 14 ¾ Jahren.</li>
+              <li>Vor der Prüfung muss Folgendes vorgelegt werden: </li>
+                <br />
+                <p> - Nachweis über die bezahlten Prüfungsgebühren.</p>
+                <br />
+                <p> - Ausweisdokument: Personalausweis oder Reisepass mitbringen.</p> 
+                <br />
+              <li>Die Theorieprüfung kostet Sie ungefähr 25 Euro.</li>        
+            </ul>
+          </div>   
         </div>
         </>  
     )

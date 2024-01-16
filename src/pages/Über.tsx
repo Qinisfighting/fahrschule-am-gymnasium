@@ -16,7 +16,7 @@ import email from "../assets/email.png";
 export default function Über() {
     const [counter1, setCounter1] = useState(0);
     const [counter2, setCounter2] = useState(4966);
-    const [counter3, setCounter3] = useState(56);
+    const [counter3, setCounter3] = useState(51);
   
     useEffect(() => {
       const interval1 = setInterval(() => {
@@ -28,7 +28,7 @@ export default function Über() {
       }, 50);
   
       const interval3 = setInterval(() => {
-        counter3 < 90 && setCounter3((counter) => counter + 1);
+        counter3 < 85 && setCounter3((counter) => counter + 1);
       }, 50);
   
       return () => {
