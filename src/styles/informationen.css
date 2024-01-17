@@ -350,6 +350,15 @@ background-color: var(--rot);
   letter-spacing: 5px;
 }
 
+.t-kalendar {
+  margin: 70px 0 ;
+}
+
+.t-kalendar h2{
+  padding: 30px 0;
+}
+
+
 
 .theorieunterricht--thema{
   display: flex;
