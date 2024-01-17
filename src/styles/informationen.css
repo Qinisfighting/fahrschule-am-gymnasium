@@ -326,6 +326,48 @@ background-color: var(--rot);
   flex-wrap: wrap;
 }
 
+.theorie--title{
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.textContainer h2{
+  border-bottom: .7px solid gray;
+  padding-bottom: 5px;
+}
+
+.theorieBanner img{
+ filter: brightness(70%);
+}
+.theorieBanner h1{
+  font-size: 2.7em;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  color: white;
+  letter-spacing: 5px;
+}
+
+
+.theorieunterricht--thema{
+  display: flex;
+  justify-content: space-evenly;
+  gap:10px;
+  
+}
+
+.theorieunterricht--thema p{
+padding: 10px 0;
+
+}
+.theorieunterricht--thema-left{
+  width: 50%;
+}
+.theorieunterricht--thema-right{
+  width: 50%;
+}
 .theorieunterricht--right{
   color: var(--rot);
   font-size: 1.1em;
@@ -382,6 +424,29 @@ background-color: var(--rot);
   
   }
 }
+
+@media screen and (max-width: 700px) {
+  .theorieunterricht--thema{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .theorie--title{
+    font-size: 1.8em;
+
+  }
+  .theorieunterricht--thema-left{
+    width: 100%;
+  }
+  .theorieunterricht--thema-right{
+    width: 100%;
+  }
+
+  .theorieunterricht--thema p{
+    padding: 7px;
+    }
+  
+  }
 
 @media screen and (max-width: 410px) {
   
