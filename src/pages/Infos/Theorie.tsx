@@ -37,7 +37,7 @@ export default function Theorie() {
           </div>
           <div className="t-kalendar">
             <h2>Kalender</h2>
-            <iframe src="https://calendar.google.com/calendar/embed?src=4q6gj7jv7q8l7r3o0q4jvq0l5g%40group.calendar.google.com&ctz=Europe%2FBerlin" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=4q6gj7jv7q8l7r3o0q4jvq0l5g%40group.calendar.google.com&ctz=Europe%2FBerlin" width="100%" height="600"></iframe>
           </div>
           {/* <div className="theorieprüfung">   
             <h1>Theorieprüfung</h1>
