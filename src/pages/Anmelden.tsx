@@ -72,7 +72,7 @@ export default function Kontakt() {
     });
 
     const serviceId = "service_nvk45hx";
-    const templateId = "template_xdkkhvl";
+    const templateId = "template_8skygmb";
     try {
       setLoading(true);
       await emailjs.send(serviceId, templateId, {
