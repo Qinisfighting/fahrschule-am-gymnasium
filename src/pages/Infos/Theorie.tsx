@@ -35,9 +35,15 @@ export default function Theorie() {
               <p>Thema 14 (B2): Fahren mit Solokraftfahrzeugen und Zügen</p>
             </div>  
           </div>
-          <div className="t-kalendar">
-            <h2>Kalender (Oldenburg i.H.)</h2>
-            <iframe src="https://calendar.google.com/calendar/embed?src=fahrschuleamgymnasium%40gmail.com&ctz=Europe%2FBerlin" width="100%" height="600"></iframe>
+          
+          <div className="t-kalendar"> 
+            <h2>Kalender</h2>  
+            <h3>Di. & Do. 19:00 - 20:30 Oldenburg i.H.</h3>  
+            <iframe src="https://calendar.google.com/calendar/embed?src=fahrschuleamgymnasium%40gmail.com&ctz=Europe%2FBerlin" width="100%" height="300"></iframe>
+            <br />
+            <br />
+            <h3>Mo. & Mi. 19:00 - 20:30 Lensahn</h3>
+            <iframe src="https://calendar.google.com/calendar/embed?src=d85d0c350088a031fa0d7d7f262f0d7461727394d326f98e697036e4cd2fcdec%40group.calendar.google.com&ctz=Europe%2FBerlin" width="100%" height="300"></iframe>
           </div>
           {/* <div className="theorieprüfung">   
             <h1>Theorieprüfung</h1>

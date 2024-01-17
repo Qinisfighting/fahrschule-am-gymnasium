@@ -271,9 +271,7 @@ background-color: var(--rot);
   padding-left: 0;
   margin: 0;
 }
-.textContainer h3{
-  padding-left: 20px;
-}
+
 .textContainer ul li{
   padding: 10px 0;
   font-size: 1.1em;
@@ -351,11 +349,11 @@ background-color: var(--rot);
 }
 
 .t-kalendar {
-  margin: 70px 0 ;
+  margin: 0 ;
 }
 
 .t-kalendar h2{
-  padding: 30px 0;
+  padding: 5px 0;
 }
 
 
