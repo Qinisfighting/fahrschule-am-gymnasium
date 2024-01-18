@@ -49,19 +49,19 @@
     line-height: 1.3em;
     letter-spacing: 2px;
     font-size: 1.3em;
-
     border-radius: 7px;
-    border: 1px solid white;
     background-color: var(--blau3);
+    border: 1px solid white;
     height: fit-content;
     width: fit-content;
     padding: 10px 15px;
-    box-shadow: 0px 0px 2px 0px rgba(11, 4, 104, 0.9);
-    -webkit-box-shadow: 0px 0px 2px 0px rgba(11, 4, 104, 0.9);
-  
-  
+    box-shadow: 0px 0px 5px 0px rgba(11, 4, 104, 0.9);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(11, 4, 104, 0.9);
   }
-
+.t-zeiten:hover{
+  border: 1px dotted white;
+  transition: 1s ease;
+}
   
   .p {
     display: flex;
