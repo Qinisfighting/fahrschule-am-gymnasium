@@ -427,8 +427,11 @@ padding: 10px 0;
     padding: 10px 20px;
     height: 70vh;
     
-    
-  
+  }
+
+  .t-kalendar h3{
+    padding: 15px 0;
+    font-weight: 600;
   }
 }
 
