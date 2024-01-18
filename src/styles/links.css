@@ -56,14 +56,16 @@
       height: 100%;
       margin: 27px 0;
     }
-    .info--imgs img {
-      width: 87%;
-    }
+
   }
   
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     .info--imgs {
       grid-template-columns: 1fr;
+    }
+
+    .info--imgs fieldset {
+      width: 100%;
     }
   }
