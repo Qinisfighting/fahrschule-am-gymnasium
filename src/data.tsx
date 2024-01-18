@@ -55,6 +55,15 @@
       description: "",
       email: "",
       phone: "04361/494108"
+    },
+    {
+      name: "Claudia Walk",
+      profil:
+        "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/claudia.jpg",
+      title: "Bürofachkraft",
+      description: "Aufgaben: Beratung, Anmeldung, Terminvergabe und Betreuung der Fahrschüler.",
+      email: "info@a-walk.de",
+      phone: "04361/494108"
     }
   ];
   
