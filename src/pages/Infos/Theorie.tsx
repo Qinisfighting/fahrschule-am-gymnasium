@@ -39,11 +39,13 @@ export default function Theorie() {
           <div className="t-kalendar"> 
             <h2>Kalender</h2>  
             <h3>Di. & Do. 19:00 - 20:30 Oldenburg i.H.</h3>  
-            <iframe  src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showTz=0&showCalendars=0&showTabs=0&src=ZmFocnNjaHVsZWFtZ3ltbmFzaXVtQGdtYWlsLmNvbQ&src=ZDg1ZDBjMzUwMDg4YTAzMWZhMGQ3ZDdmMjYyZjBkNzQ2MTcyNzM5NGQzMjZmOThlNjk3MDM2ZTRjZDJmY2RlY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%233F51B5" style={{width:"100%", height:400, border:"none"}}></iframe>
+            <br />
+            <iframe  src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showTz=0&showCalendars=0&showTabs=0&showPrint=1&src=ZmFocnNjaHVsZWFtZ3ltbmFzaXVtQGdtYWlsLmNvbQ&color=%23039BE5" style={{width:"100%", height:400, border:"none"}}></iframe>
             <br />
             <br />
             <h3>Mo. & Mi. 19:00 - 20:30 Lensahn</h3>
-            <iframe  src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showTz=0&showCalendars=0&showTabs=0&src=ZmFocnNjaHVsZWFtZ3ltbmFzaXVtQGdtYWlsLmNvbQ&src=ZDg1ZDBjMzUwMDg4YTAzMWZhMGQ3ZDdmMjYyZjBkNzQ2MTcyNzM5NGQzMjZmOThlNjk3MDM2ZTRjZDJmY2RlY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%233F51B5" style={{width:"100%", height:400, border:"none"}}></iframe>
+            <br />
+            <iframe  src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showTz=0&showCalendars=0&showTabs=0&showPrint=1&src=ZDg1ZDBjMzUwMDg4YTAzMWZhMGQ3ZDdmMjYyZjBkNzQ2MTcyNzM5NGQzMjZmOThlNjk3MDM2ZTRjZDJmY2RlY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5" style={{width:"100%", height:400, border:"none"}}></iframe>
           </div>
           {/* <div className="theorieprüfung">   
             <h1>Theorieprüfung</h1>
