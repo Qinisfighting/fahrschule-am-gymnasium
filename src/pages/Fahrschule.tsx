@@ -3,6 +3,7 @@ import cover from '../assets/cover.jpg';
 import call from '../assets/call.png';
 import steering from '../assets/steering.png';
 import euro from '../assets/euro.png';
+import click from '../assets/click.png';
 
 
 export default function Fahrschule() {
@@ -10,7 +11,7 @@ export default function Fahrschule() {
       <div className="home--container">
         <div className="home--container--top">
           <div className="home--container--top--left">
-            <Link to="/informationen/theorie"><p className="t-zeiten">Theorieunterricht- Zeiten?<br/> hier klicken!👆</p></Link>     
+            <Link to="/informationen/theorie"><p className="t-zeiten">Theorieunterricht- Zeiten?<br/> hier klicken! <img src={click} width="20px" /></p></Link>     
             <div className="p">
               <img src={call} alt="telephone" />
               <a href="tel:04361494108">
