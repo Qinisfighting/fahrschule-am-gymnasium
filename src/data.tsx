@@ -50,7 +50,7 @@
     {
       name: "Jochen Bavon",
       profil:
-        "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/lehrer.jpg",
+        "https://raw.githubusercontent.com/Qinisfighting/fahrschule-am-gymnasium/main/src/assets/jochen.jpg",
       title: "Fahrlehrer",
       description: "",
       email: "",
