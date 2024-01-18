@@ -167,7 +167,7 @@ details {
     border: none;
     box-shadow: 1px 1px 5px black;
     font-size: 1.2em;
-    animation: expand-fade-in 0.7s ease-in;
+    animation: expand-fade-in 0.5s ease-in;
   }
   .menuNav > a {
     color: var(--textColor);
