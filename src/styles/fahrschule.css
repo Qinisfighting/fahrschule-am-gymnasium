@@ -49,17 +49,18 @@
     line-height: 1.3em;
     letter-spacing: 2px;
     font-size: 1.3em;
-    
-    background-color: var(--blau3);
-    border: 1px solid white;
+    background-color: var(--blau2);
+    /* border: 1px solid white; */
+    padding: 20px 20px;
+    border-radius: 5px;
     height: fit-content;
     width: fit-content;
-    padding: 10px 15px;
-    box-shadow: 0px 0px 5px 0px rgba(11, 4, 104, 0.9);
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(11, 4, 104, 0.9);
+ 
+    box-shadow: 0px 0px 5px 0px var(--blau2);
+    -webkit-box-shadow: 0px 0px 5px 0px var(--blau2);
   }
 .t-zeiten:hover{
-  border: 1px dotted white;
+  transform: translateY(-7px);
   transition: 1s ease;
 }
   
