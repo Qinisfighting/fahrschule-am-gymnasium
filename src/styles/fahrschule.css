@@ -10,10 +10,11 @@
   .home--container--top {
     position: relative;
     display: flex;
-    padding: 50px;
+    padding: 50px 0 0;
     justify-content: space-evenly;
     gap: 10px;
-    align-items: center;
+    align-items:center;
+  
   }
   
   .home--container--top > img {
@@ -225,7 +226,9 @@
       display: flex;
       flex-direction: column;
       gap: 50px 0;
+      padding: 50px 0;
     }
+
     .home--container--top > img {
       width: 73vw;
     }
