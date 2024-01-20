@@ -11,7 +11,11 @@ export default function Fahrschule() {
       <div className="home--container">
         <div className="home--container--top">
           <div className="home--container--top--left">
-            <Link to="/informationen/theorie"><p className="t-zeiten">Theorieunterricht- Zeiten?<br/> hier klicken! <img src={click} width="20px" /></p></Link>     
+            <div className="t-zeiten-div">
+              <i className="t-zeiten-frage">Theorieunterricht- Zeiten?</i><br/> 
+              <Link to="/informationen/theorie"><p className="t-zeiten"> hier klicken!<img src={click} width="15"></img> </p></Link> 
+            </div>
+            
             <div className="p">
               <img src={call} alt="telephone" />
               <a href="tel:04361494108">
