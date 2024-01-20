@@ -13,7 +13,7 @@ export default function Fragen() {
             <p>Bevor wir euch zur Theoretischen Prüfung vorstellen, müssen erstmal alle Formalitäten erledigt sein.</p>
             <p>Dann entscheiden wir mit euch zusammen, wie die Erfolgschance ist, die Prüfung zu bestehen. Das heißt also,
     ihr müßt die Fragebögen üben, üben und üben :-) Wir möchten sehen, wie euer Lernfortschritt ist.</p>
-            <h2>Wie üben?</h2>
+            <h3>Wie üben?</h3>
             <p>Es gibt mehrere Möglichkeiten:</p>
             <ul>
                 <li>Online, zusätzlich mit App für Android und Apple. (könnt ihr bei uns erwerben)</li>

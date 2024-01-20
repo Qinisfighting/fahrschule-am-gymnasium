@@ -34,7 +34,7 @@ export default function Allgemeines() {
             <p>
               Das Einwohnermeldeamt leitet den Antrag weiter an die Führerscheinstelle in Eutin. Die schicken dir dann eine Rechnung, bitte evt. Information genau lesen, die du bitte überweist. Ist das Geld dort eingegangen, stellt die Führerscheinstelle einen Prüfauftrag an den Tüv in Lübeck. Der Tüv schickt dir dann auch eine Rechnung, die wiederum bezahlt werden muss, sonst prüft der Tüv nicht. Ist die Zahlung eingegangen, bekommen wir eine Mitteilung.
             </p>
-            <h2>Grundunterricht</h2>
+            <h3>Grundunterricht</h3>
             <p>
               Bei Ersterwerb einer Fahrerlaubnis musst du in der Fahrschule an einem Grundunterricht teilnehmen.
             </p>
@@ -56,11 +56,11 @@ export default function Allgemeines() {
             <p>
             Die praktische Ausbildung, das Fahren also, soll zum Unterricht parallel stattfinden.
             </p>
-            <h2>Wie oft musst du fahren?</h2>
+            <h3>Wie oft musst du fahren?</h3>
             <p>
             Wie viele Übungsfahrten man braucht hängt von jedem individuell ab.
             </p>
-            <h2>Wie viele Sonderfahrten gibt es?</h2>
+            <h3>Wie viele Sonderfahrten gibt es?</h3>
             <p>
             Die Sonderfahrten allerdings sind gesetzlich vorgeschrieben und müssen gefahren werden. Gerade bei uns auf dem Land ist es empfehlenswert in der Ausbildung öfter mal die Landstraße zu befahren, da dort immer wieder schwere Unfälle passieren. Ihr müsst folgende Fahrten fahren:
             </p>
@@ -72,11 +72,11 @@ export default function Allgemeines() {
             <p>
             Die Sonderfahrten sollten auch dazu genutzt werden, um weiter zu fahren, als der Prüfungsort. Wir nutzen diese, um auch mal in die Städte zu fahren, wie z.B.: Kiel, Hamburg und Lübeck. Auch nach Berlin, Hannover und Bremen ist möglich. Hier müssten mindestens 2 Schüler fahren.
             </p>
-            <h2>Wann kann ich zur Prüfung?</h2>
+            <h3>Wann kann ich zur Prüfung?</h3>
             <p>
             Lasst Euch nicht von Anderen beeinflussen, wie z.B.: „ Ich bin durchgefallen, weil ich einmal nicht geblinkt habe “ oder „Ist er vielleicht doch bei Rot durchgefahren“? Besser ist es, keinem zu sagen, dass ihr Prüfung macht, damit der äußere Druck nicht noch zum inneren dazukommt.
             </p>
-            <h2>Ausbildungsvertrag</h2>
+            <h3>Ausbildungsvertrag</h3>
             <p>
             Ohne Ausbildungsvertrag dürfen wir euch nicht ausbilden. In diesem stehen auch die Kosten für den Grundbetrag, Fahrstunden, Vorstellung zur Prüfung usw. Solltet Ihr noch keine 18 Jahre alt sein müssen eure Eltern eine Einverständniserklärung unterschreiben.
             </p>
