@@ -12,7 +12,7 @@ export default function Fahrschule() {
         <div className="home--container--top">
           <div className="home--container--top--left">
             <div className="t-zeiten-div">
-              <i className="t-zeiten-frage">Theorieunterricht- Zeiten?</i><br/> 
+              <strong className="t-zeiten-frage">Theorieunterricht- Zeiten?</strong><br/> 
               <Link to="/informationen/theorie"><p className="t-zeiten"> hier klicken!<img src={click} width="15"></img> </p></Link> 
             </div>
             
