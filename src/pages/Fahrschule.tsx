@@ -3,7 +3,7 @@ import cover from '../assets/cover.jpg';
 import call from '../assets/call.png';
 import steering from '../assets/steering.png';
 import euro from '../assets/euro.png';
-import click from '../assets/click.png';
+import time from '../assets/time.png';
 
 
 export default function Fahrschule() {
@@ -13,7 +13,7 @@ export default function Fahrschule() {
           <div className="home--container--top--left">
             <div className="t-zeiten-div">
               <strong className="t-zeiten-frage">Theorieunterricht- Zeiten?</strong><br/> 
-              <Link to="/informationen/theorie"><p className="t-zeiten"> hier klicken!<img src={click} width="15"></img> </p></Link> 
+              <Link to="/informationen/theorie"><p className="t-zeiten">HIER KLICKEN 👈</p></Link> 
             </div>
             
             <div className="p">
