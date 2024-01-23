@@ -3,7 +3,7 @@ import cover from '../assets/cover.jpg';
 import call from '../assets/call.png';
 import steering from '../assets/steering.png';
 import euro from '../assets/euro.png';
-import time from '../assets/time.png';
+
 
 
 export default function Fahrschule() {
