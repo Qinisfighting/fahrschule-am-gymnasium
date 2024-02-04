@@ -43,6 +43,8 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     align-items: end;
+
+    
   }
 
   .t-zeiten-div{
@@ -50,6 +52,10 @@
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    border: .5px solid rgba(255, 255, 255, 0.582);
+    margin: 0 auto;
+    padding:5px 20px;
+    border-radius: 10px;
 }  
 
 .t-zeiten-frage{
@@ -59,6 +65,7 @@
   opacity: 0.8;
   font-family: 'Caveat', cursive;
   font-weight: 400 !important;
+  color: rgb(250, 241, 112)
 
 }
   .t-zeiten{
@@ -66,20 +73,20 @@
     text-align: center;
     letter-spacing: 2px;
     font-size: 1.1rem;
-    background-color: var(--blau2);
-    padding: 14px 20px;
-   box-shadow: 0px 0px 3px 0px var(--blau2);
+    /* background-color: var(--blau2); */
+    /* padding: 14px 20px; */
+   /* box-shadow: 0px 0px 3px 0px var(--blau2); */
     height: fit-content;
     width: fit-content;
-    border-radius: 7px;
+    /* border-radius: 7px; */
   }
 
-.t-zeiten:hover{
+/* .t-zeiten:hover{
   opacity: 0.9;
   box-shadow: 0px 0px 15px 0px white;
     -webkit-box-shadow: 0px 0px 15px 0px white;
   transition: 1s ease;
-}
+} */
   
   .p {
     display: flex;
@@ -88,7 +95,7 @@
     letter-spacing: 0.2em;  
     align-self: last baseline;
     justify-self: end;
-    text-decoration: underline .5px;
+    /* text-decoration: underline .5px; */
     color: rgba(255, 255, 255, 0.849);
   }
   
