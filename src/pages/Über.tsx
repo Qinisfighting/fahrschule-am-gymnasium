@@ -118,14 +118,16 @@ export default function Über() {
   
         <div className="über--mittle">
           <div className="über--mittle--left">
-            <img src={klassenzimmer} alt="" className="schuleIMGs" id="schuleIMG1" />
+             <img
+                  src={eingang}
+                  alt=""
+                  className="schuleIMGs"
+                  id="schuleIMG3"
+              />
             <img src={empfang} alt="" className="schuleIMGs" id="schuleIMG2" />
-            <img
-              src={eingang}
-              alt=""
-              className="schuleIMGs"
-              id="schuleIMG3"
-            />
+            <img src={klassenzimmer} alt="" className="schuleIMGs" id="schuleIMG1" />
+            
+           
           </div>
           <div className="über--mittle--right">
             <h1>UNSERE FILIALEN</h1>
