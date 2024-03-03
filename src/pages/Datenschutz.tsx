@@ -52,7 +52,7 @@ export default function Datenschutz() {
         </p>
   
         <h2>2. Hosting</h2>
-        <h3>All-Inkl</h3>
+        <h3>NETLIFY</h3>
         <p>
           Wir hosten unsere Website bei Netlify, Anbieter ist die NETLIFY.COM -
           Netlify, Inc.512 2nd Street, Suite 200 San Francisco, CA 94107, USA. Details entnehmen Sie der
