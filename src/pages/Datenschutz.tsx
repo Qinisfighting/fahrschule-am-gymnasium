@@ -54,21 +54,10 @@ export default function Datenschutz() {
         <h2>2. Hosting</h2>
         <h3>All-Inkl</h3>
         <p>
-          Wir hosten unsere Website bei All-Inkl. Anbieter ist die ALL-INKL.COM -
-          Neue Medien Münnich, Inh. René Münnich, Hauptstraße 68, 02742
-          Friedersdorf (nachfolgend All-Inkl). Details entnehmen Sie der
+          Wir hosten unsere Website bei Netlify, Anbieter ist die NETLIFY.COM -
+          Netlify, Inc.512 2nd Street, Suite 200 San Francisco, CA 94107, USA. Details entnehmen Sie der
           Datenschutzerklärung von{" "}
-          <a href="https://all-inkl.com/datenschutzinformationen/">All-Inkl</a>.{" "}
-        </p>
-        <p>
-          Die Verwendung von All-Inkl erfolgt auf Grundlage von Art. 6 Abs. 1 lit.
-          f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst
-          zuverlässigen Darstellung unserer Website. Sofern eine entsprechende
-          Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich
-          auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG,
-          soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf
-          Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im
-          Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+          <a href="https://www.netlify.com/privacy/">Netlify</a>.{" "}
         </p>
         <h3>Auftragsverarbeitung</h3>
         <p>
@@ -335,36 +324,30 @@ export default function Datenschutz() {
           werden, werden wir Sie hierüber im Rahmen dieser Datenschutzerklärung
           gesondert informieren und ggf. eine Einwilligung abfragen.
         </p>
-        <h3>Einwilligung mit Cookiebot</h3>
+        <h3>Einwilligung mit CookieYes</h3>
         <p>
-          Unsere Website nutzt die Consent-Technologie von Cookiebot, um Ihre
+          Unsere Website nutzt die Consent-Technologie von CookieYes, um Ihre
           Einwilligung zur Speicherung bestimmter Cookies auf Ihrem Endgerät oder
           zum Einsatz bestimmter Technologien einzuholen und diese
-          datenschutzkonform zu dokumentieren. Anbieter dieser Technologie ist
-          Cybot A/S, Havnegade 39, 1058 Kopenhagen, Dänemark (im Folgenden
-          „Cookiebot“).
+          datenschutzkonform zu dokumentieren. Anbieter dieser Technologie ist CookieYes Limited, 
+          3 Warren Yard Warren Park, Wolverton Mill, Milton Keynes, MK12 5NW, United Kingdom (im Folgenden
+          „CookieYes“).
         </p>
         <p>
           Wenn Sie unsere Website betreten, wird eine Verbindung zu den Servern
-          von Cookiebot hergestellt, um Ihre Einwilligungen und sonstigen
+          von CookieYes hergestellt, um Ihre Einwilligungen und sonstigen
           Erklärungen zur Cookie-Nutzung einzuholen. Anschließend speichert
-          Cookiebot einen Cookie in Ihrem Browser, um Ihnen die erteilten
+          CookieYes einen Cookie in Ihrem Browser, um Ihnen die erteilten
           Einwilligungen bzw. deren Widerruf zuordnen zu können. Die so erfassten
           Daten werden gespeichert, bis Sie uns zur Löschung auffordern, den
-          Cookiebot-Cookie selbst löschen oder der Zweck für die Datenspeicherung
+          CookieYes-Cookie selbst löschen oder der Zweck für die Datenspeicherung
           entfällt. Zwingende gesetzliche Aufbewahrungspflichten bleiben
           unberührt.
         </p>
         <p>
-          Der Einsatz von Cookiebot erfolgt, um die gesetzlich vorgeschriebenen
+          Der Einsatz von CookieYes erfolgt, um die gesetzlich vorgeschriebenen
           Einwilligungen für den Einsatz von Cookies einzuholen. Rechtsgrundlage
           hierfür ist Art. 6 Abs. 1 lit. c DSGVO.
-        </p>
-        <p>
-          Error: The domain FAHRSCHULE.SEANET-LUEBECK.DE is not authorized to show
-          the cookie declaration for domain group ID
-          1cb6dc8b-9a89-456b-a263-6ddcc85eea46. Please add it to the domain group
-          in the Cookiebot Manager to authorize the domain.
         </p>
   
         <h3>Server-Log-Dateien</h3>
