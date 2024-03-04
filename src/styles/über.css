@@ -5,8 +5,8 @@
     gap: 50px;
     align-items: center;
     justify-content: center;
-    padding: 0 50px 100px;
-    margin-bottom: 100px;
+    padding: 0 50px 70px;
+    margin-bottom: 70px;
     height: 100%;
     width: 100vw;
 
@@ -320,7 +320,7 @@
 .flip-card-back {
     background-color: var(--blau3);
     color: white;
-    padding: 40px 50px;
+    padding: 20px 50px;
     margin: 0 auto;
     line-height: 2em;
     transform: rotateY(180deg);
