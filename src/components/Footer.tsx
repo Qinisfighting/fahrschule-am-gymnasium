@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
   
         <a href="https://www.yanqin.de" target="_blank">
-          <h4>2023 © QIN's code</h4>
+          <h4>2023 ♡ QIN's code</h4>
         </a>
       </footer>
     );
