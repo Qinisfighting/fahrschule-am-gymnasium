@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 80vh;
+  height: 89vh;
   width: 100%;
   margin: 77px auto;
 }
@@ -140,7 +140,6 @@
     margin-top: 20px;
   }
 
- 
   .form-bottom {
     flex-direction: column;
     gap: 30px;
@@ -157,14 +156,13 @@
 
   .k--filialen {
     flex-direction: column;
- 
   }
   .kontakt-text-content h1 {
     margin: 0 auto 27px;
   }
   .k--filialen > div {
     padding: 7px 0;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.644);;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.644);
   }
 
   .k--filialen img {
