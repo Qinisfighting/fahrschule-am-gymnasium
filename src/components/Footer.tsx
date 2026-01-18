@@ -23,7 +23,7 @@ export default function Footer() {
       <div className="footer--container--top">
         <a
           target="_blank"
-          href="https://www.google.com/localservices/prolist?g2lbs=ANTchaMBKOP70wdW_NYel6XIVMjxVUm80Ixqvuy_REJkq3JeUactpu90jK9ple4wfDoMVTYaU_82XQQd_Ki-ttzFkGGsoniQLuu-IjXylRkHma4-utMLK38-1TVSAitTqI78tDVEjJwr&hl=de-DE&gl=de&ssta=1&q=fahrschule%20am%20gymnasium&oq=fahrschule%20am%20gymnasium&src=2&serdesk=1&lrlstt=1699460244805&ved=2ahUKEwi0murh5rSCAxXCBzoCHZ_UBFkQwyx6BAgAEA0&spp=CgsvZy8xdGRjX3JiNDqIAVdoOFFBQkFCRUFJaUYyWmhhSEp6WTJoMWJHVWdZVzBnWjNsdGJtRnphWFZ0cWdGQUVBRXlIeEFCSWh1R1dHT0dkNVkzOWpfbXc2QWNzNUhnbi1ubWVzZTlPRGZqTW1ZeUd4QUNJaGRtWVdoeWMyTm9kV3hsSUdGdElHZDViVzVoYzJsMWJRPT0%3D&slp=MgBAAVIECAIgAGAAaAE%3D&scp=ChNnY2lkOmRyaXZpbmdfc2Nob29sEiUiDUthcnRlbmJlcmVpY2gqFA2tHEQgFcwVVQYdhm52ICV356gGGhdmYWhyc2NodWxlIGFtIGd5bW5hc2l1bSoKRmFocnNjaHVsZQ%3D%3D#ts=3"
+          href="https://www.google.com/search?sca_esv=a64ff662bc0fc51f&sxsrf=ANbL-n79bYemkkloRPjoUVkMitqq-Qq07Q:1768728495975&si=AL3DRZHrmvnFAVQPOO2Bzhf8AX9KZZ6raUI_dT7DG_z0kV2_x72fCMVr4V5CEw3QvyX4P0FJdz-IyDEvTU3YuV2uF8Uw0628I8YRh5J4CH1QhnglMWYIlPKFIrOspi1BWd5o2wv8uXl6Spfb2cTaGMfjV7YHYCqAJA%3D%3D&q=Fahrschule+am+Gymnasium+Rezensionen&sa=X&ved=2ahUKEwiOp9ON45SSAxUfRPEDHfh0KmoQ0bkNegQIIRAH&biw=2328&bih=1145&dpr=1.1&aic=0"
         >
           <p>Bewertungen</p>
         </a>

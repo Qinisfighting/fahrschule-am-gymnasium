@@ -56,8 +56,8 @@ export default function Theorie() {
         <div className="t-kalendar">
           <h2>Kalender</h2>
           <p style={{ paddingTop: 5, paddingBottom: 20, color: "red" }}>
-            Grundunterrichte und Klasse B für 2025. Spezielle Unterrichte nach
-            Absprache.
+            Grundunterrichte und Klasse B für {new Date().getFullYear()}.
+            Spezielle Unterrichte nach Absprache.
           </p>
           <h3>Di. & Do. 19:00 - 20:30 Oldenburg i.H.</h3>
           <iframe
